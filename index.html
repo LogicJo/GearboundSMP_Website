@@ -3,8 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>GearboundSMP</title>
+    <title>Gearbound SMP</title>
+
     <script src="https://cdn.tailwindcss.com"></script>
+
     <link rel="icon" type="image/png" href="/favicon-96x96.png?v=20260414" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260414" />
     <link rel="shortcut icon" href="/favicon.ico?v=20260414" />
@@ -13,14 +15,14 @@
     <link rel="manifest" href="/site.webmanifest?v=20260414" />
 </head>
 
-<body class="min-h-screen text-white bg-[#070A12]">
+<body class="min-h-screen text-white bg-[#070A12] overflow-x-hidden">
 
 <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,#1b2a4a,transparent_60%),radial-gradient(circle_at_bottom,#2a123f,transparent_55%)] opacity-90"></div>
 
 <header class="relative max-w-6xl mx-auto px-6 py-8 flex justify-between items-center">
     <div class="flex items-center gap-3">
-        <img src="/favicon.svg" width="34" height="34" alt="GearboundSMP Logo">
-        <div class="text-xl font-semibold tracking-wide">GearboundSMP</div>
+        <img src="/favicon.svg" width="34" height="34" alt="Gearbound SMP Logo">
+        <div class="text-xl font-semibold tracking-wide">Gearbound SMP</div>
     </div>
 
     <nav id="navLinks" class="flex gap-5 text-sm text-zinc-300"></nav>
@@ -28,66 +30,199 @@
 
 <main class="relative max-w-6xl mx-auto px-6 space-y-20">
 
+    <!-- Hero -->
     <section class="text-center pt-10">
+
         <h1 class="text-5xl md:text-7xl font-bold tracking-tight">
-            The Gearbound SMP
+            Gearbound SMP
         </h1>
 
-        <p class="mt-4 text-zinc-300">
-            Survival • Community • Automation
+        <div class="mt-3 text-lg text-zinc-400">
+            Beyond 12 Million Blocks, Reality Breaks.
+        </div>
+
+        <p class="mt-6 text-zinc-300">
+            Vanilla Anarchy • No Rules • No Limits
         </p>
 
-        <div class="mt-8 flex justify-center gap-4">
-            <button onclick="copyIP()" class="px-6 py-2 rounded-xl bg-gradient-to-r from-[#7c5cff] to-[#00d4ff] text-black font-semibold">
+        <p class="mt-6 max-w-3xl mx-auto text-zinc-400 leading-relaxed">
+            Looking for a raw, unfiltered Minecraft experience where anything goes?
+            Gearbound SMP is a pure 1.21.11 Vanilla Anarchy Server with almost no rules,
+            no limits, and no admin interference.
+            What happens here is entirely up to the players.
+        </p>
+
+        <div class="mt-8 flex justify-center gap-4 flex-wrap">
+            <button
+                onclick="copyIP()"
+                class="px-6 py-2 rounded-xl bg-gradient-to-r from-[#7c5cff] to-[#00d4ff] text-black font-semibold">
                 Copy IP
             </button>
-            <a href="http://mc.gearboundsmp.org:8123" class="px-6 py-2 rounded-xl border border-zinc-700">
+
+            <a
+                href="http://mc.gearboundsmp.org:8123"
+                class="px-6 py-2 rounded-xl border border-zinc-700 hover:border-zinc-500 transition">
                 Live Map
             </a>
         </div>
 
         <div class="mt-6 text-sm text-zinc-400">
-            Direct connect: <span class="font-mono text-white">mc.gearboundsmp.org</span>
+            Direct Connect:
+            <span class="font-mono text-white">
+                mc.gearboundsmp.org
+            </span>
         </div>
+
     </section>
 
+    <!-- Features -->
     <section class="grid md:grid-cols-3 gap-6">
+
         <div class="p-6 rounded-2xl bg-white/5 border border-white/10">
-            <h2 class="font-semibold">Stable Survival</h2>
-            <p class="text-sm text-zinc-400 mt-2">Optimized gameplay without unnecessary complexity.</p>
+            <h2 class="font-semibold text-lg">
+                Pure Anarchy
+            </h2>
+
+            <p class="text-sm text-zinc-400 mt-2">
+                No land claims. No protection.
+                No restrictions on how you play.
+                No World reset.
+            </p>
         </div>
 
         <div class="p-6 rounded-2xl bg-white/5 border border-white/10">
-            <h2 class="font-semibold">Community Driven</h2>
-            <p class="text-sm text-zinc-400 mt-2">Economy, farms, and long-term world progression.</p>
+            <h2 class="font-semibold text-lg">
+                True Vanilla
+            </h2>
+
+            <p class="text-sm text-zinc-400 mt-2">
+                Gearbound SMP stays true to the core of Minecraft.
+                A genuine survival experience running on Minecraft 1.21.11.
+            </p>
         </div>
 
         <div class="p-6 rounded-2xl bg-white/5 border border-white/10">
-            <h2 class="font-semibold">Expandable Systems</h2>
-            <p class="text-sm text-zinc-400 mt-2">Designed to scale with future features.</p>
+            <h2 class="font-semibold text-lg">
+                Farlands Return
+            </h2>
+
+            <p class="text-sm text-zinc-400 mt-2">
+                Beyond 12 million blocks from spawn,
+                the legendary Farlands begin to emerge,
+                creating impossible landscapes and massive walls of terrain.
+            </p>
         </div>
+
     </section>
 
+    <!-- About -->
+    <section class="p-8 rounded-2xl bg-white/5 border border-white/10">
+
+        <h2 class="text-3xl font-bold mb-6">
+            The World Beyond
+        </h2>
+
+        <div class="space-y-5 text-zinc-300 leading-relaxed">
+
+            <p>
+                This server stays true to Minecraft's original vision.
+                No gameplay-altering restrictions stand between you and the world.
+                The story of Gearbound SMP is written entirely by its players.
+            </p>
+
+            <p>
+                Whether you choose to build hidden bases,
+                create massive infrastructure,
+                dominate the server through force,
+                or disappear into the wilderness,
+                every decision is yours to make.
+            </p>
+
+            <p>
+                This Server has a Mod installed that brings the Farlands back to Minecraft.
+            </p>
+
+            <p>
+                Once you travel beyond 12 million blocks from spawn,
+                reality begins to break apart.
+            </p>
+
+            <p>
+                Massive walls of terrain stretch into the horizon.
+                Mountains rise in impossible formations.
+                Chunks generate into chaotic structures unlike anything found
+                in modern Minecraft.
+            </p>
+
+         
+
+        </div>
+
+    </section>
+
+    <!-- Rules -->
+    <section class="p-8 rounded-2xl bg-red-500/5 border border-red-500/20">
+
+        <h2 class="text-2xl font-bold mb-4">
+            Rules
+        </h2>
+
+        <p class="text-zinc-300">
+            There are almost none.
+        </p>
+
+        <ul class="mt-4 text-zinc-400 list-disc list-inside space-y-2">
+            <li>No lag mashines.</li>
+            <li>No exploits that threaten server stability.</li>
+            <li>Hacked Clients are allowed but some hacks are patched!</li>
+        </ul>
+
+    </section>
+
+    <!-- Connect -->
     <section class="grid md:grid-cols-2 gap-6 items-start">
 
         <div class="p-6 rounded-2xl bg-white/5 border border-white/10 space-y-5">
-            <h2 class="text-xl font-semibold">Connect</h2>
+
+            <h2 class="text-xl font-semibold">
+                Connect
+            </h2>
 
             <div>
-                <div class="text-sm text-zinc-400">Minecraft Server</div>
-                <div class="font-mono">mc.gearboundsmp.org</div>
+                <div class="text-sm text-zinc-400">
+                    Minecraft Server
+                </div>
+
+                <div class="font-mono">
+                    mc.gearboundsmp.org
+                </div>
             </div>
 
             <div>
-                <div class="text-sm text-zinc-400">Discord</div>
-                <a class="text-[#00d4ff]" href="https://discord.gg/5t7FCHrx8g" target="_blank">Join Discord</a>
+                <div class="text-sm text-zinc-400">
+                    Discord
+                </div>
+
+                <a
+                    class="text-[#00d4ff]"
+                    href="https://discord.gg/5t7FCHrx8g"
+                    target="_blank">
+                    Join Discord
+                </a>
             </div>
 
             <div>
-                <div class="text-sm text-zinc-400">Status</div>
-                <div class="text-green-400 text-sm">Online</div>
+                <div class="text-sm text-zinc-400">
+                    Status
+                </div>
+
+                <div class="text-green-400 text-sm">
+                    Online
+                </div>
             </div>
+
         </div>
+
     </section>
 
 </main>
@@ -97,9 +232,19 @@
     <div id="footerLinks" class="flex gap-6 flex-wrap"></div>
 
     <div class="border-t border-white/10 pt-6">
-        <div class="font-semibold text-zinc-300">Imprint</div>
+        <div class="font-semibold text-zinc-300">
+            Imprint
+        </div>
+
         <div class="text-xs mt-2 leading-relaxed">
-            Responsible for content: GearboundSMP Administration<br/>
+            Responsible for content: Gearbound SMP Administration<br>
+            Server Owner:
+            <a href="https://laby.net/@LogicJo"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text-[#00d4ff] hover:text-white transition-colors">
+                LogicJo
+            </a><br>
             Contact: admin@gearboundsmp.org
         </div>
     </div>
@@ -107,33 +252,62 @@
 </footer>
 
 <script>
+
     const links = [
-        { label: "Discord", url: "https://discord.gg/5t7FCHrx8g" },
-        { label: "Map", url: "http://mc.gearboundsmp.org:8123" }
+        {
+            label: "Discord",
+            url: "https://discord.gg/5t7FCHrx8g"
+        },
+        {
+            label: "Map",
+            url: "http://mc.gearboundsmp.org:8123"
+        }
     ]
 
     const footerLinks = [
-        { label: "Server IP", value: "mc.gearboundsmp.org" },
-        { label: "Discord", url: "https://discord.gg/5t7FCHrx8g" }
+        {
+            label: "Server IP",
+            value: "mc.gearboundsmp.org"
+        },
+        {
+            label: "Discord",
+            url: "https://discord.gg/5t7FCHrx8g"
+        }
     ]
 
     function renderLinks() {
+
         document.getElementById("navLinks").innerHTML =
-            links.map(l => `<a href="${l.url}" class="hover:text-white">${l.label}</a>`).join("")
+            links.map(
+                l => `<a href="${l.url}" class="hover:text-white">${l.label}</a>`
+            ).join("")
 
         document.getElementById("footerLinks").innerHTML =
-            footerLinks.map(l =>
-                l.url
-                    ? `<a href="${l.url}" class="hover:text-white">${l.label}</a>`
-                    : `<div>${l.label}: <span class="text-white font-mono">${l.value}</span></div>`
+            footerLinks.map(
+                l =>
+                    l.url
+                        ? `<a href="${l.url}" class="hover:text-white">${l.label}</a>`
+                        : `<div>${l.label}: <span class="text-white font-mono">${l.value}</span></div>`
             ).join("")
     }
 
     function copyIP() {
+
         navigator.clipboard.writeText("mc.gearboundsmp.org")
+
+        const button = event.target
+
+        const oldText = button.innerText
+
+        button.innerText = "Copied!"
+
+        setTimeout(() => {
+            button.innerText = oldText
+        }, 1500)
     }
 
     renderLinks()
+
 </script>
 
 </body>
