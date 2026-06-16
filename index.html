@@ -1,250 +1,568 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Gearbound SMP</title>
 
-    <script src="https://cdn.tailwindcss.com"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" type="image/png" href="/favicon-96x96.png?v=20260414" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260414" />
-    <link rel="shortcut icon" href="/favicon.ico?v=20260414" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=20260414" />
-    <meta name="apple-mobile-web-app-title" content="Gearbound" />
-    <link rel="manifest" href="/site.webmanifest?v=20260414" />
+<title>Gearbound SMP</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+
+<link rel="icon" type="image/png" href="/favicon-96x96.png">
+
+<style>
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#111;
+    overflow-x:hidden;
+}
+
+.minecraft-font{
+    font-family:'Minecraft',sans-serif;
+}
+
+.parallax-bg{
+    position:fixed;
+    inset:0;
+    background-image:url("https://static.planetminecraft.com/files/image/minecraft/server/2026/176/19717070_l.webp");
+    background-size:cover;
+    background-position:center;
+    filter:blur(5px);
+    transform:scale(1.1);
+    z-index:-2;
+}
+
+.dark-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.65);
+    z-index:-1;
+}
+
+.launcher-panel{
+    background:#2b2b2b;
+    border:2px solid #4a4a4a;
+    box-shadow:
+            inset 0 1px rgba(255,255,255,.08),
+            0 4px 15px rgba(0,0,0,.4);
+}
+
+.mc-button{
+    background:#3c8527;
+    border:2px solid #1f5f14;
+    box-shadow:inset 0 1px rgba(255,255,255,.2);
+    transition:.15s;
+}
+
+.mc-button:hover{
+    background:#4ca531;
+}
+
+.mc-button:active{
+    transform:translateY(2px);
+}
+
+</style>
+
 </head>
 
-<body class="min-h-screen text-white bg-[#111411] overflow-x-hidden">
+<body class="text-white">
 
-<!-- Background -->
-<div class="fixed inset-0 bg-[radial-gradient(circle_at_top,#273428,transparent_60%),radial-gradient(circle_at_bottom,#1a231b,transparent_55%)]"></div>
+<div class="parallax-bg"></div>
+<div class="dark-overlay"></div>
 
-<!-- Header -->
-<header class="sticky top-0 z-50 backdrop-blur-md bg-black/30 border-b border-green-900/30">
+<!-- NAVIGATION -->
 
-    <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+<header class="sticky top-0 z-50 bg-[#1f1f1f]/95 backdrop-blur border-b border-[#555]">
 
-        <div class="flex items-center gap-3">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
 
-            <img src="/favicon.svg"
-                 width="40"
-                 height="40"
-                 alt="Gearbound SMP Logo">
+        <div class="flex items-center gap-4">
+
+            <img
+                    src="/favicon.svg"
+                    class="w-12 h-12"
+                    alt="Gearbound SMP">
 
             <div>
-                <div class="font-bold text-lg">
+
+                <div class="minecraft-font text-2xl">
                     Gearbound SMP
                 </div>
 
-                <div class="text-xs text-zinc-500">
-                    Vanilla Anarchy
+                <div class="text-xs text-zinc-400">
+                    Vanilla Anarchy Survival
                 </div>
+
             </div>
 
         </div>
 
-        <nav id="navLinks"
-             class="flex gap-6 text-sm text-zinc-300">
+        <nav class="hidden md:flex gap-6 text-zinc-300">
+
+            <a href="#features" class="hover:text-white">Features</a>
+            <a href="#world" class="hover:text-white">World</a>
+            <a href="#join" class="hover:text-white">Join</a>
+            <a href="#discord" class="hover:text-white">Discord</a>
+
         </nav>
 
     </div>
 
 </header>
 
-<main class="relative max-w-6xl mx-auto px-6 space-y-24">
+<!-- HERO -->
 
-    <!-- HERO -->
-    <section class="text-center pt-20">
+<section class="relative min-h-screen flex items-center">
 
-        <div class="inline-block px-4 py-2 rounded-full border border-green-900/40 bg-green-950/20 text-green-400 text-sm">
+    <div class="max-w-7xl mx-auto px-6 w-full">
 
-            Minecraft 1.21.11
+        <div class="max-w-4xl">
 
-        </div>
+            <div class="inline-flex items-center gap-2 launcher-panel px-4 py-2 mb-8">
 
-        <h1 class="mt-8 text-6xl md:text-8xl font-black tracking-tight">
+                <span class="text-green-400">
+                    ● ONLINE
+                </span>
 
-            GEARBOUND SMP
+                <span class="text-zinc-400">
+                    Minecraft 1.21.11
+                </span>
 
-        </h1>
+            </div>
 
-        <div class="mt-5 text-xl text-green-400 font-semibold">
+            <h1 class="minecraft-font text-6xl md:text-8xl leading-none">
 
-            Vanilla Anarchy • Farlands Enabled • No Resets
+                GEARBOUND
+                <br>
+                SMP
 
-        </div>
+            </h1>
 
-        <p class="mt-8 max-w-3xl mx-auto text-zinc-400 text-lg leading-relaxed">
+            <div class="mt-6 text-yellow-300 text-xl rotate-[-4deg] minecraft-font inline-block">
 
-            Build empires, raid enemies, explore millions of blocks
-            and survive in a permanent world shaped entirely by players.
+                Now with Farlands!
 
-        </p>
+            </div>
 
-        <!-- Status -->
-        <div class="mt-12 flex justify-center">
+            <p class="mt-10 text-xl text-zinc-300 max-w-2xl leading-relaxed">
 
-            <div class="grid md:grid-cols-3 gap-4">
+                A true Minecraft Anarchy server.
 
-                <div class="bg-[#1a211a] border border-green-900/30 rounded-xl px-6 py-4">
+                No claims.
+                No teleports.
+                No economy.
 
-                    <div class="text-green-400 font-semibold">
-                        🟢 Online
-                    </div>
+                Just survival, exploration and history written by players.
 
-                    <div class="text-sm text-zinc-500">
-                        Server Status
-                    </div>
+            </p>
 
-                </div>
+            <div class="mt-10 flex flex-wrap gap-4">
 
-                <div class="bg-[#1a211a] border border-green-900/30 rounded-xl px-6 py-4">
+                <button
+                        onclick="copyIP()"
+                        class="mc-button px-8 py-4 font-bold">
 
-                    <div class="text-green-400 font-semibold">
-                        Vanilla
-                    </div>
+                    JOIN SERVER
 
-                    <div class="text-sm text-zinc-500">
-                        Survival Experience
-                    </div>
+                </button>
 
-                </div>
+                <a
+                        href="http://mc.gearboundsmp.org:8123"
+                        class="launcher-panel px-8 py-4 hover:bg-[#363636]">
 
-                <div class="bg-[#1a211a] border border-green-900/30 rounded-xl px-6 py-4">
+                    LIVE MAP
 
-                    <div class="text-green-400 font-semibold">
-                        12M+
-                    </div>
+                </a>
 
-                    <div class="text-sm text-zinc-500">
-                        Blocks To Farlands
-                    </div>
+                <a
+                        href="https://minecraftservershq.com/server/mc.gearboundsmp.org:25565/players"
+                        target="_blank"
+                        class="launcher-panel px-8 py-4 hover:bg-[#363636]">
 
-                </div>
+                    PLAYER RANKINGS
+
+                </a>
 
             </div>
 
         </div>
 
-        <!-- Buttons -->
-        <div class="mt-12 flex justify-center gap-4 flex-wrap">
+    </div>
+
+</section>
+
+<!-- SERVER STATUS -->
+
+<section class="max-w-7xl mx-auto px-6 pb-32">
+
+    <div class="grid md:grid-cols-4 gap-6">
+
+        <div class="launcher-panel p-6">
+
+            <div class="text-green-400 text-xl font-bold"
+                 id="statusText">
+
+                Loading...
+
+            </div>
+
+            <div class="text-zinc-400 mt-2">
+                Server Status
+            </div>
+
+        </div>
+
+        <div class="launcher-panel p-6">
+
+            <div class="text-3xl font-bold"
+                 id="playerCount">
+
+                0
+            </div>
+
+            <div class="text-zinc-400 mt-2">
+                Online Players
+            </div>
+
+        </div>
+
+        <div class="launcher-panel p-6">
+
+            <div class="text-3xl font-bold">
+
+                12M+
+            </div>
+
+            <div class="text-zinc-400 mt-2">
+                Blocks To Farlands
+            </div>
+
+        </div>
+
+        <div class="launcher-panel p-6">
+
+            <div class="text-3xl font-bold">
+
+                ∞
+            </div>
+
+            <div class="text-zinc-400 mt-2">
+                No Planned Resets
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section
+        id="features"
+        class="max-w-7xl mx-auto px-6 pb-32">
+
+    <h2 class="minecraft-font text-5xl text-center mb-16">
+
+        WHY PLAY HERE?
+
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="launcher-panel p-8">
+
+            <div class="text-5xl mb-6">
+                🏴
+            </div>
+
+            <h3 class="text-2xl font-bold">
+
+                TRUE ANARCHY
+
+            </h3>
+
+            <p class="mt-4 text-zinc-400">
+
+                No land claims.
+                No protection plugins.
+                No restrictions on how you survive.
+
+            </p>
+
+        </div>
+
+        <div class="launcher-panel p-8">
+
+            <div class="text-5xl mb-6">
+                🌍
+            </div>
+
+            <h3 class="text-2xl font-bold">
+
+                PERMANENT WORLD
+
+            </h3>
+
+            <p class="mt-4 text-zinc-400">
+
+                Every road, ruin and base remains part
+                of server history forever.
+
+            </p>
+
+        </div>
+
+        <div class="launcher-panel p-8">
+
+            <div class="text-5xl mb-6">
+                ⚠️
+            </div>
+
+            <h3 class="text-2xl font-bold">
+
+                FARLANDS ENABLED
+
+            </h3>
+
+            <p class="mt-4 text-zinc-400">
+
+                Travel beyond twelve million blocks and
+                experience broken terrain generation.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- WORLD SHOWCASE -->
+
+<section
+        id="world"
+        class="max-w-7xl mx-auto px-6 pb-32">
+
+    <h2 class="minecraft-font text-5xl text-center mb-16">
+
+        EXPLORE THE WORLD
+
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="launcher-panel overflow-hidden">
+
+            <img
+                    src="images/spawn.jpg"
+                    alt="Spawn"
+                    class="w-full h-64 object-cover">
+
+            <div class="p-5">
+
+                <h3 class="font-bold text-xl">
+                    Spawn
+                </h3>
+
+                <p class="text-zinc-400 mt-2">
+                    The birthplace of every journey.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="launcher-panel overflow-hidden">
+
+            <img
+                    src="images/farlands.jpg"
+                    alt="Farlands"
+                    class="w-full h-64 object-cover">
+
+            <div class="p-5">
+
+                <h3 class="font-bold text-xl">
+                    Farlands
+                </h3>
+
+                <p class="text-zinc-400 mt-2">
+                    Broken terrain beyond imagination.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="launcher-panel overflow-hidden">
+
+            <img
+                    src="images/base.jpg"
+                    alt="Player Base"
+                    class="w-full h-64 object-cover">
+
+            <div class="p-5">
+
+                <h3 class="font-bold text-xl">
+                    Player Creations
+                </h3>
+
+                <p class="text-zinc-400 mt-2">
+                    Build history that lasts forever.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- HIGHLIGHTS -->
+
+<section class="max-w-7xl mx-auto px-6 pb-32">
+
+    <h2 class="minecraft-font text-5xl text-center mb-16">
+
+        SERVER HIGHLIGHTS
+
+    </h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+
+        <div class="launcher-panel p-8">
+
+            <ul class="space-y-4 text-lg">
+
+                <li>✓ Vanilla Survival</li>
+                <li>✓ No Land Claims</li>
+                <li>✓ No Economy</li>
+                <li>✓ No Teleports</li>
+
+            </ul>
+
+        </div>
+
+        <div class="launcher-panel p-8">
+
+            <ul class="space-y-4 text-lg">
+
+                <li>✓ Java Edition</li>
+                <li>✓ No Planned Resets</li>
+                <li>✓ Farlands Enabled</li>
+                <li>✓ Community Driven History</li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- RULES -->
+
+<section class="max-w-7xl mx-auto px-6 pb-32">
+
+    <div class="launcher-panel border-red-700 p-8">
+
+        <h2 class="minecraft-font text-4xl mb-8">
+
+            RULES
+
+        </h2>
+
+        <p class="text-zinc-300 text-lg mb-6">
+
+            There are very few rules.
+
+        </p>
+
+        <ul class="space-y-3 text-zinc-400">
+
+            <li>• No lag machines.</li>
+
+            <li>• No exploits that threaten server stability.</li>
+
+            <li>• Hacked clients are allowed but some hacks are patched.</li>
+
+        </ul>
+
+    </div>
+
+</section>
+
+<!-- JOIN -->
+
+<section
+        id="join"
+        class="max-w-7xl mx-auto px-6 pb-32">
+
+    <div class="grid md:grid-cols-2 gap-8">
+
+        <div class="launcher-panel p-10">
+
+            <h2 class="minecraft-font text-4xl mb-8">
+
+                JOIN THE SERVER
+
+            </h2>
+
+            <div class="text-zinc-400 mb-2">
+                Server IP
+            </div>
+
+            <div class="text-2xl font-mono mb-8">
+
+                mc.gearboundsmp.org
+
+            </div>
 
             <button
-                onclick="copyIP()"
-                class="px-8 py-3 rounded-xl bg-gradient-to-r from-[#5d8f43] to-[#8abf5a] text-black font-bold hover:scale-105 transition">
+                    onclick="copyIP()"
+                    class="mc-button px-8 py-4 font-bold">
 
-                Join Server
+                COPY SERVER IP
 
             </button>
 
-            <a
-                href="http://mc.gearboundsmp.org:8123"
-                class="px-8 py-3 rounded-xl border border-green-900/50 bg-black/20 hover:bg-green-900/20 transition">
+        </div>
 
-                Live Map
+        <div
+                id="discord"
+                class="launcher-panel p-10">
+
+            <h2 class="minecraft-font text-4xl mb-8">
+
+                COMMUNITY
+
+            </h2>
+
+            <p class="text-zinc-400 mb-8">
+
+                Join our Discord server and become
+                part of Gearbound history.
+
+            </p>
+
+            <a
+                    href="https://discord.gg/5t7FCHrx8g"
+                    target="_blank"
+                    class="mc-button inline-block px-8 py-4 font-bold">
+
+                JOIN DISCORD
 
             </a>
-
-            <a
-                href="https://minecraftservershq.com/server/mc.gearboundsmp.org:25565/players"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="px-8 py-3 rounded-xl border border-green-900/50 bg-black/20 hover:bg-green-900/20 transition">
-
-                Player Rankings
-
-            </a>
-
-        </div>
-
-    </section>
-
-    <!-- WORLD PREVIEW -->
-    <section>
-
-        <h2 class="text-3xl font-bold text-center mb-10">
-
-            Explore The World
-
-        </h2>
-
-        <div class="grid md:grid-cols-3 gap-6">
-
-            <div class="h-64 rounded-2xl bg-[#1b211b] border border-green-900/30 flex items-center justify-center text-zinc-500">
-
-                Spawn Screenshot
-
-            </div>
-
-            <div class="h-64 rounded-2xl bg-[#1b211b] border border-green-900/30 flex items-center justify-center text-zinc-500">
-
-                Farlands Screenshot
-
-            </div>
-
-            <div class="h-64 rounded-2xl bg-[#1b211b] border border-green-900/30 flex items-center justify-center text-zinc-500">
-
-                Player Base Screenshot
-
-            </div>
-
-        </div>
-
-    </section>
-<!-- Features -->
-
-<section>
-
-    <h2 class="text-4xl font-bold text-center mb-12">
-        Why Play Here?
-    </h2>
-
-    <div class="grid md:grid-cols-3 gap-6">
-
-        <div class="p-6 rounded-2xl bg-[#1b211b] border border-green-900/30">
-
-            <div class="text-4xl mb-4">🏴</div>
-
-            <h3 class="text-xl font-bold">
-                True Anarchy
-            </h3>
-
-            <p class="mt-3 text-zinc-400">
-                No land claims.
-                No protection.
-                No restrictions on how you play.
-            </p>
-
-        </div>
-
-        <div class="p-6 rounded-2xl bg-[#1b211b] border border-green-900/30">
-
-            <div class="text-4xl mb-4">🌍</div>
-
-            <h3 class="text-xl font-bold">
-                Permanent World
-            </h3>
-
-            <p class="mt-3 text-zinc-400">
-                The map will not reset.
-                Every ruin, road and base becomes part of server history.
-            </p>
-
-        </div>
-
-        <div class="p-6 rounded-2xl bg-[#1b211b] border border-green-900/30">
-
-            <div class="text-4xl mb-4">⚠️</div>
-
-            <h3 class="text-xl font-bold">
-                Farlands Return
-            </h3>
-
-            <p class="mt-3 text-zinc-400">
-                Beyond 12 million blocks,
-                terrain generation starts breaking apart.
-            </p>
 
         </div>
 
@@ -252,196 +570,157 @@
 
 </section>
 
-    
-    <!-- About -->
-   <section class="p-8 rounded-2xl bg-[#1a211a] border border-green-900/30">
+<!-- FOOTER -->
 
-    <h2 class="text-3xl font-bold mb-8">
-        Server Highlights
-    </h2>
+<footer class="bg-black/40 border-t border-zinc-700">
 
-    <div class="grid md:grid-cols-2 gap-6">
+    <div class="max-w-7xl mx-auto px-6 py-16">
 
-        <ul class="space-y-4 text-zinc-300">
-
-            <li>✓ Vanilla Survival</li>
-            <li>✓ No Land Claims</li>
-            <li>✓ No Economy Plugins</li>
-            <li>✓ No Teleports</li>
-
-        </ul>
-
-        <ul class="space-y-4 text-zinc-300">
-
-            <li>✓ No Planned Resets</li>
-            <li>✓ Java Edition</li>
-            <li>✓ Farlands Generation</li>
-
-        </ul>
-
-    </div>
-
-</section>
-
-    <!-- Rules -->
-    <section class="p-8 rounded-2xl bg-red-500/5 border border-red-500/20">
-
-        <h2 class="text-2xl font-bold mb-4">
-            Rules
-        </h2>
-
-        <p class="text-zinc-300">
-            There are almost none.
-        </p>
-
-        <ul class="mt-4 text-zinc-400 list-disc list-inside space-y-2">
-            <li>No lag mashines.</li>
-            <li>No exploits that threaten server stability.</li>
-            <li>Hacked Clients are allowed but some hacks are patched!</li>
-        </ul>
-
-    </section>
-<section class="grid md:grid-cols-2 gap-6">
-
-    <div class="p-8 rounded-2xl bg-[#1a211a] border border-green-900/30">
-
-        <h2 class="text-3xl font-bold mb-6">
-            Join The Server
-        </h2>
-
-        <div class="space-y-5">
+        <div class="grid md:grid-cols-3 gap-10">
 
             <div>
 
-                <div class="text-zinc-500 text-sm">
-                    Server IP
+                <div class="minecraft-font text-2xl mb-4">
+
+                    Gearbound SMP
+
                 </div>
 
-                <div class="font-mono text-xl">
-                    mc.gearboundsmp.org
+                <p class="text-zinc-500">
+
+                    A true Minecraft Anarchy experience.
+
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3 class="font-bold mb-4">
+                    Links
+                </h3>
+
+                <div class="space-y-2">
+
+                    <a
+                            href="http://mc.gearboundsmp.org:8123"
+                            class="block text-zinc-400 hover:text-white">
+
+                        Live Map
+
+                    </a>
+
+                    <a
+                            href="https://discord.gg/5t7FCHrx8g"
+                            class="block text-zinc-400 hover:text-white">
+
+                        Discord
+
+                    </a>
+
+                    <a
+                            href="https://minecraftservershq.com/server/mc.gearboundsmp.org:25565/players"
+                            class="block text-zinc-400 hover:text-white">
+
+                        Rankings
+
+                    </a>
+
                 </div>
 
             </div>
 
-            <button
-                onclick="copyIP()"
-                class="px-6 py-3 rounded-xl bg-gradient-to-r from-[#5d8f43] to-[#8abf5a] text-black font-bold">
+            <div>
 
-                Copy Server IP
+                <h3 class="font-bold mb-4">
+                    Imprint
+                </h3>
 
-            </button>
+                <div class="text-zinc-500 text-sm leading-relaxed">
+
+                    Responsible for content:
+                    Gearbound SMP Administration
+
+                    <br><br>
+
+                    Server Owner:
+                    <a
+                            href="https://laby.net/@LogicJo"
+                            target="_blank"
+                            class="text-green-400">
+
+                        LogicJo
+
+                    </a>
+
+                    <br><br>
+
+                    admin@gearboundsmp.org
+
+                </div>
+
+            </div>
 
         </div>
 
-    </div>
-
-    <div class="p-8 rounded-2xl bg-[#1a211a] border border-green-900/30">
-
-        <h2 class="text-3xl font-bold mb-6">
-            Community
-        </h2>
-
-        <p class="text-zinc-400 mb-6">
-
-            Join our Discord and become part of the history.
-
-        </p>
-
-        <a
-            href="https://discord.gg/5t7FCHrx8g"
-            target="_blank"
-            class="inline-block px-6 py-3 rounded-xl border border-green-900/50 hover:bg-green-900/20 transition">
-
-            Join Discord
-
-        </a>
-
-    </div>
-
-</section>
-
-</main>
-
-<footer class="relative max-w-6xl mx-auto px-6 py-14 text-sm text-zinc-500 space-y-6">
-
-    <div id="footerLinks" class="flex gap-6 flex-wrap"></div>
-
-    <div class="border-t border-white/10 pt-6">
-        <div class="font-semibold text-zinc-300">
-            Imprint
-        </div>
-
-        <div class="text-xs mt-2 leading-relaxed">
-            Responsible for content: Gearbound SMP Administration<br>
-            Server Owner:
-            <a href="https://laby.net/@LogicJo"
-               target="_blank"
-               rel="noopener noreferrer"
-               class="text-[#00d4ff] hover:text-white transition-colors">
-                LogicJo
-            </a><br>
-            Contact: admin@gearboundsmp.org
-        </div>
     </div>
 
 </footer>
 
 <script>
 
-    const links = [
-        {
-            label: "Discord",
-            url: "https://discord.gg/5t7FCHrx8g"
-        },
-        {
-            label: "Map",
-            url: "http://mc.gearboundsmp.org:8123"
+function copyIP() {
+
+    navigator.clipboard.writeText("mc.gearboundsmp.org");
+
+    alert("Server IP copied!");
+}
+
+async function updateServerStatus() {
+
+    try {
+
+        const response =
+            await fetch(
+                "https://api.mcsrvstat.us/3/mc.gearboundsmp.org"
+            );
+
+        const data = await response.json();
+
+        if(data.online){
+
+            document.getElementById("statusText")
+                .innerText = "ONLINE";
+
+            document.getElementById("statusText")
+                .classList.add("text-green-400");
+
+            document.getElementById("playerCount")
+                .innerText = data.players.online;
+
+        }else{
+
+            document.getElementById("statusText")
+                .innerText = "OFFLINE";
+
+            document.getElementById("statusText")
+                .classList.add("text-red-400");
+
+            document.getElementById("playerCount")
+                .innerText = "0";
         }
-    ]
 
-    const footerLinks = [
-        {
-            label: "Server IP",
-            value: "mc.gearboundsmp.org"
-        },
-        {
-            label: "Discord",
-            url: "https://discord.gg/5t7FCHrx8g"
-        }
-    ]
+    } catch(e){
 
-    function renderLinks() {
+        document.getElementById("statusText")
+            .innerText = "UNKNOWN";
 
-        document.getElementById("navLinks").innerHTML =
-            links.map(
-                l => `<a href="${l.url}" class="hover:text-white">${l.label}</a>`
-            ).join("")
-
-        document.getElementById("footerLinks").innerHTML =
-            footerLinks.map(
-                l =>
-                    l.url
-                        ? `<a href="${l.url}" class="hover:text-white">${l.label}</a>`
-                        : `<div>${l.label}: <span class="text-white font-mono">${l.value}</span></div>`
-            ).join("")
     }
+}
 
-    function copyIP() {
+updateServerStatus();
 
-        navigator.clipboard.writeText("mc.gearboundsmp.org")
-
-        const button = event.target
-
-        const oldText = button.innerText
-
-        button.innerText = "Copied!"
-
-        setTimeout(() => {
-            button.innerText = oldText
-        }, 1500)
-    }
-
-    renderLinks()
+setInterval(updateServerStatus,60000);
 
 </script>
 
