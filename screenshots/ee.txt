@@ -1,0 +1,28 @@
+Liebe Community.
+Mit Beginn der Sommerferien beginnt eine Reihe von Events auf dem Server an denen jeder Spieler teilnehmen darf und für die es individuelle Belohnungen geben wird.
+
+Alle Events beginnen am 30.07.26 und enden am 11.09.26.
+
+Folgende Events gibt es:
+
+[ ] Building Challenge:
+- Baue ein Custom Biome in einer mind. 3x3 Chunk Area
+- Baue ein eigenes Mittelalter Dorf in einer mind. 4 x 4 Chunk Area
+- Spawnbuilding: Baue ein Gebäude im 300 Blöcke Spawnbereich.
+- baue ein Schloss in einer mind 3x3 Chunk Area.
+(Gebäude die nicht den anforderungen entsprechen und/oder gegen jedweilige inthalte der Minecraft EULA verstößen werden nach ermessen der Jury (LogicJo) eliminiert)
+(Alle Gebäude müssen innerhalb des 5000 x 5000 Spawnbereich oberirdisch gebaut werden)
+
+[ ] Collection Challenge
+-Sammele alle Music Disks
+-Samele alle Goat Hörner
+-Sammele alle Armor Trims
+
+Für jede Unterchallenge gibt es einen Preis. Wer es zusätzlich noch schafft eine complette Challangegruppe zu gewinnen bekommt einen Sonderpreis. Es können pro Challange mehrere Personen gewinnen.
+Nach erfolgreichem folenden einer Challenge muss der Spieler in #projects einen Post erstellen in denen er die Koordinaten des Gebautem teilt bzw, die Koordinaten der Kiste, in der die Items liegen.
+Danache wird innerhalb von 48 Stunden LogicJo auf den Server joinen und die angegebene Challenge überprüfen.
+Preise werden erst nach dem 12.09.26 verteilt.
+
+Die Challanges sind von jeder Person einzeln zu erledigen. Teams sind nicht erlaubt.
+
+Viel Erfolg bei den Challenges und schöne Ferien!
