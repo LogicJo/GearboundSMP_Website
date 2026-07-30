@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gearbound SMP | Gallery</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+
+<style>
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+    background:#111;
+    font-family:Arial,sans-serif;
+    color:white;
+    overflow-x:hidden;
+}
+
+.minecraft-font{
+    font-family:'Minecraft',sans-serif;
+}
+
+.parallax-bg{
+    position:fixed;
+    inset:0;
+    background-image:url("https://raw.githubusercontent.com/LogicJo/GearboundSMP_Website/refs/heads/master/images/theme_background2.JPG");
+    background-size:cover;
+    background-position:center;
+    filter:blur(5px);
+    transform:scale(1.1);
+    z-index:-2;
+}
+
+.dark-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.65);
+    z-index:-1;
+}
+
+.launcher-panel{
+    background:#2b2b2b;
+    border:2px solid #4a4a4a;
+    box-shadow:
+        inset 0 1px rgba(255,255,255,.08),
+        0 4px 15px rgba(0,0,0,.4);
+}
+
+.mc-button{
+    background:#3c8527;
+    border:2px solid #1f5f14;
+    transition:.15s;
+}
+
+.mc-button:hover{
+    background:#4ca531;
+}
+
+.gallery-image{
+    transition:.25s;
+}
+
+.gallery-image:hover{
+    transform:scale(1.08);
+}
+
+.lightbox{
+
+    position:fixed;
+    inset:0;
+
+    display:none;
+
+    justify-content:center;
+    align-items:center;
+
+    background:rgba(0,0,0,.9);
+
+    z-index:999;
+
+}
+
+.lightbox img{
+
+    max-width:90%;
+    max-height:90%;
+
+    border:4px solid #666;
+
+}
+
+.close{
+
+    position:absolute;
+    top:25px;
+    right:40px;
+
+    font-size:40px;
+
+    cursor:pointer;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="parallax-bg"></div>
+<div class="dark-overlay"></div>
+
+<header class="sticky top-0 bg-[#1f1f1f]/95 backdrop-blur border-b border-[#555]">
+
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+
+<div class="flex items-center gap-4">
+
+<img src="/favicon.svg" class="w-12">
+
+<div>
+
+<div class="minecraft-font text-2xl">
+
+Gearbound SMP
+
+</div>
+
+<div class="text-xs text-zinc-400">
+
+Screenshot Gallery
+
+</div>
+
+</div>
+
+</div>
+
+<nav class="hidden md:flex gap-6">
+
+<a href="index.html" class="hover:text-white">Home</a>
+<a href="#" class="text-green-400">Gallery</a>
+<a href="index.html#join" class="hover:text-white">Join</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="max-w-7xl mx-auto px-6 py-20">
+
+<h1 class="minecraft-font text-6xl text-center">
+
+SERVER GALLERY
+
+</h1>
+
+<p class="text-center text-zinc-400 mt-8 text-xl">
+
+Discover screenshots from the history of Gearbound SMP.
+
+</p>
+
+</section>
+
+<section class="max-w-7xl mx-auto px-6">
+
+<div class="flex flex-wrap gap-4 justify-center mb-10">
+
+<button class="mc-button px-6 py-3">All</button>
+<button class="launcher-panel px-6 py-3">Spawn</button>
+<button class="launcher-panel px-6 py-3">Bases</button>
+<button class="launcher-panel px-6 py-3">Events</button>
+<button class="launcher-panel px-6 py-3">Players</button>
+
+</div>
+
+</section>
+
+<section class="max-w-7xl mx-auto px-6 pb-24">
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="launcher-panel overflow-hidden">
+
+<img src="images/gallery/spawn1.jpg"
+class="gallery-image cursor-pointer w-full h-64 object-cover"
+onclick="openImage(this.src)">
+
+<div class="p-5">
+
+<h3 class="font-bold text-xl">
+
+Spawn
+
+</h3>
+
+<p class="text-zinc-400">
+
+April 2026
+
+</p>
+
+</div>
+
+</div>
+
+<div class="launcher-panel overflow-hidden">
+
+<img src="images/gallery/base1.jpg"
+class="gallery-image cursor-pointer w-full h-64 object-cover"
+onclick="openImage(this.src)">
+
+<div class="p-5">
+
+<h3 class="font-bold text-xl">
+
+Mountain Base
+
+</h3>
+
+<p class="text-zinc-400">
+
+Community Build
+
+</p>
+
+</div>
+
+</div>
+
+<div class="launcher-panel overflow-hidden">
+
+<img src="images/gallery/event1.jpg"
+class="gallery-image cursor-pointer w-full h-64 object-cover"
+onclick="openImage(this.src)">
+
+<div class="p-5">
+
+<h3 class="font-bold text-xl">
+
+Summer Event
+
+</h3>
+
+<p class="text-zinc-400">
+
+2026
+
+</p>
+
+</div>
+
+</div>
+
+<div class="launcher-panel overflow-hidden">
+
+<img src="images/gallery/player1.jpg"
+class="gallery-image cursor-pointer w-full h-64 object-cover"
+onclick="openImage(this.src)">
+
+<div class="p-5">
+
+<h3 class="font-bold text-xl">
+
+PvP Battle
+
+</h3>
+
+<p class="text-zinc-400">
+
+Player Screenshot
+
+</p>
+
+</div>
+
+</div>
+
+<div class="launcher-panel overflow-hidden">
+
+<img src="images/gallery/landscape1.jpg"
+class="gallery-image cursor-pointer w-full h-64 object-cover"
+onclick="openImage(this.src)">
+
+<div class="p-5">
+
+<h3 class="font-bold text-xl">
+
+Frozen Mountains
+
+</h3>
+
+<p class="text-zinc-400">
+
+Exploration
+
+</p>
+
+</div>
+
+</div>
+
+<div class="launcher-panel overflow-hidden">
+
+<img src="images/gallery/base2.jpg"
+class="gallery-image cursor-pointer w-full h-64 object-cover"
+onclick="openImage(this.src)">
+
+<div class="p-5">
+
+<h3 class="font-bold text-xl">
+
+Mega Castle
+
+</h3>
+
+<p class="text-zinc-400">
+
+Player Creation
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer class="border-t border-zinc-700 bg-black/40">
+
+<div class="max-w-7xl mx-auto px-6 py-12 text-center text-zinc-500">
+
+© 2026 Gearbound SMP
+
+</div>
+
+</footer>
+
+<div id="lightbox" class="lightbox">
+
+<span class="close" onclick="closeImage()">&times;</span>
+
+<img id="lightboxImage">
+
+</div>
+
+<script>
+
+function openImage(src){
+
+    document.getElementById("lightbox").style.display="flex";
+
+    document.getElementById("lightboxImage").src=src;
+
+}
+
+function closeImage(){
+
+    document.getElementById("lightbox").style.display="none";
+
+}
+
+document.getElementById("lightbox").onclick=function(e){
+
+    if(e.target===this){
+
+        closeImage();
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>
