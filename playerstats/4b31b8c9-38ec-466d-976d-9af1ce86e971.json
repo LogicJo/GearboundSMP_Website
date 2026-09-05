@@ -1,0 +1,33 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1939,
+      "minecraft:walk_one_cm": 2598,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 228,
+      "minecraft:play_time": 1939,
+      "minecraft:jump": 34,
+      "minecraft:time_since_death": 1939,
+      "minecraft:sprint_one_cm": 4061,
+      "minecraft:fall_one_cm": 450,
+      "minecraft:swim_one_cm": 1843,
+      "minecraft:total_world_time": 1939,
+      "minecraft:fly_one_cm": 8535,
+      "minecraft:walk_on_water_one_cm": 1157,
+      "minecraft:crouch_one_cm": 443,
+      "minecraft:sneak_time": 145
+    },
+    "minecraft:used": {
+      "minecraft:firefly_bush": 1
+    },
+    "minecraft:mined": {
+      "minecraft:firefly_bush": 1,
+      "minecraft:grass_block": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 1,
+      "minecraft:firefly_bush": 1
+    }
+  },
+  "DataVersion": 4671
+}

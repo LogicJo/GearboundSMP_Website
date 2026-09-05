@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:wildflowers": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 2628,
+      "minecraft:walk_one_cm": 2485,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 301,
+      "minecraft:damage_taken": 218,
+      "minecraft:play_time": 2628,
+      "minecraft:damage_dealt": 10,
+      "minecraft:jump": 47,
+      "minecraft:time_since_death": 2628,
+      "minecraft:sprint_one_cm": 3741,
+      "minecraft:fall_one_cm": 2401,
+      "minecraft:swim_one_cm": 1914,
+      "minecraft:total_world_time": 2628,
+      "minecraft:fly_one_cm": 11274,
+      "minecraft:walk_on_water_one_cm": 53
+    }
+  },
+  "DataVersion": 4671
+}

@@ -1,0 +1,51 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:lantern": 1,
+      "minecraft:poppy": 2,
+      "minecraft:oak_fence": 7,
+      "minecraft:oak_slab": 9,
+      "minecraft:iron_ingot": 3,
+      "minecraft:spruce_trapdoor": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 5129,
+      "minecraft:walk_one_cm": 2943,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 1,
+      "minecraft:walk_under_water_one_cm": 16048,
+      "minecraft:damage_taken": 540,
+      "minecraft:damage_dealt": 890,
+      "minecraft:play_time": 11035,
+      "minecraft:jump": 1724,
+      "minecraft:time_since_death": 5087,
+      "minecraft:sprint_one_cm": 8840,
+      "minecraft:open_chest": 4,
+      "minecraft:inspect_hopper": 1,
+      "minecraft:fall_one_cm": 9931,
+      "minecraft:swim_one_cm": 37374,
+      "minecraft:total_world_time": 11035,
+      "minecraft:fly_one_cm": 1048117,
+      "minecraft:walk_on_water_one_cm": 7155,
+      "minecraft:crouch_one_cm": 1912,
+      "minecraft:sneak_time": 2360,
+      "minecraft:deaths": 2
+    },
+    "minecraft:killed_by": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:mined": {
+      "minecraft:oak_fence": 9,
+      "minecraft:oak_slab": 7,
+      "minecraft:spruce_trapdoor": 5,
+      "minecraft:red_stained_glass": 1
+    },
+    "minecraft:killed": {
+      "minecraft:iron_golem": 1
+    },
+    "minecraft:used": {
+      "minecraft:oak_slab": 5
+    }
+  },
+  "DataVersion": 4671
+}

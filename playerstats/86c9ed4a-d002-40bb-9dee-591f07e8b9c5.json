@@ -1,0 +1,24 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:leaf_litter": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:leaf_litter": 4
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 2726,
+      "minecraft:walk_one_cm": 98,
+      "minecraft:total_world_time": 2726,
+      "minecraft:leave_game": 3,
+      "minecraft:sneak_time": 27,
+      "minecraft:play_time": 2726,
+      "minecraft:time_since_death": 2726,
+      "minecraft:drop": 4
+    },
+    "minecraft:dropped": {
+      "minecraft:leaf_litter": 4
+    }
+  },
+  "DataVersion": 4671
+}

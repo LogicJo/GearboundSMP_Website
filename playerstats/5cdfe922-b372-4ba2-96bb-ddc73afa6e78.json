@@ -1,0 +1,35 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:oak_log": 7
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 16,
+      "minecraft:oak_planks": 24,
+      "minecraft:crafting_table": 4
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1710,
+      "minecraft:walk_one_cm": 6379,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 350,
+      "minecraft:play_time": 3611,
+      "minecraft:damage_dealt": 154,
+      "minecraft:jump": 48,
+      "minecraft:time_since_death": 1647,
+      "minecraft:sprint_one_cm": 4270,
+      "minecraft:fall_one_cm": 3500,
+      "minecraft:total_world_time": 3611,
+      "minecraft:fly_one_cm": 2553,
+      "minecraft:deaths": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:spider": 1
+    },
+    "minecraft:mined": {
+      "minecraft:oak_leaves": 1,
+      "minecraft:oak_log": 7
+    }
+  },
+  "DataVersion": 4671
+}

@@ -1,0 +1,71 @@
+{
+  "stats": {
+    "minecraft:killed_by": {
+      "minecraft:skeleton": 3,
+      "minecraft:zombie": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 3,
+      "minecraft:oak_leaves": 4,
+      "minecraft:crafting_table": 2,
+      "minecraft:leaf_litter": 2,
+      "minecraft:oak_log": 12,
+      "minecraft:wheat": 2
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 2,
+      "minecraft:time_since_rest": 112,
+      "minecraft:walk_one_cm": 111368,
+      "minecraft:leave_game": 7,
+      "minecraft:walk_under_water_one_cm": 6855,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 2006,
+      "minecraft:boat_one_cm": 8921,
+      "minecraft:play_time": 42870,
+      "minecraft:damage_dealt": 135,
+      "minecraft:jump": 631,
+      "minecraft:time_since_death": 57,
+      "minecraft:drop": 8,
+      "minecraft:sprint_one_cm": 62371,
+      "minecraft:fall_one_cm": 22969,
+      "minecraft:total_world_time": 42870,
+      "minecraft:swim_one_cm": 27461,
+      "minecraft:fly_one_cm": 70422,
+      "minecraft:walk_on_water_one_cm": 16376,
+      "minecraft:crouch_one_cm": 162,
+      "minecraft:sneak_time": 243,
+      "minecraft:deaths": 7
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 4,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:oak_boat": 2,
+      "minecraft:oak_planks": 48,
+      "minecraft:crafting_table": 2
+    },
+    "minecraft:dropped": {
+      "minecraft:wheat_seeds": 7,
+      "minecraft:leather": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:leaf_litter": 4,
+      "minecraft:oak_log": 12,
+      "minecraft:oak_boat": 2,
+      "minecraft:wheat_seeds": 7,
+      "minecraft:wheat": 2,
+      "minecraft:leather": 1,
+      "minecraft:crafting_table": 2,
+      "minecraft:beef": 3
+    },
+    "minecraft:used": {
+      "minecraft:leaf_litter": 4,
+      "minecraft:crafting_table": 2,
+      "minecraft:beef": 3,
+      "minecraft:oak_boat": 2
+    },
+    "minecraft:killed": {
+      "minecraft:cow": 1
+    }
+  },
+  "DataVersion": 4671
+}

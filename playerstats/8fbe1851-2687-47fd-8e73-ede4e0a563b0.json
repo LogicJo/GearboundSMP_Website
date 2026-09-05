@@ -1,0 +1,42 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:stick": 20,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:cherry_planks": 20,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:mined": {
+      "minecraft:cherry_log": 5,
+      "minecraft:cherry_leaves": 3
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 69,
+      "minecraft:walk_one_cm": 21988,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 280,
+      "minecraft:damage_dealt": 141,
+      "minecraft:play_time": 6737,
+      "minecraft:jump": 22,
+      "minecraft:time_since_death": 38,
+      "minecraft:sprint_one_cm": 3192,
+      "minecraft:fall_one_cm": 850,
+      "minecraft:total_world_time": 6737,
+      "minecraft:fly_one_cm": 269,
+      "minecraft:sneak_time": 1,
+      "minecraft:deaths": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:used": {
+      "minecraft:crafting_table": 1,
+      "minecraft:wooden_pickaxe": 8
+    },
+    "minecraft:picked_up": {
+      "minecraft:cherry_log": 5
+    }
+  },
+  "DataVersion": 4671
+}

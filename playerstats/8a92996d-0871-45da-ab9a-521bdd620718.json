@@ -1,0 +1,32 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:dandelion": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:dandelion": 5,
+      "minecraft:wheat_seeds": 3
+    },
+    "minecraft:killed_by": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 330,
+      "minecraft:walk_one_cm": 5983,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 255,
+      "minecraft:play_time": 1155,
+      "minecraft:damage_dealt": 95,
+      "minecraft:jump": 16,
+      "minecraft:time_since_death": 301,
+      "minecraft:sprint_one_cm": 6912,
+      "minecraft:fall_one_cm": 225,
+      "minecraft:total_world_time": 1155,
+      "minecraft:fly_one_cm": 1879,
+      "minecraft:crouch_one_cm": 141,
+      "minecraft:sneak_time": 23,
+      "minecraft:deaths": 1
+    }
+  },
+  "DataVersion": 4671
+}

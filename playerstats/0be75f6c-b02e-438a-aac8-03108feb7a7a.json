@@ -1,0 +1,45 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:stick": 8,
+      "minecraft:birch_planks": 8,
+      "minecraft:warped_planks": 4,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:warped_roots": 1,
+      "minecraft:stick": 1
+    },
+    "minecraft:mined": {
+      "minecraft:birch_log": 2,
+      "minecraft:warped_stem": 1,
+      "minecraft:grass_block": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 3849,
+      "minecraft:walk_one_cm": 9167,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 3849,
+      "minecraft:jump": 83,
+      "minecraft:time_since_death": 3849,
+      "minecraft:drop": 2,
+      "minecraft:sprint_one_cm": 22208,
+      "minecraft:fall_one_cm": 3465,
+      "minecraft:total_world_time": 3849,
+      "minecraft:fly_one_cm": 18805,
+      "minecraft:crouch_one_cm": 239,
+      "minecraft:sneak_time": 38
+    },
+    "minecraft:used": {
+      "minecraft:dirt": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 1,
+      "minecraft:birch_log": 2,
+      "minecraft:warped_roots": 1,
+      "minecraft:torch": 2,
+      "minecraft:warped_stem": 1
+    }
+  },
+  "DataVersion": 4671
+}

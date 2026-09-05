@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 8246,
+      "minecraft:open_chest": 5,
+      "minecraft:time_since_rest": 4362,
+      "minecraft:fall_one_cm": 5113,
+      "minecraft:walk_one_cm": 2362,
+      "minecraft:total_world_time": 4362,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 28352,
+      "minecraft:damage_taken": 10,
+      "minecraft:play_time": 4362,
+      "minecraft:jump": 94,
+      "minecraft:time_since_death": 4362
+    },
+    "minecraft:mined": {
+      "minecraft:tall_grass": 2,
+      "minecraft:cornflower": 1
+    }
+  },
+  "DataVersion": 4671
+}

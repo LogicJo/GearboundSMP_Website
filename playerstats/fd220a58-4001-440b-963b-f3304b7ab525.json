@@ -1,0 +1,26 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:oak_leaves": 3
+    },
+    "minecraft:killed_by": {
+      "minecraft:skeleton": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 173,
+      "minecraft:walk_one_cm": 1713,
+      "minecraft:leave_game": 2,
+      "minecraft:damage_taken": 270,
+      "minecraft:play_time": 3866,
+      "minecraft:damage_dealt": 34,
+      "minecraft:jump": 11,
+      "minecraft:time_since_death": 148,
+      "minecraft:sprint_one_cm": 1175,
+      "minecraft:fall_one_cm": 950,
+      "minecraft:total_world_time": 3866,
+      "minecraft:fly_one_cm": 1815,
+      "minecraft:deaths": 1
+    }
+  },
+  "DataVersion": 4671
+}

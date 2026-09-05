@@ -1,0 +1,72 @@
+{
+  "stats": {
+    "minecraft:killed_by": {
+      "minecraft:player": 1
+    },
+    "minecraft:mined": {
+      "minecraft:oak_leaves": 3,
+      "minecraft:spruce_sign": 2,
+      "minecraft:dirt": 1,
+      "minecraft:spruce_log": 7,
+      "minecraft:mossy_cobblestone": 12,
+      "minecraft:chest": 1,
+      "minecraft:crafting_table": 3,
+      "minecraft:oak_log": 1,
+      "minecraft:sweet_berry_bush": 1,
+      "minecraft:grass_block": 2,
+      "minecraft:dead_bush": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 2,
+      "minecraft:time_since_rest": 8468,
+      "minecraft:walk_one_cm": 16736,
+      "minecraft:leave_game": 5,
+      "minecraft:walk_under_water_one_cm": 426,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 801,
+      "minecraft:play_time": 9266,
+      "minecraft:damage_dealt": 200,
+      "minecraft:jump": 198,
+      "minecraft:time_since_death": 8394,
+      "minecraft:sprint_one_cm": 19717,
+      "minecraft:open_chest": 1,
+      "minecraft:fall_one_cm": 6875,
+      "minecraft:total_world_time": 9266,
+      "minecraft:fly_one_cm": 49437,
+      "minecraft:walk_on_water_one_cm": 296,
+      "minecraft:crouch_one_cm": 146,
+      "minecraft:sneak_time": 48,
+      "minecraft:deaths": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 8,
+      "minecraft:iron_ingot": 18,
+      "minecraft:spruce_planks": 68,
+      "minecraft:iron_pickaxe": 1,
+      "minecraft:iron_axe": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_log": 7,
+      "minecraft:spruce_sign": 3,
+      "minecraft:sweet_berries": 2,
+      "minecraft:dirt": 3,
+      "minecraft:stick": 2,
+      "minecraft:mossy_cobblestone": 12,
+      "minecraft:crafting_table": 3,
+      "minecraft:chest": 1
+    },
+    "minecraft:killed": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:used": {
+      "minecraft:iron_axe": 11,
+      "minecraft:sweet_berries": 2,
+      "minecraft:crafting_table": 1,
+      "minecraft:iron_pickaxe": 13,
+      "minecraft:diamond_leggings": 1,
+      "minecraft:dirt": 3,
+      "minecraft:diamond_boots": 1
+    }
+  },
+  "DataVersion": 4671
+}

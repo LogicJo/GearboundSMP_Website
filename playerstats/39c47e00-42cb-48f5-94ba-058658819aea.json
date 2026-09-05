@@ -1,0 +1,35 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:spruce_sapling": 1,
+      "minecraft:wheat_seeds": 2,
+      "minecraft:wildflowers": 4
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 5,
+      "minecraft:wildflowers": 1,
+      "minecraft:tall_grass": 11,
+      "minecraft:fern": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:wildflowers": 4
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 3003,
+      "minecraft:walk_one_cm": 848,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 10,
+      "minecraft:play_time": 3003,
+      "minecraft:jump": 158,
+      "minecraft:time_since_death": 3003,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 21060,
+      "minecraft:fall_one_cm": 5100,
+      "minecraft:total_world_time": 3003,
+      "minecraft:fly_one_cm": 54353,
+      "minecraft:crouch_one_cm": 90,
+      "minecraft:sneak_time": 51
+    }
+  },
+  "DataVersion": 4671
+}

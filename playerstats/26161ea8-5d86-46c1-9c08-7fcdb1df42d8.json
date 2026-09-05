@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:spruce_leaves": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 875,
+      "minecraft:walk_one_cm": 1143,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 20,
+      "minecraft:play_time": 875,
+      "minecraft:jump": 25,
+      "minecraft:time_since_death": 875,
+      "minecraft:sprint_one_cm": 1406,
+      "minecraft:fall_one_cm": 975,
+      "minecraft:total_world_time": 875,
+      "minecraft:fly_one_cm": 2641,
+      "minecraft:crouch_one_cm": 6,
+      "minecraft:sneak_time": 37
+    }
+  },
+  "DataVersion": 4671
+}

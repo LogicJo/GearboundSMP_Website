@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:birch_sign": 4,
+      "minecraft:dirt": 7,
+      "minecraft:grass_block": 8
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 2024,
+      "minecraft:time_since_rest": 2092,
+      "minecraft:fall_one_cm": 900,
+      "minecraft:walk_one_cm": 7044,
+      "minecraft:total_world_time": 2092,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 5849,
+      "minecraft:play_time": 2092,
+      "minecraft:jump": 42,
+      "minecraft:time_since_death": 2092
+    },
+    "minecraft:used": {
+      "minecraft:dirt": 14
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 14,
+      "minecraft:birch_sign": 4
+    }
+  },
+  "DataVersion": 4671
+}

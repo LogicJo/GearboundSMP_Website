@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:dirt": 1,
+      "minecraft:spruce_leaves": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 1
+    },
+    "minecraft:used": {
+      "minecraft:dirt": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 5458,
+      "minecraft:fall_one_cm": 225,
+      "minecraft:walk_one_cm": 1691,
+      "minecraft:total_world_time": 5458,
+      "minecraft:leave_game": 4,
+      "minecraft:play_time": 5458,
+      "minecraft:jump": 9,
+      "minecraft:time_since_death": 5458
+    }
+  },
+  "DataVersion": 4671
+}

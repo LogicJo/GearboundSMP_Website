@@ -1,0 +1,35 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:zombie": 2
+    },
+    "minecraft:mined": {
+      "minecraft:powder_snow": 1,
+      "minecraft:oak_log": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:oak_log": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1351,
+      "minecraft:walk_one_cm": 1395,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 2,
+      "minecraft:damage_taken": 75,
+      "minecraft:play_time": 1351,
+      "minecraft:damage_dealt": 354,
+      "minecraft:jump": 54,
+      "minecraft:time_since_death": 1351,
+      "minecraft:sprint_one_cm": 3396,
+      "minecraft:fall_one_cm": 2025,
+      "minecraft:total_world_time": 1351,
+      "minecraft:fly_one_cm": 2727
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 4,
+      "minecraft:oak_planks": 8,
+      "minecraft:crafting_table": 1
+    }
+  },
+  "DataVersion": 4671
+}

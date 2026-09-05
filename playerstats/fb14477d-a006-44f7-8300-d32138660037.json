@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:iron_helmet": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 2764,
+      "minecraft:walk_one_cm": 2813,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 70,
+      "minecraft:play_time": 2764,
+      "minecraft:jump": 128,
+      "minecraft:time_since_death": 2764,
+      "minecraft:interact_with_furnace": 5,
+      "minecraft:sprint_one_cm": 7600,
+      "minecraft:open_chest": 10,
+      "minecraft:fall_one_cm": 5931,
+      "minecraft:total_world_time": 2764,
+      "minecraft:fly_one_cm": 36778,
+      "minecraft:crouch_one_cm": 163,
+      "minecraft:sneak_time": 22
+    }
+  },
+  "DataVersion": 4671
+}

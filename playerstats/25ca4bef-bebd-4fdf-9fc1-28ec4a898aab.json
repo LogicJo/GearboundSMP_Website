@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 2638,
+      "minecraft:time_since_rest": 1846,
+      "minecraft:fall_one_cm": 2125,
+      "minecraft:walk_one_cm": 1218,
+      "minecraft:total_world_time": 1846,
+      "minecraft:leave_game": 2,
+      "minecraft:fly_one_cm": 8910,
+      "minecraft:damage_taken": 60,
+      "minecraft:play_time": 1846,
+      "minecraft:jump": 39,
+      "minecraft:time_since_death": 1846,
+      "minecraft:drop": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:cherry_sign": 1
+    },
+    "minecraft:mined": {
+      "minecraft:cherry_wall_sign": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:cherry_sign": 1
+    }
+  },
+  "DataVersion": 4671
+}

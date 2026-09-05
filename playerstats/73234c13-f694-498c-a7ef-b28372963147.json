@@ -1,0 +1,67 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:tuff": 23,
+      "minecraft:deepslate": 69,
+      "minecraft:dirt": 7,
+      "minecraft:deepslate_lapis_ore": 4,
+      "minecraft:deepslate_diamond_ore": 21,
+      "minecraft:deepslate_redstone_ore": 6,
+      "minecraft:grass_block": 5,
+      "minecraft:deepslate_gold_ore": 5
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 12,
+      "minecraft:stick": 1,
+      "minecraft:diamond_helmet": 1,
+      "minecraft:diamond_boots": 1,
+      "minecraft:redstone": 28,
+      "minecraft:cobbled_deepslate": 69,
+      "minecraft:diamond_chestplate": 1,
+      "minecraft:tuff": 22,
+      "minecraft:raw_gold": 5,
+      "minecraft:diamond": 21,
+      "minecraft:lapis_lazuli": 25,
+      "minecraft:diamond_leggings": 1,
+      "minecraft:glow_ink_sac": 3
+    },
+    "minecraft:used": {
+      "minecraft:elytra": 28,
+      "minecraft:cobbled_deepslate": 2,
+      "minecraft:wind_charge": 1,
+      "minecraft:iron_pickaxe": 128,
+      "minecraft:bread": 9,
+      "minecraft:dirt": 9,
+      "minecraft:ender_pearl": 3,
+      "minecraft:firework_rocket": 40,
+      "minecraft:diamond_chestplate": 27
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 98006,
+      "minecraft:walk_one_cm": 31932,
+      "minecraft:leave_game": 9,
+      "minecraft:walk_under_water_one_cm": 1374,
+      "minecraft:damage_taken": 600,
+      "minecraft:play_time": 104819,
+      "minecraft:damage_dealt": 20,
+      "minecraft:jump": 586,
+      "minecraft:time_since_death": 97973,
+      "minecraft:aviate_one_cm": 827874,
+      "minecraft:drop": 8,
+      "minecraft:sprint_one_cm": 74787,
+      "minecraft:open_chest": 9,
+      "minecraft:fall_one_cm": 25796,
+      "minecraft:total_world_time": 104819,
+      "minecraft:swim_one_cm": 2987,
+      "minecraft:fly_one_cm": 142144,
+      "minecraft:walk_on_water_one_cm": 5229,
+      "minecraft:crouch_one_cm": 969,
+      "minecraft:sneak_time": 497,
+      "minecraft:deaths": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:bread": 8
+    }
+  },
+  "DataVersion": 4671
+}

@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:dirt": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 209,
+      "minecraft:walk_one_cm": 41,
+      "minecraft:total_world_time": 209,
+      "minecraft:leave_game": 1,
+      "minecraft:crouch_one_cm": 17,
+      "minecraft:sneak_time": 62,
+      "minecraft:play_time": 209,
+      "minecraft:time_since_death": 209
+    }
+  },
+  "DataVersion": 4671
+}

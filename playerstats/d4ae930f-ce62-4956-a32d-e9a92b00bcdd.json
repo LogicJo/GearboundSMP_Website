@@ -1,0 +1,46 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:leaf_litter": 7,
+      "minecraft:torch": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:leaf_litter": 7
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1870,
+      "minecraft:walk_one_cm": 6281,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 430,
+      "minecraft:damage_taken": 400,
+      "minecraft:damage_dealt": 43,
+      "minecraft:play_time": 4748,
+      "minecraft:jump": 283,
+      "minecraft:time_since_death": 1846,
+      "minecraft:drop": 7,
+      "minecraft:interact_with_furnace": 7,
+      "minecraft:sprint_one_cm": 20298,
+      "minecraft:open_chest": 5,
+      "minecraft:fall_one_cm": 16807,
+      "minecraft:swim_one_cm": 2047,
+      "minecraft:total_world_time": 4748,
+      "minecraft:fly_one_cm": 59971,
+      "minecraft:walk_on_water_one_cm": 76,
+      "minecraft:crouch_one_cm": 856,
+      "minecraft:sneak_time": 180,
+      "minecraft:deaths": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 5,
+      "minecraft:wall_torch": 1,
+      "minecraft:leaf_litter": 3,
+      "minecraft:birch_leaves": 2
+    },
+    "minecraft:used": {
+      "minecraft:cobbled_deepslate": 37,
+      "minecraft:torch": 1,
+      "minecraft:cobblestone": 9
+    }
+  },
+  "DataVersion": 4671
+}

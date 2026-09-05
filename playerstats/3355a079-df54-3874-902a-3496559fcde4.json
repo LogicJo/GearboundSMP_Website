@@ -1,0 +1,15 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:spruce_door": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 2132821,
+      "minecraft:total_world_time": 2132821,
+      "minecraft:sneak_time": 1740010,
+      "minecraft:play_time": 2132821,
+      "minecraft:time_since_death": 2132821
+    }
+  },
+  "DataVersion": 4671
+}

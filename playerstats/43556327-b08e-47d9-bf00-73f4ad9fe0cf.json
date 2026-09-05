@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 249,
+      "minecraft:walk_one_cm": 38,
+      "minecraft:total_world_time": 762,
+      "minecraft:leave_game": 2,
+      "minecraft:damage_taken": 315,
+      "minecraft:sneak_time": 8,
+      "minecraft:play_time": 762,
+      "minecraft:deaths": 1,
+      "minecraft:jump": 3,
+      "minecraft:time_since_death": 218
+    },
+    "minecraft:mined": {
+      "minecraft:torch": 2,
+      "minecraft:grass_block": 2
+    },
+    "minecraft:killed_by": {
+      "minecraft:enderman": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 2
+    }
+  },
+  "DataVersion": 4671
+}

@@ -1,0 +1,68 @@
+{
+  "stats": {
+    "minecraft:killed_by": {
+      "minecraft:player": 3,
+      "minecraft:spider": 1,
+      "minecraft:zombie": 1
+    },
+    "minecraft:used": {
+      "minecraft:sand": 1,
+      "minecraft:netherrack": 20,
+      "minecraft:spruce_boat": 1,
+      "minecraft:crafting_table": 2,
+      "minecraft:copper_helmet": 2,
+      "minecraft:dirt": 15,
+      "minecraft:oak_boat": 1,
+      "minecraft:golden_carrot": 2
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 2,
+      "minecraft:time_since_rest": 3951,
+      "minecraft:walk_one_cm": 32789,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 3036,
+      "minecraft:damage_taken": 1761,
+      "minecraft:boat_one_cm": 19,
+      "minecraft:play_time": 18307,
+      "minecraft:damage_dealt": 50,
+      "minecraft:jump": 333,
+      "minecraft:time_since_death": 3925,
+      "minecraft:interact_with_furnace": 4,
+      "minecraft:sprint_one_cm": 22653,
+      "minecraft:open_chest": 5,
+      "minecraft:fall_one_cm": 12825,
+      "minecraft:total_world_time": 18307,
+      "minecraft:swim_one_cm": 10772,
+      "minecraft:fly_one_cm": 40326,
+      "minecraft:walk_on_water_one_cm": 6171,
+      "minecraft:crouch_one_cm": 169,
+      "minecraft:sneak_time": 222,
+      "minecraft:climb_one_cm": 49,
+      "minecraft:deaths": 5
+    },
+    "minecraft:crafted": {
+      "minecraft:oak_boat": 1,
+      "minecraft:spruce_boat": 1,
+      "minecraft:oak_planks": 16,
+      "minecraft:spruce_planks": 12,
+      "minecraft:crafting_table": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_log": 3,
+      "minecraft:dirt": 22,
+      "minecraft:oak_log": 4,
+      "minecraft:copper_helmet": 2,
+      "minecraft:sand": 1,
+      "minecraft:golden_carrot": 18
+    },
+    "minecraft:mined": {
+      "minecraft:sand": 1,
+      "minecraft:oak_leaves": 4,
+      "minecraft:dirt": 17,
+      "minecraft:spruce_log": 3,
+      "minecraft:oak_log": 4,
+      "minecraft:grass_block": 6
+    }
+  },
+  "DataVersion": 4671
+}

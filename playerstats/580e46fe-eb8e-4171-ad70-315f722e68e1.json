@@ -1,0 +1,57 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:pink_glazed_terracotta": 7,
+      "minecraft:air": 0
+    },
+    "minecraft:picked_up": {
+      "minecraft:egg": 1,
+      "minecraft:oak_log": 3,
+      "minecraft:mangrove_roots": 1,
+      "minecraft:feather": 1,
+      "minecraft:chicken": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:feather": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 1861,
+      "minecraft:walk_one_cm": 13350,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 1,
+      "minecraft:walk_under_water_one_cm": 2161,
+      "minecraft:damage_taken": 420,
+      "minecraft:damage_dealt": 40,
+      "minecraft:play_time": 7955,
+      "minecraft:jump": 300,
+      "minecraft:time_since_death": 1838,
+      "minecraft:drop": 1,
+      "minecraft:interact_with_furnace": 3,
+      "minecraft:sprint_one_cm": 39470,
+      "minecraft:open_chest": 3,
+      "minecraft:fall_one_cm": 15718,
+      "minecraft:swim_one_cm": 9427,
+      "minecraft:total_world_time": 7955,
+      "minecraft:fly_one_cm": 66563,
+      "minecraft:walk_on_water_one_cm": 6292,
+      "minecraft:crouch_one_cm": 78,
+      "minecraft:sneak_time": 98,
+      "minecraft:deaths": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 1,
+      "minecraft:mangrove_roots": 1,
+      "minecraft:oak_log": 3
+    },
+    "minecraft:used": {
+      "minecraft:chicken": 1,
+      "minecraft:mangrove_roots": 1,
+      "minecraft:egg": 1
+    },
+    "minecraft:killed": {
+      "minecraft:chicken": 1
+    }
+  },
+  "DataVersion": 4671
+}

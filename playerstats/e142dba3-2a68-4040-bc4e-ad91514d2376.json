@@ -1,0 +1,18 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:grass_block": 4
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 314,
+      "minecraft:total_world_time": 314,
+      "minecraft:leave_game": 3,
+      "minecraft:play_time": 314,
+      "minecraft:time_since_death": 314
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 4
+    }
+  },
+  "DataVersion": 4671
+}

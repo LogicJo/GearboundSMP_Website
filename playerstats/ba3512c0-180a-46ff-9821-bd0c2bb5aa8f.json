@@ -1,0 +1,51 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:crafting_table": 1,
+      "minecraft:birch_boat": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:stone_bricks": 4,
+      "minecraft:birch_planks": 9,
+      "minecraft:shroomlight": 1,
+      "minecraft:leather": 2,
+      "minecraft:birch_boat": 2
+    },
+    "minecraft:crafted": {
+      "minecraft:birch_boat": 1,
+      "minecraft:spruce_boat": 1,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 2,
+      "minecraft:time_since_rest": 2663,
+      "minecraft:walk_one_cm": 12900,
+      "minecraft:leave_game": 2,
+      "minecraft:damage_taken": 470,
+      "minecraft:boat_one_cm": 29941,
+      "minecraft:play_time": 7752,
+      "minecraft:jump": 130,
+      "minecraft:time_since_death": 2638,
+      "minecraft:drop": 2,
+      "minecraft:sprint_one_cm": 11690,
+      "minecraft:open_chest": 5,
+      "minecraft:fall_one_cm": 12425,
+      "minecraft:total_world_time": 7752,
+      "minecraft:fly_one_cm": 25881,
+      "minecraft:walk_on_water_one_cm": 393,
+      "minecraft:crouch_one_cm": 888,
+      "minecraft:sneak_time": 400,
+      "minecraft:deaths": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:stone_bricks": 4,
+      "minecraft:leather": 2
+    },
+    "minecraft:mined": {
+      "minecraft:shroomlight": 1,
+      "minecraft:chest": 2,
+      "minecraft:birch_planks": 9
+    }
+  },
+  "DataVersion": 4671
+}

@@ -1,0 +1,26 @@
+{
+  "stats": {
+    "minecraft:killed_by": {
+      "minecraft:player": 3,
+      "minecraft:zombie": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 3477973,
+      "minecraft:total_world_time": 8024198,
+      "minecraft:leave_game": 5,
+      "minecraft:damage_taken": 1987,
+      "minecraft:sneak_time": 3434237,
+      "minecraft:play_time": 8024198,
+      "minecraft:deaths": 4,
+      "minecraft:time_since_death": 3477973
+    },
+    "minecraft:picked_up": {
+      "minecraft:totem_of_undying": 1,
+      "minecraft:deepslate_bricks": 1
+    },
+    "minecraft:used": {
+      "minecraft:totem_of_undying": 1
+    }
+  },
+  "DataVersion": 4671
+}
