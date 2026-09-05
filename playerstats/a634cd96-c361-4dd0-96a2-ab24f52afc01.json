@@ -1,0 +1,75 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:stone_axe": 3,
+      "minecraft:crafting_table": 2,
+      "minecraft:shield": 1,
+      "minecraft:diorite": 5,
+      "minecraft:wooden_pickaxe": 6,
+      "minecraft:iron_pickaxe": 52,
+      "minecraft:furnace": 1,
+      "minecraft:stone_pickaxe": 66,
+      "minecraft:cobblestone": 18
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_log": 6,
+      "minecraft:diorite": 10,
+      "minecraft:coal": 55,
+      "minecraft:cobblestone": 63,
+      "minecraft:furnace": 1,
+      "minecraft:crafting_table": 2,
+      "minecraft:iron_ingot": 1,
+      "minecraft:raw_iron": 5
+    },
+    "minecraft:crafted": {
+      "minecraft:furnace": 1,
+      "minecraft:stick": 8,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:iron_ingot": 5,
+      "minecraft:shield": 1,
+      "minecraft:stone_axe": 1,
+      "minecraft:spruce_planks": 24,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:iron_pickaxe": 1,
+      "minecraft:air": 0,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:killed": {
+      "minecraft:skeleton": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 8,
+      "minecraft:damage_blocked_by_shield": 60,
+      "minecraft:time_since_rest": 10718,
+      "minecraft:walk_one_cm": 5265,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 190,
+      "minecraft:play_time": 10718,
+      "minecraft:damage_dealt": 200,
+      "minecraft:jump": 89,
+      "minecraft:time_since_death": 10718,
+      "minecraft:drop": 1,
+      "minecraft:interact_with_furnace": 6,
+      "minecraft:sprint_one_cm": 16990,
+      "minecraft:fall_one_cm": 2500,
+      "minecraft:total_world_time": 10718,
+      "minecraft:fly_one_cm": 11929,
+      "minecraft:crouch_one_cm": 13,
+      "minecraft:sneak_time": 5
+    },
+    "minecraft:dropped": {
+      "minecraft:iron_ingot": 1
+    },
+    "minecraft:mined": {
+      "minecraft:furnace": 1,
+      "minecraft:spruce_log": 6,
+      "minecraft:crafting_table": 2,
+      "minecraft:diorite": 12,
+      "minecraft:coal_ore": 39,
+      "minecraft:spruce_leaves": 6,
+      "minecraft:iron_ore": 5,
+      "minecraft:stone": 67
+    }
+  },
+  "DataVersion": 4671
+}
