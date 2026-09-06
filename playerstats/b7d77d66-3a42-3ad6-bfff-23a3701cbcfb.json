@@ -1,11 +1,11 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 21156,
-      "minecraft:total_world_time": 21156,
+      "minecraft:time_since_rest": 57156,
+      "minecraft:total_world_time": 57156,
       "minecraft:damage_taken": 100,
-      "minecraft:play_time": 21156,
-      "minecraft:time_since_death": 21156
+      "minecraft:play_time": 57156,
+      "minecraft:time_since_death": 57156
     },
     "minecraft:picked_up": {
       "minecraft:diamond_chestplate": 1,

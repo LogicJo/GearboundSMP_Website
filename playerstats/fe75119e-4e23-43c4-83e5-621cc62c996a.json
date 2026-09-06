@@ -1,13 +1,57 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:sprint_one_cm": 389,
-      "minecraft:time_since_rest": 361,
-      "minecraft:walk_one_cm": 344,
-      "minecraft:total_world_time": 361,
-      "minecraft:play_time": 361,
-      "minecraft:jump": 1,
-      "minecraft:time_since_death": 361
+      "minecraft:interact_with_crafting_table": 2,
+      "minecraft:time_since_rest": 17013,
+      "minecraft:walk_one_cm": 847424,
+      "minecraft:leave_game": 2,
+      "minecraft:mob_kills": 7,
+      "minecraft:damage_taken": 162,
+      "minecraft:damage_dealt": 850,
+      "minecraft:play_time": 17013,
+      "minecraft:jump": 75,
+      "minecraft:time_since_death": 17013,
+      "minecraft:open_enderchest": 1,
+      "minecraft:interact_with_furnace": 1,
+      "minecraft:sprint_one_cm": 73819,
+      "minecraft:open_chest": 18,
+      "minecraft:fall_one_cm": 6529,
+      "minecraft:total_world_time": 17013,
+      "minecraft:fly_one_cm": 89638,
+      "minecraft:sneak_time": 15
+    },
+    "minecraft:used": {
+      "minecraft:iron_pickaxe": 61,
+      "minecraft:beef": 6,
+      "minecraft:iron_sword": 17,
+      "minecraft:cobblestone": 12
+    },
+    "minecraft:picked_up": {
+      "minecraft:egg": 3,
+      "minecraft:dirt": 6,
+      "minecraft:cobblestone": 50,
+      "minecraft:feather": 2,
+      "minecraft:chicken": 2,
+      "minecraft:gravel": 4,
+      "minecraft:leather": 5,
+      "minecraft:beef": 8
+    },
+    "minecraft:killed": {
+      "minecraft:chicken": 2,
+      "minecraft:cow": 4,
+      "minecraft:spider": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:iron_helmet": 1
+    },
+    "minecraft:mined": {
+      "minecraft:gravel": 4,
+      "minecraft:short_grass": 1,
+      "minecraft:yellow_stained_glass": 1,
+      "minecraft:dirt": 5,
+      "minecraft:grass_block": 1,
+      "minecraft:cobblestone": 6,
+      "minecraft:stone": 44
     }
   },
   "DataVersion": 4671
