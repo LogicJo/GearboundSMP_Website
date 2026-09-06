@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "minecraft:killed_by": {
+      "minecraft:skeleton": 1
+    },
+    "minecraft:used": {
+      "minecraft:stone_axe": 9,
+      "minecraft:stone_spear": 2,
+      "minecraft:cobbled_deepslate": 39,
+      "minecraft:wooden_spear": 1,
+      "minecraft:wooden_pickaxe": 10,
+      "minecraft:iron_pickaxe": 8,
+      "minecraft:cooked_chicken": 1,
+      "minecraft:cobblestone": 2,
+      "minecraft:wooden_axe": 22,
+      "minecraft:diamond_pickaxe": 325,
+      "minecraft:crafting_table": 11,
+      "minecraft:oak_planks": 9,
+      "minecraft:furnace": 3,
+      "minecraft:stone_pickaxe": 106
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 19,
+      "minecraft:time_since_rest": 16191,
+      "minecraft:walk_under_water_one_cm": 5934,
+      "minecraft:mob_kills": 3,
+      "minecraft:damage_taken": 310,
+      "minecraft:play_time": 23262,
+      "minecraft:damage_dealt": 440,
+      "minecraft:jump": 196,
+      "minecraft:time_since_death": 16156,
+      "minecraft:interact_with_furnace": 13,
+      "minecraft:open_chest": 1,
+      "minecraft:total_world_time": 23262,
+      "minecraft:swim_one_cm": 3478,
+      "minecraft:fly_one_cm": 617531,
+      "minecraft:sneak_time": 1056,
+      "minecraft:deaths": 1,
+      "minecraft:player_kills": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:furnace": 3,
+      "minecraft:stone_spear": 1,
+      "minecraft:wooden_axe": 2,
+      "minecraft:iron_ingot": 6,
+      "minecraft:cooked_chicken": 1,
+      "minecraft:stone_pickaxe": 2,
+      "minecraft:crafting_table": 8,
+      "minecraft:stick": 28,
+      "minecraft:wooden_pickaxe": 2,
+      "minecraft:stone_axe": 2,
+      "minecraft:oak_planks": 112,
+      "minecraft:spruce_planks": 12,
+      "minecraft:diamond_pickaxe": 1,
+      "minecraft:iron_pickaxe": 2,
+      "minecraft:air": 0,
+      "minecraft:wooden_spear": 1
+    },
+    "minecraft:killed": {
+      "minecraft:chicken": 1,
+      "minecraft:cow": 2,
+      "minecraft:player": 1
+    },
+    "minecraft:mined": {
+      "minecraft:granite": 14,
+      "minecraft:spruce_log": 3,
+      "minecraft:coal_ore": 9,
+      "minecraft:cobblestone": 5,
+      "minecraft:cobbled_deepslate": 1,
+      "minecraft:gravel": 1,
+      "minecraft:tuff": 31,
+      "minecraft:deepslate": 171,
+      "minecraft:furnace": 1,
+      "minecraft:deepslate_diamond_ore": 46,
+      "minecraft:deepslate_iron_ore": 4,
+      "minecraft:crafting_table": 5,
+      "minecraft:oak_log": 28,
+      "minecraft:large_fern": 1,
+      "minecraft:iron_ore": 4,
+      "minecraft:stone": 162
+    },
+    "minecraft:picked_up": {
+      "minecraft:cobblestone": 165,
+      "minecraft:feather": 2,
+      "minecraft:oak_planks": 3,
+      "minecraft:chicken": 1,
+      "minecraft:gravel": 1,
+      "minecraft:leather": 3,
+      "minecraft:crafting_table": 5,
+      "minecraft:beef": 5,
+      "minecraft:cobbled_deepslate": 168,
+      "minecraft:raw_iron": 9,
+      "minecraft:spruce_log": 3,
+      "minecraft:tuff": 31,
+      "minecraft:coal": 9,
+      "minecraft:oak_log": 28,
+      "minecraft:furnace": 1,
+      "minecraft:diamond": 46,
+      "minecraft:granite": 14
+    }
+  },
+  "DataVersion": 4671
+}
