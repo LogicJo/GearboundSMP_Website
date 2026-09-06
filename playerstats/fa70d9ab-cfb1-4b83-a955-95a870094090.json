@@ -1,57 +1,91 @@
 {
   "stats": {
     "minecraft:used": {
+      "minecraft:diamond_helmet": 2,
+      "minecraft:carrot": 10,
+      "minecraft:crafting_table": 2,
+      "minecraft:netherite_chestplate": 1,
       "minecraft:diorite": 1,
       "minecraft:andesite": 1,
       "minecraft:egg": 1,
-      "minecraft:dirt": 44
+      "minecraft:diamond_leggings": 3,
+      "minecraft:dirt": 45,
+      "minecraft:diamond_chestplate": 2,
+      "minecraft:diamond_boots": 2
     },
     "minecraft:killed_by": {
-      "minecraft:player": 2,
+      "minecraft:player": 4,
       "minecraft:creeper": 1,
-      "minecraft:enderman": 1
+      "minecraft:enderman": 1,
+      "minecraft:zombie": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 2355,
-      "minecraft:walk_one_cm": 42419,
-      "minecraft:mob_kills": 1,
+      "minecraft:interact_with_crafting_table": 6,
+      "minecraft:time_since_rest": 2003,
+      "minecraft:walk_one_cm": 76831,
+      "minecraft:leave_game": 1,
       "minecraft:walk_under_water_one_cm": 3999,
-      "minecraft:damage_taken": 1827,
-      "minecraft:damage_dealt": 620,
-      "minecraft:play_time": 22029,
-      "minecraft:jump": 712,
-      "minecraft:time_since_death": 2331,
-      "minecraft:interact_with_furnace": 6,
-      "minecraft:sprint_one_cm": 34723,
-      "minecraft:open_chest": 1,
-      "minecraft:fall_one_cm": 23262,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 2820,
+      "minecraft:play_time": 42932,
+      "minecraft:damage_dealt": 809,
+      "minecraft:jump": 1375,
+      "minecraft:time_since_death": 1977,
+      "minecraft:open_enderchest": 1,
+      "minecraft:interact_with_furnace": 12,
+      "minecraft:sprint_one_cm": 62623,
+      "minecraft:open_chest": 2,
+      "minecraft:fall_one_cm": 46375,
+      "minecraft:total_world_time": 42932,
       "minecraft:swim_one_cm": 7712,
-      "minecraft:total_world_time": 22029,
-      "minecraft:fly_one_cm": 103816,
+      "minecraft:fly_one_cm": 216995,
       "minecraft:walk_on_water_one_cm": 6353,
       "minecraft:crouch_one_cm": 740,
       "minecraft:sneak_time": 509,
       "minecraft:climb_one_cm": 60,
-      "minecraft:deaths": 5
+      "minecraft:deaths": 8
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 8,
+      "minecraft:oak_planks": 20,
+      "minecraft:diamond_pickaxe": 1,
+      "minecraft:diamond_chestplate": 1,
+      "minecraft:crafting_table": 1,
+      "minecraft:diamond_leggings": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 26,
+      "minecraft:tall_grass": 3,
+      "minecraft:fire": 1,
+      "minecraft:oak_leaves": 12,
+      "minecraft:dirt": 48,
+      "minecraft:crafting_table": 3,
+      "minecraft:oak_log": 5,
+      "minecraft:grass_block": 9
     },
     "minecraft:killed": {
       "minecraft:enderman": 1
     },
-    "minecraft:mined": {
-      "minecraft:short_grass": 19,
-      "minecraft:fire": 1,
-      "minecraft:dirt": 47,
-      "minecraft:crafting_table": 1,
-      "minecraft:grass_block": 6
-    },
     "minecraft:picked_up": {
       "minecraft:egg": 1,
+      "minecraft:carrot": 9,
       "minecraft:diorite": 5,
-      "minecraft:dirt": 52,
-      "minecraft:wheat_seeds": 1,
+      "minecraft:dirt": 73,
+      "minecraft:oak_planks": 12,
+      "minecraft:diamond_helmet": 2,
+      "minecraft:chicken": 2,
+      "minecraft:diamond_boots": 2,
+      "minecraft:netherite_chestplate": 1,
       "minecraft:warped_roots": 1,
-      "minecraft:crafting_table": 1,
-      "minecraft:andesite": 2
+      "minecraft:crafting_table": 4,
+      "minecraft:diamond_pickaxe": 1,
+      "minecraft:andesite": 2,
+      "minecraft:diamond_chestplate": 2,
+      "minecraft:oak_log": 5,
+      "minecraft:wheat_seeds": 2,
+      "minecraft:diamond": 18,
+      "minecraft:netherite_upgrade_smithing_template": 1,
+      "minecraft:diamond_leggings": 2
     }
   },
   "DataVersion": 4671
