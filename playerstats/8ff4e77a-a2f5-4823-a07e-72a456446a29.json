@@ -1,0 +1,33 @@
+{
+  "stats": {
+    "minecraft:dropped": {
+      "minecraft:dirt": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 5
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 7153,
+      "minecraft:walk_one_cm": 1388859,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 7153,
+      "minecraft:jump": 58,
+      "minecraft:time_since_death": 7153,
+      "minecraft:drop": 1,
+      "minecraft:open_chest": 6,
+      "minecraft:total_world_time": 7153,
+      "minecraft:fly_one_cm": 16213,
+      "minecraft:crouch_one_cm": 113973,
+      "minecraft:sneak_time": 432,
+      "minecraft:climb_one_cm": 90
+    },
+    "minecraft:mined": {
+      "minecraft:dirt": 5
+    },
+    "minecraft:used": {
+      "minecraft:dirt": 1
+    }
+  },
+  "DataVersion": 4671
+}
