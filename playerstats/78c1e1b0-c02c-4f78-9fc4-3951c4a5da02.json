@@ -1,0 +1,34 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:shroomlight": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 853,
+      "minecraft:walk_one_cm": 11207,
+      "minecraft:walk_under_water_one_cm": 1233,
+      "minecraft:damage_taken": 340,
+      "minecraft:play_time": 3471,
+      "minecraft:damage_dealt": 155,
+      "minecraft:jump": 122,
+      "minecraft:time_since_death": 830,
+      "minecraft:interact_with_furnace": 2,
+      "minecraft:sprint_one_cm": 11373,
+      "minecraft:fall_one_cm": 7150,
+      "minecraft:swim_one_cm": 1516,
+      "minecraft:total_world_time": 3471,
+      "minecraft:fly_one_cm": 19285,
+      "minecraft:crouch_one_cm": 189,
+      "minecraft:walk_on_water_one_cm": 94,
+      "minecraft:sneak_time": 139,
+      "minecraft:deaths": 1
+    },
+    "minecraft:mined": {
+      "minecraft:shroomlight": 2
+    },
+    "minecraft:used": {
+      "minecraft:shroomlight": 2
+    }
+  },
+  "DataVersion": 4671
+}
