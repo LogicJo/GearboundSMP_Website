@@ -1,0 +1,67 @@
+{
+  "stats": {
+    "minecraft:killed_by": {
+      "minecraft:creeper": 1,
+      "minecraft:zombie": 1
+    },
+    "minecraft:killed": {
+      "minecraft:skeleton": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_planks": 16,
+      "minecraft:spruce_log": 4,
+      "minecraft:sweet_berries": 68,
+      "minecraft:dirt": 35,
+      "minecraft:spruce_sapling": 4,
+      "minecraft:wildflowers": 1,
+      "minecraft:wooden_spear": 4
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 3,
+      "minecraft:time_since_rest": 12376,
+      "minecraft:walk_one_cm": 4457939,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 2,
+      "minecraft:walk_under_water_one_cm": 1451,
+      "minecraft:damage_taken": 866,
+      "minecraft:damage_dealt": 400,
+      "minecraft:play_time": 22434,
+      "minecraft:jump": 92,
+      "minecraft:time_since_death": 12339,
+      "minecraft:interact_with_furnace": 1,
+      "minecraft:sprint_one_cm": 9811,
+      "minecraft:open_chest": 8,
+      "minecraft:fall_one_cm": 72208,
+      "minecraft:total_world_time": 22434,
+      "minecraft:fly_one_cm": 62449,
+      "minecraft:walk_on_water_one_cm": 1991,
+      "minecraft:crouch_one_cm": 5981,
+      "minecraft:sneak_time": 172,
+      "minecraft:deaths": 2
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 4,
+      "minecraft:spruce_planks": 16,
+      "minecraft:crafting_table": 1,
+      "minecraft:wooden_spear": 2
+    },
+    "minecraft:mined": {
+      "minecraft:yellow_stained_glass_pane": 1,
+      "minecraft:spruce_log": 4,
+      "minecraft:leaf_litter": 1,
+      "minecraft:sweet_berry_bush": 7,
+      "minecraft:red_stained_glass_pane": 1,
+      "minecraft:spruce_leaves": 2
+    },
+    "minecraft:used": {
+      "minecraft:sweet_berries": 13,
+      "minecraft:wildflowers": 1,
+      "minecraft:spruce_planks": 1,
+      "minecraft:crafting_table": 1,
+      "minecraft:wooden_spear": 2,
+      "minecraft:spruce_sapling": 2,
+      "minecraft:dirt": 1
+    }
+  },
+  "DataVersion": 4671
+}
