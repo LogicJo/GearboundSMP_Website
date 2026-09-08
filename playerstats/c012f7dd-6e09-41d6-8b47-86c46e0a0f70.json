@@ -262,14 +262,14 @@
       "minecraft:cracked_stone_bricks": 6
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 94604,
+      "minecraft:time_since_rest": 130604,
       "minecraft:leave_game": 55,
       "minecraft:damage_taken": 33575,
       "minecraft:mob_kills": 104,
       "minecraft:boat_one_cm": 1462866,
       "minecraft:damage_absorbed": 99,
       "minecraft:open_shulker_box": 46,
-      "minecraft:time_since_death": 179715,
+      "minecraft:time_since_death": 215715,
       "minecraft:aviate_one_cm": 528676,
       "minecraft:open_enderchest": 87,
       "minecraft:interact_with_brewingstand": 3,
@@ -277,7 +277,7 @@
       "minecraft:sleep_in_bed": 5,
       "minecraft:happy_ghast_one_cm": 20833552,
       "minecraft:swim_one_cm": 438002,
-      "minecraft:total_world_time": 2436778,
+      "minecraft:total_world_time": 2472778,
       "minecraft:crouch_one_cm": 93339,
       "minecraft:climb_one_cm": 26962,
       "minecraft:deaths": 85,
@@ -287,7 +287,7 @@
       "minecraft:walk_one_cm": 3142030,
       "minecraft:walk_under_water_one_cm": 154470,
       "minecraft:damage_dealt": 18100,
-      "minecraft:play_time": 2436778,
+      "minecraft:play_time": 2472778,
       "minecraft:jump": 24464,
       "minecraft:drop": 359,
       "minecraft:bell_ring": 17,
@@ -299,7 +299,7 @@
       "minecraft:fly_one_cm": 5361255,
       "minecraft:interact_with_anvil": 3,
       "minecraft:walk_on_water_one_cm": 140180,
-      "minecraft:sneak_time": 89343
+      "minecraft:sneak_time": 125343
     },
     "minecraft:broken": {
       "minecraft:iron_axe": 1,
