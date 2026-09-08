@@ -1,0 +1,34 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:apple": 1,
+      "minecraft:dirt": 4,
+      "minecraft:oak_log": 4
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 3829,
+      "minecraft:walk_one_cm": 4937,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 3829,
+      "minecraft:jump": 61,
+      "minecraft:time_since_death": 3829,
+      "minecraft:sprint_one_cm": 6076,
+      "minecraft:open_chest": 1,
+      "minecraft:fall_one_cm": 1575,
+      "minecraft:total_world_time": 3829,
+      "minecraft:fly_one_cm": 6408,
+      "minecraft:crouch_one_cm": 1050,
+      "minecraft:walk_on_water_one_cm": 66,
+      "minecraft:sneak_time": 486
+    },
+    "minecraft:mined": {
+      "minecraft:oak_leaves": 5,
+      "minecraft:dirt": 4,
+      "minecraft:oak_log": 4
+    },
+    "minecraft:used": {
+      "minecraft:dirt": 2
+    }
+  },
+  "DataVersion": 4671
+}
