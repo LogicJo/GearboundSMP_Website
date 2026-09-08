@@ -4,13 +4,13 @@
       "minecraft:player": 3
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 452357,
-      "minecraft:total_world_time": 453822,
+      "minecraft:time_since_rest": 488357,
+      "minecraft:total_world_time": 489822,
       "minecraft:leave_game": 16,
       "minecraft:damage_taken": 1523,
-      "minecraft:play_time": 453822,
+      "minecraft:play_time": 489822,
       "minecraft:deaths": 4,
-      "minecraft:time_since_death": 452357
+      "minecraft:time_since_death": 488357
     }
   },
   "DataVersion": 4671
