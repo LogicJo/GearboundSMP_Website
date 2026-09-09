@@ -1,10 +1,13 @@
 {
   "stats": {
+    "minecraft:picked_up": {
+      "minecraft:apple": 1
+    },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 87947,
-      "minecraft:total_world_time": 87947,
-      "minecraft:play_time": 87947,
-      "minecraft:time_since_death": 87947
+      "minecraft:time_since_rest": 123947,
+      "minecraft:total_world_time": 123947,
+      "minecraft:play_time": 123947,
+      "minecraft:time_since_death": 123947
     }
   },
   "DataVersion": 4671
