@@ -14,33 +14,40 @@
       "minecraft:golden_apple": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 10733,
-      "minecraft:walk_one_cm": 9281,
-      "minecraft:leave_game": 1,
-      "minecraft:damage_taken": 70,
+      "minecraft:time_since_rest": 18819,
+      "minecraft:walk_one_cm": 14283,
+      "minecraft:leave_game": 3,
+      "minecraft:walk_under_water_one_cm": 289,
+      "minecraft:damage_taken": 375,
       "minecraft:damage_dealt": 61,
-      "minecraft:play_time": 10733,
+      "minecraft:play_time": 18819,
       "minecraft:open_shulker_box": 1,
-      "minecraft:jump": 345,
-      "minecraft:time_since_death": 10733,
+      "minecraft:jump": 730,
+      "minecraft:time_since_death": 18819,
       "minecraft:open_enderchest": 1,
       "minecraft:interact_with_furnace": 6,
-      "minecraft:sprint_one_cm": 44601,
-      "minecraft:fall_one_cm": 9089,
-      "minecraft:total_world_time": 10733,
-      "minecraft:fly_one_cm": 74312,
+      "minecraft:sprint_one_cm": 93965,
+      "minecraft:open_chest": 1,
+      "minecraft:fall_one_cm": 26194,
+      "minecraft:swim_one_cm": 6187,
+      "minecraft:total_world_time": 18819,
+      "minecraft:fly_one_cm": 163098,
+      "minecraft:walk_on_water_one_cm": 2030,
       "minecraft:crouch_one_cm": 1500,
-      "minecraft:sneak_time": 1138
+      "minecraft:sneak_time": 1184
     },
     "minecraft:mined": {
       "minecraft:powder_snow": 2,
       "minecraft:tall_grass": 1,
       "minecraft:dirt": 2,
       "minecraft:grass_block": 1,
+      "minecraft:red_stained_glass": 1,
       "minecraft:spruce_leaves": 3
     },
     "minecraft:used": {
-      "minecraft:cooked_porkchop": 2,
+      "minecraft:wind_charge": 6,
+      "minecraft:cooked_porkchop": 6,
+      "minecraft:ender_pearl": 1,
       "minecraft:dirt": 2
     }
   },
