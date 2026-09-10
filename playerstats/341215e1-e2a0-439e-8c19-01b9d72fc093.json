@@ -1,0 +1,61 @@
+{
+  "stats": {
+    "minecraft:killed_by": {
+      "minecraft:skeleton": 1
+    },
+    "minecraft:killed": {
+      "minecraft:spider": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:oak_log": 7,
+      "minecraft:cobblestone": 3,
+      "minecraft:wheat_seeds": 48,
+      "minecraft:wheat": 18,
+      "minecraft:crafting_table": 1,
+      "minecraft:spider_eye": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 4,
+      "minecraft:time_since_rest": 257,
+      "minecraft:walk_one_cm": 10231,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 310,
+      "minecraft:damage_dealt": 307,
+      "minecraft:play_time": 4486,
+      "minecraft:jump": 109,
+      "minecraft:time_since_death": 232,
+      "minecraft:interact_with_furnace": 5,
+      "minecraft:sprint_one_cm": 7911,
+      "minecraft:fall_one_cm": 5381,
+      "minecraft:total_world_time": 4486,
+      "minecraft:fly_one_cm": 14909,
+      "minecraft:walk_on_water_one_cm": 511,
+      "minecraft:crouch_one_cm": 41,
+      "minecraft:sneak_time": 32,
+      "minecraft:deaths": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 8,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:oak_planks": 28,
+      "minecraft:bread": 5,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:mined": {
+      "minecraft:oak_leaves": 2,
+      "minecraft:crafting_table": 1,
+      "minecraft:birch_log": 1,
+      "minecraft:oak_log": 7,
+      "minecraft:wheat": 18,
+      "minecraft:cobblestone": 3
+    },
+    "minecraft:used": {
+      "minecraft:crafting_table": 1,
+      "minecraft:wooden_pickaxe": 16,
+      "minecraft:bread": 1,
+      "minecraft:wheat_seeds": 16
+    }
+  },
+  "DataVersion": 4671
+}
