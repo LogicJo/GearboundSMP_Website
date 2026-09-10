@@ -1,0 +1,48 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:wind_charge": 6,
+      "minecraft:ender_pearl": 2,
+      "minecraft:dirt": 3,
+      "minecraft:totem_of_undying": 1,
+      "minecraft:diamond": 25,
+      "minecraft:white_banner": 3,
+      "minecraft:cooked_porkchop": 9,
+      "minecraft:crafting_table": 1,
+      "minecraft:spider_eye": 3,
+      "minecraft:deepslate_diamond_ore": 1,
+      "minecraft:golden_apple": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 10733,
+      "minecraft:walk_one_cm": 9281,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 70,
+      "minecraft:damage_dealt": 61,
+      "minecraft:play_time": 10733,
+      "minecraft:open_shulker_box": 1,
+      "minecraft:jump": 345,
+      "minecraft:time_since_death": 10733,
+      "minecraft:open_enderchest": 1,
+      "minecraft:interact_with_furnace": 6,
+      "minecraft:sprint_one_cm": 44601,
+      "minecraft:fall_one_cm": 9089,
+      "minecraft:total_world_time": 10733,
+      "minecraft:fly_one_cm": 74312,
+      "minecraft:crouch_one_cm": 1500,
+      "minecraft:sneak_time": 1138
+    },
+    "minecraft:mined": {
+      "minecraft:powder_snow": 2,
+      "minecraft:tall_grass": 1,
+      "minecraft:dirt": 2,
+      "minecraft:grass_block": 1,
+      "minecraft:spruce_leaves": 3
+    },
+    "minecraft:used": {
+      "minecraft:cooked_porkchop": 2,
+      "minecraft:dirt": 2
+    }
+  },
+  "DataVersion": 4671
+}
