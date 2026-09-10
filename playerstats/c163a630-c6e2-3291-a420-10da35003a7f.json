@@ -4,16 +4,17 @@
       "minecraft:zombie": 1
     },
     "minecraft:picked_up": {
+      "minecraft:acacia_sapling": 1,
       "minecraft:apple": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 0,
-      "minecraft:total_world_time": 1125587,
+      "minecraft:time_since_rest": 35978,
+      "minecraft:total_world_time": 1161565,
       "minecraft:leave_game": 5,
       "minecraft:damage_taken": 270,
-      "minecraft:play_time": 1125587,
+      "minecraft:play_time": 1161565,
       "minecraft:deaths": 1,
-      "minecraft:time_since_death": 0
+      "minecraft:time_since_death": 35978
     }
   },
   "DataVersion": 4671
