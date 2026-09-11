@@ -1,19 +1,20 @@
 {
   "stats": {
     "minecraft:killed_by": {
+      "minecraft:skeleton": 1,
       "minecraft:player": 4
     },
     "minecraft:picked_up": {
       "minecraft:redstone": 4
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 181,
-      "minecraft:total_world_time": 136951,
-      "minecraft:leave_game": 7,
-      "minecraft:damage_taken": 1372,
-      "minecraft:play_time": 136951,
-      "minecraft:deaths": 5,
-      "minecraft:time_since_death": 181
+      "minecraft:time_since_rest": 0,
+      "minecraft:total_world_time": 171079,
+      "minecraft:leave_game": 8,
+      "minecraft:damage_taken": 1642,
+      "minecraft:play_time": 171079,
+      "minecraft:deaths": 6,
+      "minecraft:time_since_death": 0
     }
   },
   "DataVersion": 4671

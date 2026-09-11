@@ -8,13 +8,13 @@
       "minecraft:bone": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 901019,
-      "minecraft:total_world_time": 908871,
+      "minecraft:time_since_rest": 937019,
+      "minecraft:total_world_time": 944871,
       "minecraft:leave_game": 12,
       "minecraft:damage_taken": 251,
-      "minecraft:play_time": 908871,
+      "minecraft:play_time": 944871,
       "minecraft:deaths": 1,
-      "minecraft:time_since_death": 901019
+      "minecraft:time_since_death": 937019
     }
   },
   "DataVersion": 4671
