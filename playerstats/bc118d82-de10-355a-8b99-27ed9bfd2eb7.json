@@ -7,13 +7,13 @@
       "minecraft:redstone": 4
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 21978,
-      "minecraft:total_world_time": 79908,
+      "minecraft:time_since_rest": 57978,
+      "minecraft:total_world_time": 115908,
       "minecraft:leave_game": 4,
       "minecraft:damage_taken": 816,
-      "minecraft:play_time": 79908,
+      "minecraft:play_time": 115908,
       "minecraft:deaths": 3,
-      "minecraft:time_since_death": 21978
+      "minecraft:time_since_death": 57978
     }
   },
   "DataVersion": 4671
