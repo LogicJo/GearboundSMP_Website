@@ -1,16 +1,17 @@
 {
   "stats": {
     "minecraft:killed_by": {
-      "minecraft:player": 2
+      "minecraft:player": 2,
+      "minecraft:spider": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 131650,
-      "minecraft:total_world_time": 132016,
-      "minecraft:leave_game": 3,
-      "minecraft:damage_taken": 608,
-      "minecraft:play_time": 132016,
-      "minecraft:deaths": 2,
-      "minecraft:time_since_death": 131650
+      "minecraft:time_since_rest": 0,
+      "minecraft:total_world_time": 154703,
+      "minecraft:leave_game": 4,
+      "minecraft:damage_taken": 833,
+      "minecraft:play_time": 154703,
+      "minecraft:deaths": 3,
+      "minecraft:time_since_death": 0
     }
   },
   "DataVersion": 4671
