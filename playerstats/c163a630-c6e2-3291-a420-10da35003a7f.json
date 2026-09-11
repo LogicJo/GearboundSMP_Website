@@ -8,13 +8,13 @@
       "minecraft:apple": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 1265978,
-      "minecraft:total_world_time": 2391565,
+      "minecraft:time_since_rest": 1301978,
+      "minecraft:total_world_time": 2427565,
       "minecraft:leave_game": 5,
       "minecraft:damage_taken": 270,
-      "minecraft:play_time": 2391565,
+      "minecraft:play_time": 2427565,
       "minecraft:deaths": 1,
-      "minecraft:time_since_death": 1265978
+      "minecraft:time_since_death": 1301978
     }
   },
   "DataVersion": 4671
