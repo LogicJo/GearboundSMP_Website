@@ -3,13 +3,16 @@
     "minecraft:killed_by": {
       "minecraft:player": 2
     },
+    "minecraft:picked_up": {
+      "minecraft:redstone": 4
+    },
     "minecraft:custom": {
       "minecraft:time_since_rest": 1,
-      "minecraft:total_world_time": 46251,
-      "minecraft:leave_game": 2,
-      "minecraft:damage_taken": 566,
-      "minecraft:play_time": 46251,
-      "minecraft:deaths": 2,
+      "minecraft:total_world_time": 57931,
+      "minecraft:leave_game": 4,
+      "minecraft:damage_taken": 816,
+      "minecraft:play_time": 57931,
+      "minecraft:deaths": 3,
       "minecraft:time_since_death": 1
     }
   },
