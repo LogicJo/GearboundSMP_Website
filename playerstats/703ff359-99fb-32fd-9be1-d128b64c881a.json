@@ -3,14 +3,18 @@
     "minecraft:killed_by": {
       "minecraft:player": 1
     },
+    "minecraft:picked_up": {
+      "minecraft:arrow": 1,
+      "minecraft:bone": 1
+    },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 865019,
-      "minecraft:total_world_time": 872871,
+      "minecraft:time_since_rest": 901019,
+      "minecraft:total_world_time": 908871,
       "minecraft:leave_game": 12,
       "minecraft:damage_taken": 251,
-      "minecraft:play_time": 872871,
+      "minecraft:play_time": 908871,
       "minecraft:deaths": 1,
-      "minecraft:time_since_death": 865019
+      "minecraft:time_since_death": 901019
     }
   },
   "DataVersion": 4671
