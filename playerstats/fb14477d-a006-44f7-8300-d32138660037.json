@@ -1,24 +1,25 @@
 {
   "stats": {
-    "minecraft:used": {
-      "minecraft:iron_helmet": 1
-    },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 2764,
-      "minecraft:walk_one_cm": 2813,
-      "minecraft:leave_game": 1,
+      "minecraft:time_since_rest": 3264,
+      "minecraft:walk_one_cm": 4264,
+      "minecraft:leave_game": 2,
       "minecraft:damage_taken": 70,
-      "minecraft:play_time": 2764,
-      "minecraft:jump": 128,
-      "minecraft:time_since_death": 2764,
+      "minecraft:play_time": 3264,
+      "minecraft:jump": 147,
+      "minecraft:time_since_death": 3264,
       "minecraft:interact_with_furnace": 5,
-      "minecraft:sprint_one_cm": 7600,
-      "minecraft:open_chest": 10,
+      "minecraft:sprint_one_cm": 9246,
+      "minecraft:open_chest": 13,
       "minecraft:fall_one_cm": 5931,
-      "minecraft:total_world_time": 2764,
-      "minecraft:fly_one_cm": 36778,
+      "minecraft:total_world_time": 3264,
+      "minecraft:fly_one_cm": 37948,
       "minecraft:crouch_one_cm": 163,
       "minecraft:sneak_time": 22
+    },
+    "minecraft:used": {
+      "minecraft:iron_helmet": 1,
+      "minecraft:cobblestone": 1
     }
   },
   "DataVersion": 4671
