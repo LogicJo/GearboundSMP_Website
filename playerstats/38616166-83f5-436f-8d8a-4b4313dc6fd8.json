@@ -1,0 +1,53 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:villager": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:nether_wart": 11,
+      "minecraft:soul_sand": 3,
+      "minecraft:dirt": 2,
+      "minecraft:cobblestone": 3,
+      "minecraft:blue_bed": 1,
+      "minecraft:shroomlight": 1,
+      "minecraft:torch": 2,
+      "minecraft:purple_bed": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 8967,
+      "minecraft:walk_one_cm": 332926,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 2,
+      "minecraft:damage_dealt": 401,
+      "minecraft:play_time": 8967,
+      "minecraft:jump": 111,
+      "minecraft:time_since_death": 8967,
+      "minecraft:interact_with_furnace": 10,
+      "minecraft:sprint_one_cm": 2137,
+      "minecraft:open_chest": 16,
+      "minecraft:fall_one_cm": 476,
+      "minecraft:total_world_time": 8967,
+      "minecraft:fly_one_cm": 38370,
+      "minecraft:crouch_one_cm": 6757,
+      "minecraft:sneak_time": 522,
+      "minecraft:climb_one_cm": 64
+    },
+    "minecraft:mined": {
+      "minecraft:wall_torch": 2,
+      "minecraft:shroomlight": 1,
+      "minecraft:purple_bed": 1,
+      "minecraft:dirt_path": 1,
+      "minecraft:nether_wart": 2,
+      "minecraft:dirt": 1,
+      "minecraft:soul_sand": 3,
+      "minecraft:cobblestone": 1,
+      "minecraft:blue_bed": 1,
+      "minecraft:stone": 3
+    },
+    "minecraft:used": {
+      "minecraft:shroomlight": 1,
+      "minecraft:iron_pickaxe": 24
+    }
+  },
+  "DataVersion": 4671
+}
