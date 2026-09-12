@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:chest": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 3468,
+      "minecraft:time_since_rest": 1871,
+      "minecraft:fall_one_cm": 1975,
+      "minecraft:walk_one_cm": 2428,
+      "minecraft:total_world_time": 1871,
+      "minecraft:leave_game": 2,
+      "minecraft:fly_one_cm": 14350,
+      "minecraft:damage_taken": 10,
+      "minecraft:walk_on_water_one_cm": 383,
+      "minecraft:play_time": 1871,
+      "minecraft:jump": 60,
+      "minecraft:time_since_death": 1871
+    },
+    "minecraft:mined": {
+      "minecraft:chest": 1
+    }
+  },
+  "DataVersion": 4671
+}
