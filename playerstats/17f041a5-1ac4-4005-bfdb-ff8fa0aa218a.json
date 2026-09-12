@@ -1,7 +1,13 @@
 {
   "stats": {
+    "minecraft:dropped": {
+      "minecraft:stone_sword": 1,
+      "minecraft:beef": 1
+    },
     "minecraft:killed": {
+      "minecraft:zombie": 3,
       "minecraft:creeper": 1,
+      "minecraft:enderman": 1,
       "minecraft:pig": 2,
       "minecraft:cow": 3,
       "minecraft:spider": 2
@@ -9,43 +15,46 @@
     "minecraft:picked_up": {
       "minecraft:egg": 1,
       "minecraft:porkchop": 4,
-      "minecraft:cobblestone": 10,
+      "minecraft:cobblestone": 11,
       "minecraft:oak_boat": 1,
       "minecraft:wildflowers": 7,
+      "minecraft:gravel": 1,
       "minecraft:leather": 2,
       "minecraft:crafting_table": 1,
-      "minecraft:beef": 5,
-      "minecraft:raw_iron": 9,
+      "minecraft:beef": 6,
+      "minecraft:raw_iron": 14,
       "minecraft:oak_sign": 2,
       "minecraft:coal": 17,
-      "minecraft:oak_log": 19,
+      "minecraft:oak_log": 30,
+      "minecraft:stone_sword": 1,
       "minecraft:furnace": 2,
       "minecraft:dandelion": 2
     },
     "minecraft:custom": {
       "minecraft:interact_with_crafting_table": 5,
-      "minecraft:time_since_rest": 23842,
-      "minecraft:walk_one_cm": 151165,
-      "minecraft:leave_game": 3,
+      "minecraft:time_since_rest": 30234,
+      "minecraft:walk_one_cm": 237194,
+      "minecraft:leave_game": 5,
       "minecraft:horse_one_cm": 9,
       "minecraft:walk_under_water_one_cm": 178,
-      "minecraft:mob_kills": 8,
-      "minecraft:damage_taken": 90,
+      "minecraft:mob_kills": 12,
+      "minecraft:damage_taken": 195,
       "minecraft:boat_one_cm": 13706,
-      "minecraft:play_time": 23842,
-      "minecraft:damage_dealt": 1188,
-      "minecraft:jump": 280,
-      "minecraft:time_since_death": 23842,
+      "minecraft:play_time": 30234,
+      "minecraft:damage_dealt": 2187,
+      "minecraft:jump": 340,
+      "minecraft:time_since_death": 30234,
+      "minecraft:drop": 2,
       "minecraft:interact_with_furnace": 7,
-      "minecraft:sprint_one_cm": 102167,
+      "minecraft:sprint_one_cm": 103512,
       "minecraft:open_chest": 2,
       "minecraft:fall_one_cm": 876,
-      "minecraft:total_world_time": 23842,
+      "minecraft:total_world_time": 30234,
       "minecraft:swim_one_cm": 367,
-      "minecraft:fly_one_cm": 56822,
+      "minecraft:fly_one_cm": 71484,
       "minecraft:walk_on_water_one_cm": 344,
-      "minecraft:crouch_one_cm": 33392,
-      "minecraft:sneak_time": 769
+      "minecraft:crouch_one_cm": 38867,
+      "minecraft:sneak_time": 975
     },
     "minecraft:crafted": {
       "minecraft:stone_sword": 1,
@@ -62,21 +71,22 @@
       "minecraft:furnace": 2,
       "minecraft:crafting_table": 1,
       "minecraft:dandelion": 2,
-      "minecraft:oak_log": 19,
+      "minecraft:oak_log": 30,
       "minecraft:coal_ore": 17,
       "minecraft:red_stained_glass": 1,
-      "minecraft:iron_ore": 9,
-      "minecraft:stone": 10
+      "minecraft:iron_ore": 14,
+      "minecraft:stone": 11
     },
     "minecraft:used": {
-      "minecraft:stone_axe": 15,
-      "minecraft:stone_sword": 19,
+      "minecraft:stone_axe": 26,
+      "minecraft:stone_sword": 41,
       "minecraft:oak_sign": 2,
       "minecraft:beef": 5,
       "minecraft:wooden_pickaxe": 8,
       "minecraft:porkchop": 4,
       "minecraft:egg": 1,
-      "minecraft:stone_pickaxe": 30
+      "minecraft:gravel": 1,
+      "minecraft:stone_pickaxe": 36
     }
   },
   "DataVersion": 4671
