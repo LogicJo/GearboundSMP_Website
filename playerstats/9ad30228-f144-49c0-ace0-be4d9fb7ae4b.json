@@ -1,0 +1,49 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:endermite": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:ender_pearl": 80,
+      "minecraft:dirt": 12,
+      "minecraft:oak_log": 6
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 6274,
+      "minecraft:walk_one_cm": 11554,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 1,
+      "minecraft:walk_under_water_one_cm": 1743,
+      "minecraft:damage_taken": 230,
+      "minecraft:damage_dealt": 20,
+      "minecraft:play_time": 6274,
+      "minecraft:jump": 297,
+      "minecraft:time_since_death": 6274,
+      "minecraft:interact_with_furnace": 6,
+      "minecraft:sprint_one_cm": 15837,
+      "minecraft:open_chest": 3,
+      "minecraft:fall_one_cm": 6062,
+      "minecraft:total_world_time": 6274,
+      "minecraft:fly_one_cm": 47184,
+      "minecraft:walk_on_water_one_cm": 3005,
+      "minecraft:crouch_one_cm": 777,
+      "minecraft:sneak_time": 222,
+      "minecraft:climb_one_cm": 8
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 12,
+      "minecraft:oak_planks": 24,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:mined": {
+      "minecraft:oak_leaves": 1,
+      "minecraft:oak_log": 6,
+      "minecraft:grass_block": 12
+    },
+    "minecraft:used": {
+      "minecraft:ender_pearl": 4,
+      "minecraft:dirt": 9
+    }
+  },
+  "DataVersion": 4671
+}

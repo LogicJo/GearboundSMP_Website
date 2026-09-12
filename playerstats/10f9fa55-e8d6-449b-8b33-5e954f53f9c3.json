@@ -1,15 +1,29 @@
 {
   "stats": {
+    "minecraft:picked_up": {
+      "minecraft:cornflower": 1
+    },
     "minecraft:custom": {
-      "minecraft:sprint_one_cm": 65,
-      "minecraft:time_since_rest": 239,
-      "minecraft:walk_one_cm": 114,
-      "minecraft:total_world_time": 239,
-      "minecraft:leave_game": 1,
-      "minecraft:fly_one_cm": 82,
-      "minecraft:play_time": 239,
-      "minecraft:jump": 8,
-      "minecraft:time_since_death": 239
+      "minecraft:time_since_rest": 2508,
+      "minecraft:walk_one_cm": 919,
+      "minecraft:leave_game": 2,
+      "minecraft:damage_taken": 10,
+      "minecraft:play_time": 2508,
+      "minecraft:jump": 83,
+      "minecraft:time_since_death": 2508,
+      "minecraft:interact_with_furnace": 1,
+      "minecraft:sprint_one_cm": 7909,
+      "minecraft:open_chest": 1,
+      "minecraft:fall_one_cm": 3150,
+      "minecraft:total_world_time": 2508,
+      "minecraft:fly_one_cm": 21313
+    },
+    "minecraft:mined": {
+      "minecraft:oak_leaves": 1,
+      "minecraft:cornflower": 1
+    },
+    "minecraft:used": {
+      "minecraft:cornflower": 1
     }
   },
   "DataVersion": 4671
