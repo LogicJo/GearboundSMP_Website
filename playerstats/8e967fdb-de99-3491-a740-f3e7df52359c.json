@@ -9,13 +9,13 @@
       "minecraft:stone": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 146774,
-      "minecraft:total_world_time": 301477,
+      "minecraft:time_since_rest": 182774,
+      "minecraft:total_world_time": 337477,
       "minecraft:leave_game": 4,
       "minecraft:damage_taken": 833,
-      "minecraft:play_time": 301477,
+      "minecraft:play_time": 337477,
       "minecraft:deaths": 3,
-      "minecraft:time_since_death": 146774
+      "minecraft:time_since_death": 182774
     }
   },
   "DataVersion": 4671
