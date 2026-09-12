@@ -4,14 +4,18 @@
       "minecraft:player": 2,
       "minecraft:spider": 1
     },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 4,
+      "minecraft:stone": 1
+    },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 0,
-      "minecraft:total_world_time": 154703,
+      "minecraft:time_since_rest": 2774,
+      "minecraft:total_world_time": 157477,
       "minecraft:leave_game": 4,
       "minecraft:damage_taken": 833,
-      "minecraft:play_time": 154703,
+      "minecraft:play_time": 157477,
       "minecraft:deaths": 3,
-      "minecraft:time_since_death": 0
+      "minecraft:time_since_death": 2774
     }
   },
   "DataVersion": 4671
