@@ -1,19 +1,40 @@
 {
   "stats": {
     "minecraft:picked_up": {
-      "minecraft:sandstone": 8
+      "minecraft:diamond_axe": 1,
+      "minecraft:hopper": 3,
+      "minecraft:diorite": 2,
+      "minecraft:dirt": 2,
+      "minecraft:cobblestone": 10,
+      "minecraft:rail": 63,
+      "minecraft:powered_rail": 2,
+      "minecraft:bamboo_slab": 63,
+      "minecraft:stone": 1408,
+      "minecraft:diamond_boots": 1,
+      "minecraft:spruce_log": 2,
+      "minecraft:coal": 280,
+      "minecraft:sand": 512,
+      "minecraft:firework_rocket": 1,
+      "minecraft:baked_potato": 1,
+      "minecraft:iron_ore": 3,
+      "minecraft:granite": 10,
+      "minecraft:sandstone": 1678,
+      "minecraft:gunpowder": 1,
+      "minecraft:spider_eye": 4,
+      "minecraft:golden_apple": 1
     },
     "minecraft:killed_by": {
-      "minecraft:player": 9
+      "minecraft:player": 59,
+      "minecraft:pillager": 3
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 1,
-      "minecraft:total_world_time": 2090,
-      "minecraft:leave_game": 13,
-      "minecraft:damage_taken": 2408,
-      "minecraft:play_time": 2090,
-      "minecraft:deaths": 9,
-      "minecraft:time_since_death": 1
+      "minecraft:time_since_rest": 0,
+      "minecraft:total_world_time": 17926,
+      "minecraft:leave_game": 76,
+      "minecraft:damage_taken": 18882,
+      "minecraft:play_time": 17926,
+      "minecraft:deaths": 66,
+      "minecraft:time_since_death": 0
     }
   },
   "DataVersion": 4671
