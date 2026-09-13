@@ -1,16 +1,19 @@
 {
   "stats": {
+    "minecraft:picked_up": {
+      "minecraft:spruce_trapdoor": 2
+    },
     "minecraft:killed_by": {
-      "minecraft:player": 8
+      "minecraft:player": 18
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 3143,
-      "minecraft:total_world_time": 5451,
-      "minecraft:leave_game": 12,
-      "minecraft:damage_taken": 2216,
-      "minecraft:play_time": 5451,
-      "minecraft:deaths": 8,
-      "minecraft:time_since_death": 3143
+      "minecraft:time_since_rest": 1,
+      "minecraft:total_world_time": 8414,
+      "minecraft:leave_game": 31,
+      "minecraft:damage_taken": 4728,
+      "minecraft:play_time": 8414,
+      "minecraft:deaths": 18,
+      "minecraft:time_since_death": 1
     }
   },
   "DataVersion": 4671

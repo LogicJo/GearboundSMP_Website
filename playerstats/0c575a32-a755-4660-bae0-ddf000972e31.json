@@ -1,0 +1,43 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:leaf_litter": 4,
+      "minecraft:dirt": 2,
+      "minecraft:flowering_azalea": 1,
+      "minecraft:wheat_seeds": 1
+    },
+    "minecraft:used": {
+      "minecraft:dirt": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 2,
+      "minecraft:tall_grass": 2,
+      "minecraft:dirt": 1,
+      "minecraft:flowering_azalea": 1,
+      "minecraft:leaf_litter": 1,
+      "minecraft:grass_block": 1,
+      "minecraft:pink_petals": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 6099,
+      "minecraft:walk_one_cm": 2643,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 273,
+      "minecraft:damage_taken": 60,
+      "minecraft:play_time": 6099,
+      "minecraft:jump": 293,
+      "minecraft:time_since_death": 6099,
+      "minecraft:interact_with_furnace": 2,
+      "minecraft:sprint_one_cm": 24243,
+      "minecraft:open_chest": 2,
+      "minecraft:fall_one_cm": 17615,
+      "minecraft:swim_one_cm": 7243,
+      "minecraft:total_world_time": 6099,
+      "minecraft:fly_one_cm": 67549,
+      "minecraft:walk_on_water_one_cm": 1456,
+      "minecraft:sneak_time": 4,
+      "minecraft:climb_one_cm": 90
+    }
+  },
+  "DataVersion": 4671
+}
