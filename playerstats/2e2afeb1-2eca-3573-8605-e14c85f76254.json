@@ -30,13 +30,13 @@
       "minecraft:pillager": 4
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 0,
-      "minecraft:total_world_time": 56590,
-      "minecraft:leave_game": 134,
+      "minecraft:time_since_rest": 73,
+      "minecraft:total_world_time": 56663,
+      "minecraft:leave_game": 135,
       "minecraft:damage_taken": 25328,
-      "minecraft:play_time": 56590,
+      "minecraft:play_time": 56663,
       "minecraft:deaths": 89,
-      "minecraft:time_since_death": 0
+      "minecraft:time_since_death": 73
     }
   },
   "DataVersion": 4671
