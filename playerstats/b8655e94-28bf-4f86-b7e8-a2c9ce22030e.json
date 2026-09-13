@@ -1,0 +1,37 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:dirt": 8,
+      "minecraft:spruce_sapling": 1,
+      "minecraft:moss_block": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:spruce_sapling": 1
+    },
+    "minecraft:mined": {
+      "minecraft:mangrove_leaves": 1,
+      "minecraft:dirt_path": 3,
+      "minecraft:dirt": 7,
+      "minecraft:moss_block": 1,
+      "minecraft:spruce_leaves": 3
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 3072,
+      "minecraft:walk_one_cm": 2491,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 75,
+      "minecraft:play_time": 3072,
+      "minecraft:damage_dealt": 185,
+      "minecraft:jump": 155,
+      "minecraft:time_since_death": 3072,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 8692,
+      "minecraft:fall_one_cm": 6001,
+      "minecraft:total_world_time": 3072,
+      "minecraft:fly_one_cm": 42720,
+      "minecraft:crouch_one_cm": 550,
+      "minecraft:sneak_time": 214
+    }
+  },
+  "DataVersion": 4671
+}
