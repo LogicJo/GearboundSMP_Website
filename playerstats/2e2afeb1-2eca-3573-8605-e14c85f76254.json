@@ -19,23 +19,24 @@
       "minecraft:iron_ore": 3,
       "minecraft:granite": 10,
       "minecraft:sandstone": 1678,
+      "minecraft:spruce_pressure_plate": 1,
       "minecraft:gunpowder": 1,
       "minecraft:spider_eye": 4,
       "minecraft:golden_apple": 1
     },
     "minecraft:killed_by": {
-      "minecraft:player": 66,
+      "minecraft:player": 79,
       "minecraft:creeper": 1,
       "minecraft:pillager": 4
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 1,
-      "minecraft:total_world_time": 39406,
-      "minecraft:leave_game": 95,
-      "minecraft:damage_taken": 21360,
-      "minecraft:play_time": 39406,
-      "minecraft:deaths": 75,
-      "minecraft:time_since_death": 1
+      "minecraft:time_since_rest": 15,
+      "minecraft:total_world_time": 44461,
+      "minecraft:leave_game": 133,
+      "minecraft:damage_taken": 25012,
+      "minecraft:play_time": 44461,
+      "minecraft:deaths": 88,
+      "minecraft:time_since_death": 15
     }
   },
   "DataVersion": 4671
