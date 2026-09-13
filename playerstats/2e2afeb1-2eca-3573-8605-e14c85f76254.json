@@ -25,18 +25,18 @@
       "minecraft:golden_apple": 1
     },
     "minecraft:killed_by": {
-      "minecraft:player": 79,
+      "minecraft:player": 83,
       "minecraft:creeper": 2,
       "minecraft:pillager": 4
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 73,
-      "minecraft:total_world_time": 56663,
-      "minecraft:leave_game": 135,
-      "minecraft:damage_taken": 25328,
-      "minecraft:play_time": 56663,
-      "minecraft:deaths": 89,
-      "minecraft:time_since_death": 73
+      "minecraft:time_since_rest": 1,
+      "minecraft:total_world_time": 56986,
+      "minecraft:leave_game": 139,
+      "minecraft:damage_taken": 26378,
+      "minecraft:play_time": 56986,
+      "minecraft:deaths": 93,
+      "minecraft:time_since_death": 1
     }
   },
   "DataVersion": 4671
