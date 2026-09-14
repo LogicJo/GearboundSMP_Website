@@ -1,15 +1,19 @@
 {
   "stats": {
+    "minecraft:picked_up": {
+      "minecraft:ender_pearl": 331
+    },
     "minecraft:killed_by": {
-      "minecraft:player": 10
+      "minecraft:player": 15,
+      "minecraft:enderman": 1
     },
     "minecraft:custom": {
       "minecraft:time_since_rest": 1,
-      "minecraft:total_world_time": 8681820,
-      "minecraft:leave_game": 25,
-      "minecraft:damage_taken": 4470,
-      "minecraft:play_time": 8681820,
-      "minecraft:deaths": 11,
+      "minecraft:total_world_time": 8683065,
+      "minecraft:leave_game": 32,
+      "minecraft:damage_taken": 6522,
+      "minecraft:play_time": 8683065,
+      "minecraft:deaths": 17,
       "minecraft:time_since_death": 1
     }
   },
