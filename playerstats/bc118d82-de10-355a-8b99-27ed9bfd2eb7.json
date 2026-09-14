@@ -8,16 +8,16 @@
     },
     "minecraft:killed_by": {
       "minecraft:skeleton": 1,
-      "minecraft:player": 11,
+      "minecraft:player": 12,
       "minecraft:creeper": 1
     },
     "minecraft:custom": {
       "minecraft:time_since_rest": 1,
-      "minecraft:total_world_time": 252274,
-      "minecraft:leave_game": 16,
-      "minecraft:damage_taken": 3905,
-      "minecraft:play_time": 252274,
-      "minecraft:deaths": 14,
+      "minecraft:total_world_time": 256294,
+      "minecraft:leave_game": 17,
+      "minecraft:damage_taken": 4149,
+      "minecraft:play_time": 256294,
+      "minecraft:deaths": 15,
       "minecraft:time_since_death": 1
     }
   },
