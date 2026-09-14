@@ -10,13 +10,13 @@
       "minecraft:spider": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 103893,
-      "minecraft:total_world_time": 601127,
+      "minecraft:time_since_rest": 139893,
+      "minecraft:total_world_time": 637127,
       "minecraft:leave_game": 5,
       "minecraft:damage_taken": 1121,
-      "minecraft:play_time": 601127,
+      "minecraft:play_time": 637127,
       "minecraft:deaths": 4,
-      "minecraft:time_since_death": 103893
+      "minecraft:time_since_death": 139893
     }
   },
   "DataVersion": 4671
