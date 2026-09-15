@@ -1,0 +1,67 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:leaf_litter": 2,
+      "minecraft:dirt": 3,
+      "minecraft:oak_log": 6,
+      "minecraft:cobblestone": 21,
+      "minecraft:cornflower": 1,
+      "minecraft:raw_iron": 5
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 8,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:oak_planks": 24,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:cornflower": 1
+    },
+    "minecraft:used": {
+      "minecraft:leaf_litter": 2,
+      "minecraft:wooden_pickaxe": 3,
+      "minecraft:stone_pickaxe": 24,
+      "minecraft:dirt": 3,
+      "minecraft:cobblestone": 5
+    },
+    "minecraft:killed_by": {
+      "minecraft:skeleton": 1
+    },
+    "minecraft:mined": {
+      "minecraft:mangrove_leaves": 1,
+      "minecraft:dirt": 2,
+      "minecraft:cornflower": 1,
+      "minecraft:oak_log": 6,
+      "minecraft:grass_block": 1,
+      "minecraft:cobblestone": 1,
+      "minecraft:iron_ore": 5,
+      "minecraft:stone": 20
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 3,
+      "minecraft:time_since_rest": 127,
+      "minecraft:walk_one_cm": 5006,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 677,
+      "minecraft:damage_taken": 495,
+      "minecraft:damage_dealt": 40,
+      "minecraft:play_time": 7016,
+      "minecraft:jump": 176,
+      "minecraft:time_since_death": 104,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 19333,
+      "minecraft:open_chest": 1,
+      "minecraft:fall_one_cm": 11517,
+      "minecraft:swim_one_cm": 18288,
+      "minecraft:total_world_time": 7016,
+      "minecraft:fly_one_cm": 42764,
+      "minecraft:walk_on_water_one_cm": 3622,
+      "minecraft:crouch_one_cm": 2232,
+      "minecraft:sneak_time": 700,
+      "minecraft:climb_one_cm": 72,
+      "minecraft:deaths": 2
+    }
+  },
+  "DataVersion": 4671
+}
