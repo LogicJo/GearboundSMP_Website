@@ -5,17 +5,17 @@
       "minecraft:ender_pearl": 331
     },
     "minecraft:killed_by": {
-      "minecraft:player": 17,
+      "minecraft:player": 18,
       "minecraft:enderman": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 146249,
-      "minecraft:total_world_time": 8829779,
-      "minecraft:leave_game": 36,
-      "minecraft:damage_taken": 7183,
-      "minecraft:play_time": 8829779,
-      "minecraft:deaths": 19,
-      "minecraft:time_since_death": 146249
+      "minecraft:time_since_rest": 6967,
+      "minecraft:total_world_time": 8865222,
+      "minecraft:leave_game": 37,
+      "minecraft:damage_taken": 7579,
+      "minecraft:play_time": 8865222,
+      "minecraft:deaths": 20,
+      "minecraft:time_since_death": 6967
     }
   },
   "DataVersion": 4671
