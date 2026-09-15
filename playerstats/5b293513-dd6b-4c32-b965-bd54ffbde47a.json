@@ -4,23 +4,23 @@
       "minecraft:oak_log": 2,
       "minecraft:dandelion": 1
     },
-    "minecraft:custom": {
-      "minecraft:sprint_one_cm": 2259,
-      "minecraft:time_since_rest": 1938,
-      "minecraft:fall_one_cm": 1300,
-      "minecraft:walk_one_cm": 887,
-      "minecraft:total_world_time": 1938,
-      "minecraft:leave_game": 2,
-      "minecraft:fly_one_cm": 6105,
-      "minecraft:damage_taken": 20,
-      "minecraft:play_time": 1938,
-      "minecraft:jump": 24,
-      "minecraft:time_since_death": 1938
-    },
     "minecraft:mined": {
       "minecraft:short_grass": 1,
       "minecraft:dandelion": 1,
       "minecraft:oak_log": 2
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 2438,
+      "minecraft:time_since_rest": 2104,
+      "minecraft:fall_one_cm": 1525,
+      "minecraft:walk_one_cm": 983,
+      "minecraft:total_world_time": 2104,
+      "minecraft:leave_game": 3,
+      "minecraft:fly_one_cm": 6713,
+      "minecraft:damage_taken": 20,
+      "minecraft:play_time": 2104,
+      "minecraft:jump": 27,
+      "minecraft:time_since_death": 2104
     }
   },
   "DataVersion": 4671
