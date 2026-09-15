@@ -1,0 +1,40 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:leaf_litter": 11
+    },
+    "minecraft:dropped": {
+      "minecraft:leaf_litter": 11
+    },
+    "minecraft:killed_by": {
+      "minecraft:skeleton": 1,
+      "minecraft:spider": 1,
+      "minecraft:zombie": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 1,
+      "minecraft:tall_grass": 2,
+      "minecraft:leaf_litter": 4,
+      "minecraft:moss_block": 3
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 2819,
+      "minecraft:walk_one_cm": 13073,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 1115,
+      "minecraft:damage_dealt": 113,
+      "minecraft:play_time": 10430,
+      "minecraft:jump": 436,
+      "minecraft:time_since_death": 2789,
+      "minecraft:drop": 11,
+      "minecraft:sprint_one_cm": 40223,
+      "minecraft:fall_one_cm": 24908,
+      "minecraft:total_world_time": 10430,
+      "minecraft:fly_one_cm": 97798,
+      "minecraft:crouch_one_cm": 14,
+      "minecraft:sneak_time": 21,
+      "minecraft:deaths": 4
+    }
+  },
+  "DataVersion": 4671
+}
