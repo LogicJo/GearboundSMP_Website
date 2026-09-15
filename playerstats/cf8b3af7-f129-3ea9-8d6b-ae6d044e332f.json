@@ -10,13 +10,13 @@
       "minecraft:enderman": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 57638,
-      "minecraft:total_world_time": 9037800,
+      "minecraft:time_since_rest": 93638,
+      "minecraft:total_world_time": 9073800,
       "minecraft:leave_game": 46,
       "minecraft:damage_taken": 10259,
-      "minecraft:play_time": 9037800,
+      "minecraft:play_time": 9073800,
       "minecraft:deaths": 29,
-      "minecraft:time_since_death": 57638
+      "minecraft:time_since_death": 93638
     }
   },
   "DataVersion": 4671
