@@ -13,13 +13,13 @@
       "minecraft:creeper": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 24938,
-      "minecraft:total_world_time": 282202,
+      "minecraft:time_since_rest": 60938,
+      "minecraft:total_world_time": 318202,
       "minecraft:leave_game": 25,
       "minecraft:damage_taken": 5725,
-      "minecraft:play_time": 282202,
+      "minecraft:play_time": 318202,
       "minecraft:deaths": 21,
-      "minecraft:time_since_death": 24938
+      "minecraft:time_since_death": 60938
     }
   },
   "DataVersion": 4671

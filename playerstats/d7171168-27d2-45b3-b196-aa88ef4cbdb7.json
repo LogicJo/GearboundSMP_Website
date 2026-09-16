@@ -1,0 +1,46 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:enchanted_golden_apple": 1,
+      "minecraft:oak_log": 6,
+      "minecraft:cobblestone": 15,
+      "minecraft:totem_of_undying": 2,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 16,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:stone_axe": 1,
+      "minecraft:oak_planks": 24,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:used": {
+      "minecraft:stone_axe": 1,
+      "minecraft:crafting_table": 1,
+      "minecraft:wooden_pickaxe": 15
+    },
+    "minecraft:mined": {
+      "minecraft:crafting_table": 1,
+      "minecraft:oak_log": 6,
+      "minecraft:cobblestone": 2,
+      "minecraft:stone": 13
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 4,
+      "minecraft:time_since_rest": 3623,
+      "minecraft:walk_one_cm": 8142,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 10,
+      "minecraft:play_time": 3623,
+      "minecraft:jump": 13,
+      "minecraft:time_since_death": 3623,
+      "minecraft:sprint_one_cm": 1423,
+      "minecraft:total_world_time": 3623,
+      "minecraft:fly_one_cm": 761,
+      "minecraft:crouch_one_cm": 2,
+      "minecraft:sneak_time": 13
+    }
+  },
+  "DataVersion": 4671
+}
