@@ -7,16 +7,17 @@
     },
     "minecraft:killed_by": {
       "minecraft:player": 27,
-      "minecraft:enderman": 1
+      "minecraft:enderman": 1,
+      "minecraft:zombie": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 603638,
-      "minecraft:total_world_time": 9583800,
-      "minecraft:leave_game": 46,
-      "minecraft:damage_taken": 10439,
-      "minecraft:play_time": 9583800,
-      "minecraft:deaths": 29,
-      "minecraft:time_since_death": 603638
+      "minecraft:time_since_rest": 0,
+      "minecraft:total_world_time": 9589040,
+      "minecraft:leave_game": 47,
+      "minecraft:damage_taken": 10484,
+      "minecraft:play_time": 9589040,
+      "minecraft:deaths": 30,
+      "minecraft:time_since_death": 0
     }
   },
   "DataVersion": 4671
