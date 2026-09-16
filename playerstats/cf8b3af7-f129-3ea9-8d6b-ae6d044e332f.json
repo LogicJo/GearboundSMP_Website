@@ -6,18 +6,18 @@
       "minecraft:cooked_porkchop": 1
     },
     "minecraft:killed_by": {
-      "minecraft:player": 27,
+      "minecraft:player": 34,
       "minecraft:enderman": 1,
       "minecraft:zombie": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 0,
-      "minecraft:total_world_time": 9589040,
-      "minecraft:leave_game": 47,
-      "minecraft:damage_taken": 10484,
-      "minecraft:play_time": 9589040,
-      "minecraft:deaths": 30,
-      "minecraft:time_since_death": 0
+      "minecraft:time_since_rest": 245,
+      "minecraft:total_world_time": 9590526,
+      "minecraft:leave_game": 58,
+      "minecraft:damage_taken": 15580,
+      "minecraft:play_time": 9590526,
+      "minecraft:deaths": 38,
+      "minecraft:time_since_death": 245
     }
   },
   "DataVersion": 4671
