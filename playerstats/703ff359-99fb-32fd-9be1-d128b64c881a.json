@@ -10,13 +10,13 @@
       "minecraft:zombie": 2
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 3281328,
-      "minecraft:total_world_time": 5300259,
+      "minecraft:time_since_rest": 3317328,
+      "minecraft:total_world_time": 5336259,
       "minecraft:leave_game": 14,
       "minecraft:damage_taken": 881,
-      "minecraft:play_time": 5300259,
+      "minecraft:play_time": 5336259,
       "minecraft:deaths": 3,
-      "minecraft:time_since_death": 3281328
+      "minecraft:time_since_death": 3317328
     }
   },
   "DataVersion": 4671
