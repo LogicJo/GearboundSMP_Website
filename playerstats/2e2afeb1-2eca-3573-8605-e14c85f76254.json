@@ -1,5 +1,19 @@
 {
   "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 10287,
+      "minecraft:total_world_time": 73082,
+      "minecraft:leave_game": 181,
+      "minecraft:damage_taken": 37802,
+      "minecraft:play_time": 73082,
+      "minecraft:deaths": 134,
+      "minecraft:time_since_death": 10287
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 124,
+      "minecraft:creeper": 2,
+      "minecraft:pillager": 4
+    },
     "minecraft:picked_up": {
       "minecraft:diamond_axe": 1,
       "minecraft:hopper": 3,
@@ -24,20 +38,6 @@
       "minecraft:gunpowder": 1,
       "minecraft:spider_eye": 4,
       "minecraft:golden_apple": 1
-    },
-    "minecraft:killed_by": {
-      "minecraft:player": 123,
-      "minecraft:creeper": 2,
-      "minecraft:pillager": 4
-    },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 1,
-      "minecraft:total_world_time": 61265,
-      "minecraft:leave_game": 179,
-      "minecraft:damage_taken": 37494,
-      "minecraft:play_time": 61265,
-      "minecraft:deaths": 133,
-      "minecraft:time_since_death": 1
     }
   },
   "DataVersion": 4671
