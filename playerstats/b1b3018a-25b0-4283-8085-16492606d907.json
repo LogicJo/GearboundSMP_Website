@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:torch": 1
+    },
+    "minecraft:used": {
+      "minecraft:torch": 1
+    },
+    "minecraft:mined": {
+      "minecraft:torch": 1,
+      "minecraft:azalea": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 12877,
+      "minecraft:time_since_rest": 1149,
+      "minecraft:fall_one_cm": 10304,
+      "minecraft:walk_one_cm": 1486,
+      "minecraft:total_world_time": 2998,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 48620,
+      "minecraft:damage_taken": 350,
+      "minecraft:play_time": 2998,
+      "minecraft:deaths": 1,
+      "minecraft:jump": 145,
+      "minecraft:time_since_death": 1125
+    }
+  },
+  "DataVersion": 4671
+}
