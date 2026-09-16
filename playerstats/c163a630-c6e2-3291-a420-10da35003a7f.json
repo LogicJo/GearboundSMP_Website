@@ -1,23 +1,24 @@
 {
   "stats": {
-    "minecraft:picked_up": {
-      "minecraft:acacia_sapling": 4,
-      "minecraft:apple": 1,
-      "minecraft:sandstone": 3,
-      "minecraft:sugar_cane": 1
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 77611,
+      "minecraft:total_world_time": 4589589,
+      "minecraft:leave_game": 6,
+      "minecraft:damage_taken": 626,
+      "minecraft:play_time": 4589589,
+      "minecraft:deaths": 2,
+      "minecraft:time_since_death": 77611
     },
     "minecraft:killed_by": {
       "minecraft:player": 1,
       "minecraft:zombie": 1
     },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 55103,
-      "minecraft:total_world_time": 4567081,
-      "minecraft:leave_game": 6,
-      "minecraft:damage_taken": 626,
-      "minecraft:play_time": 4567081,
-      "minecraft:deaths": 2,
-      "minecraft:time_since_death": 55103
+    "minecraft:picked_up": {
+      "minecraft:acacia_sapling": 4,
+      "minecraft:apple": 1,
+      "minecraft:acacia_log": 1,
+      "minecraft:sandstone": 3,
+      "minecraft:sugar_cane": 1
     }
   },
   "DataVersion": 4671
