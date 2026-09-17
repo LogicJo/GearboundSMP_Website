@@ -1,17 +1,17 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 473611,
-      "minecraft:total_world_time": 4985589,
-      "minecraft:leave_game": 6,
-      "minecraft:damage_taken": 626,
-      "minecraft:play_time": 4985589,
-      "minecraft:deaths": 2,
-      "minecraft:time_since_death": 473611
+      "minecraft:time_since_rest": 0,
+      "minecraft:total_world_time": 4997152,
+      "minecraft:leave_game": 7,
+      "minecraft:damage_taken": 920,
+      "minecraft:play_time": 4997152,
+      "minecraft:deaths": 3,
+      "minecraft:time_since_death": 0
     },
     "minecraft:killed_by": {
       "minecraft:player": 1,
-      "minecraft:zombie": 1
+      "minecraft:zombie": 2
     },
     "minecraft:picked_up": {
       "minecraft:acacia_sapling": 5,
