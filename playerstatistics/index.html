@@ -19,47 +19,32 @@
         type="image/png"
         href="/favicon-96x96.png">
 
-
     <style>
 
         html {
             scroll-behavior: smooth;
         }
 
-
         body {
-
             font-family: Arial, sans-serif;
-
             background: #111;
-
             overflow-x: hidden;
-
         }
-
 
         .minecraft-font {
-
             font-family: 'Minecraft', sans-serif;
-
         }
 
-
-        /* =====================================================
-           BACKGROUND
-        ===================================================== */
+        /* BACKGROUND */
 
         .parallax-bg {
-
             position: fixed;
-
             inset: 0;
 
             background-image:
                 url("https://raw.githubusercontent.com/LogicJo/GearboundSMP_Website/refs/heads/master/images/theme_background2.JPG");
 
             background-size: cover;
-
             background-position: center;
 
             filter: blur(5px);
@@ -67,26 +52,18 @@
             transform: scale(1.1);
 
             z-index: -2;
-
         }
 
-
         .dark-overlay {
-
             position: fixed;
-
             inset: 0;
 
             background: rgba(0, 0, 0, .65);
 
             z-index: -1;
-
         }
 
-
-        /* =====================================================
-           MAIN WEBSITE PANELS
-        ===================================================== */
+        /* MINECRAFT LAUNCHER PANEL */
 
         .launcher-panel {
 
@@ -100,10 +77,7 @@
 
         }
 
-
-        /* =====================================================
-           MINECRAFT BUTTON
-        ===================================================== */
+        /* BUTTON */
 
         .mc-button {
 
@@ -118,72 +92,21 @@
 
         }
 
-
         .mc-button:hover {
-
             background: #4ca531;
-
         }
-
 
         .mc-button:active {
-
             transform: translateY(2px);
-
         }
 
+        /* SEARCH */
 
-        /* =====================================================
-           PLAYER CARD
-        ===================================================== */
-
-        .player-card {
-
-            transition:
-                transform .15s,
-                border-color .15s;
-
-        }
-
-
-        .player-card:hover {
-
-            transform: translateY(-3px);
-
-            border-color: #666;
-
-        }
-
-
-        /* =====================================================
-           STAT BOX
-        ===================================================== */
-
-        .stat-box {
-
-            background: #222;
-
-            border: 1px solid #3d3d3d;
-
-            box-shadow:
-                inset 0 1px rgba(255,255,255,.04);
-
-        }
-
-
-        /* =====================================================
-           SEARCH
-        ===================================================== */
-
-        .search-box {
-
-            width: 100%;
+        .mc-input {
 
             background: #1f1f1f;
 
-            border: 2px solid #4a4a4a;
-
-            color: white;
+            border: 2px solid #555;
 
             outline: none;
 
@@ -191,101 +114,117 @@
 
         }
 
-
-        .search-box:focus {
+        .mc-input:focus {
 
             border-color: #3c8527;
 
-        }
-
-
-        .search-box::placeholder {
-
-            color: #777;
+            box-shadow:
+                0 0 0 2px rgba(60,133,39,.2);
 
         }
 
+        /* PLAYER CARD */
 
-        /* =====================================================
-           PLAYER HEAD
-        ===================================================== */
+        .player-card {
+
+            transition:
+                transform .15s,
+                border-color .15s,
+                background .15s;
+
+        }
+
+        .player-card:hover {
+
+            transform: translateY(-2px);
+
+            border-color: #666;
+
+            background: #303030;
+
+        }
+
+        /* PLAYER HEAD */
 
         .player-head {
 
             image-rendering: pixelated;
 
-            border: 2px solid #4a4a4a;
+            width: 64px;
+            height: 64px;
 
-            background: #111;
+            border: 2px solid #555;
+
+            background: #1a1a1a;
 
         }
 
+        /* STAT BOX */
 
-        /* =====================================================
-           LOADING
-        ===================================================== */
+        .stat-box {
 
-        .loading-spinner {
+            background: #202020;
 
-            width: 36px;
+            border: 1px solid #444;
 
-            height: 36px;
+        }
 
-            border: 4px solid #444;
+        /* RAW JSON */
+
+        .raw-json {
+
+            background: #151515;
+
+            border: 1px solid #444;
+
+            max-height: 400px;
+
+            overflow: auto;
+
+            font-family: monospace;
+
+            font-size: 12px;
+
+            white-space: pre-wrap;
+
+            word-break: break-word;
+
+        }
+
+        /* LOADING */
+
+        .loader {
+
+            width: 28px;
+            height: 28px;
+
+            border: 3px solid #555;
 
             border-top-color: #3c8527;
 
             border-radius: 50%;
 
-            animation:
-                spin .8s linear infinite;
+            animation: spin .8s linear infinite;
 
         }
-
 
         @keyframes spin {
 
-            to {
-
-                transform:
-                    rotate(360deg);
-
-            }
-
-        }
-
-
-        /* =====================================================
-           FADE
-        ===================================================== */
-
-        .fade-in {
-
-            animation:
-                fadeIn .25s ease;
-
-        }
-
-
-        @keyframes fadeIn {
-
             from {
-
-                opacity: 0;
-
-                transform:
-                    translateY(8px);
-
+                transform: rotate(0deg);
             }
 
             to {
-
-                opacity: 1;
-
-                transform:
-                    translateY(0);
-
+                transform: rotate(360deg);
             }
+
+        }
+
+        /* LOAD MORE */
+
+        #loadMoreTrigger {
+
+            height: 80px;
 
         }
 
@@ -294,122 +233,76 @@
 </head>
 
 
-
 <body class="text-white">
 
 
-<!-- =========================================================
-     BACKGROUND
-========================================================= -->
+<!-- BACKGROUND -->
 
 <div class="parallax-bg"></div>
-
 <div class="dark-overlay"></div>
 
 
-
-<!-- =========================================================
-     NAVIGATION
-========================================================= -->
+<!-- NAVIGATION -->
 
 <header
-    class="sticky top-0 z-50
-           bg-[#1f1f1f]/95
-           backdrop-blur
-           border-b border-[#555]">
-
+    class="sticky top-0 z-50 bg-[#1f1f1f]/95 backdrop-blur border-b border-[#555]">
 
     <div
-        class="max-w-7xl mx-auto
-               px-6 h-20
-               flex items-center
-               justify-between">
+        class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
 
-
-        <!-- LOGO -->
-
-        <a
-            href="../index.html"
-            class="flex items-center gap-4">
-
+        <div class="flex items-center gap-4">
 
             <img
                 src="/favicon.svg"
                 class="w-12 h-12"
                 alt="Gearbound SMP">
 
-
             <div>
 
-                <div
-                    class="minecraft-font text-2xl">
-
+                <div class="minecraft-font text-2xl">
                     Gearbound SMP
-
                 </div>
 
-
-                <div
-                    class="text-xs text-zinc-400">
-
+                <div class="text-xs text-zinc-400">
                     Vanilla Anarchy Survival
-
                 </div>
 
             </div>
 
-        </a>
+        </div>
 
 
-
-        <!-- NAVIGATION -->
-
-        <nav
-            class="hidden md:flex
-                   gap-6 text-zinc-300">
-
+        <nav class="hidden md:flex gap-6 text-zinc-300">
 
             <a
-                href="../index.html#features"
-                class="hover:text-white transition">
+                href="/"
+                class="hover:text-white">
 
-                Features
+                Home
 
             </a>
 
-
             <a
-                href="../index.html#world"
-                class="hover:text-white transition">
+                href="/gallery/"
+                class="hover:text-white">
 
-                World
+                Gallery
 
             </a>
 
-
             <a
-                href="../index.html#join"
-                class="hover:text-white transition">
-
-                Join
-
-            </a>
-
-
-            <a
-                href="../index.html#discord"
-                class="hover:text-white transition">
-
-                Discord
-
-            </a>
-
-
-            <a
-                href="./"
+                href="/playerstatistics/"
                 class="text-white">
 
-                Statistics
+                Player Statistics
+
+            </a>
+
+            <a
+                href="http://mc.gearboundsmp.org:8123"
+                class="hover:text-white">
+
+                Live Map
 
             </a>
 
@@ -421,94 +314,35 @@
 
 
 
-<!-- =========================================================
-     PAGE HEADER
-========================================================= -->
+<!-- HERO -->
 
-<section
-    class="relative
-           min-h-[45vh]
-           flex items-center">
+<section class="max-w-7xl mx-auto px-6 pt-20 pb-16">
 
-
-    <div
-        class="max-w-7xl
-               mx-auto
-               px-6
-               w-full">
-
+    <div class="launcher-panel p-10">
 
         <div
-            class="max-w-4xl">
+            class="text-green-400 text-sm font-bold mb-4">
 
-
-            <!-- PAGE LABEL -->
-
-            <div
-                class="inline-flex
-                       items-center
-                       gap-2
-                       launcher-panel
-                       px-4
-                       py-2
-                       mb-8">
-
-
-                <span
-                    class="text-green-400">
-
-                    ● LIVE DATA
-
-                </span>
-
-
-                <span
-                    class="text-zinc-400">
-
-                    Minecraft Statistics
-
-                </span>
-
-            </div>
-
-
-
-            <!-- TITLE -->
-
-            <h1
-                class="minecraft-font
-                       text-5xl
-                       md:text-7xl
-                       leading-none">
-
-
-                PLAYER
-                <br>
-
-                STATISTICS
-
-            </h1>
-
-
-
-            <!-- DESCRIPTION -->
-
-            <p
-                class="mt-8
-                       text-xl
-                       text-zinc-300
-                       max-w-2xl
-                       leading-relaxed">
-
-
-                Explore the statistics of
-                players who have shaped the
-                history of Gearbound SMP.
-
-            </p>
-
+            GEARBOUND SMP
 
         </div>
+
+
+        <h1
+            class="minecraft-font text-5xl md:text-7xl">
+
+            PLAYER STATISTICS
+
+        </h1>
+
+
+        <p
+            class="text-zinc-400 text-lg mt-6 max-w-3xl">
+
+            Explore statistics from players who have played
+            on Gearbound SMP.
+
+        </p>
 
     </div>
 
@@ -516,273 +350,200 @@
 
 
 
-<!-- =========================================================
-     PLAYER STATISTICS
-========================================================= -->
+<!-- CONTROLS -->
 
 <section
-    class="max-w-7xl
-           mx-auto
-           px-6
-           pb-32">
-
-
-    <!-- =====================================================
-         SEARCH PANEL
-    ===================================================== -->
+    class="max-w-7xl mx-auto px-6 pb-10">
 
     <div
-        class="launcher-panel
-               p-6
-               mb-8">
-
+        class="launcher-panel p-5">
 
         <div
-            class="flex
-                   flex-col
-                   md:flex-row
-                   md:items-center
-                   md:justify-between
-                   gap-4">
+            class="flex flex-col md:flex-row gap-4">
 
-
-            <div>
-
-                <div
-                    class="minecraft-font
-                           text-xl
-                           mb-2">
-
-                    PLAYERS
-
-                </div>
-
-
-                <div
-                    class="text-zinc-400
-                           text-sm">
-
-                    Browse player statistics
-                    from the server.
-
-                </div>
-
-            </div>
-
-
+            <input
+                id="searchInput"
+                type="text"
+                placeholder="Search player or UUID..."
+                class="mc-input flex-1 px-5 py-4 text-white">
 
             <button
                 id="refreshButton"
-                onclick="loadPlayers()"
-                class="mc-button
-                       px-6
-                       py-3
-                       font-bold
-                       whitespace-nowrap">
+                class="mc-button px-8 py-4 font-bold">
 
-
-                ↻ REFRESH
+                REFRESH
 
             </button>
 
         </div>
 
 
-
-        <!-- SEARCH -->
-
-        <div class="mt-6">
-
-            <input
-                id="searchInput"
-                type="text"
-                placeholder="Search player or UUID..."
-                class="search-box
-                       px-4
-                       py-3">
-
-
-        </div>
-
-    </div>
-
-
-
-    <!-- =====================================================
-         LOADING
-    ===================================================== -->
-
-    <div
-        id="loadingState"
-        class="launcher-panel
-               p-12
-               flex
-               flex-col
-               items-center
-               justify-center">
-
-
         <div
-            class="loading-spinner
-                   mb-5">
+            class="flex flex-wrap gap-6 mt-5 text-sm text-zinc-400">
+
+            <div>
+
+                Players loaded:
+
+                <span
+                    id="loadedCount"
+                    class="text-white font-bold">
+
+                    0
+
+                </span>
+
+            </div>
+
+
+            <div>
+
+                Total files:
+
+                <span
+                    id="totalCount"
+                    class="text-white font-bold">
+
+                    0
+
+                </span>
+
+            </div>
+
         </div>
 
-
-        <p
-            class="text-zinc-400">
-
-            Loading player statistics...
-
-        </p>
-
     </div>
-
-
-
-    <!-- =====================================================
-         ERROR
-    ===================================================== -->
-
-    <div
-        id="errorState"
-        class="launcher-panel
-               p-8
-               hidden">
-
-
-        <h2
-            class="minecraft-font
-                   text-2xl
-                   text-red-400
-                   mb-4">
-
-            LOADING ERROR
-
-        </h2>
-
-
-        <p
-            id="errorMessage"
-            class="text-zinc-400">
-        </p>
-
-
-        <button
-            onclick="loadPlayers()"
-            class="mc-button
-                   mt-6
-                   px-6
-                   py-3
-                   font-bold">
-
-            TRY AGAIN
-
-        </button>
-
-    </div>
-
-
-
-    <!-- =====================================================
-         PLAYER COUNT
-    ===================================================== -->
-
-    <div
-        id="playerInfo"
-        class="hidden
-               mb-6
-               text-zinc-400
-               text-sm">
-
-
-        <span
-            id="playerCount">
-
-            0
-
-        </span>
-
-
-        players found.
-
-    </div>
-
-
-
-    <!-- =====================================================
-         PLAYER GRID
-    ===================================================== -->
-
-    <div
-        id="playersContainer"
-        class="grid
-               grid-cols-1
-               md:grid-cols-2
-               xl:grid-cols-3
-               gap-8">
-    </div>
-
 
 </section>
 
 
 
-<!-- =========================================================
-     FOOTER
-========================================================= -->
+<!-- ERROR -->
 
-<footer
-    class="bg-black/40
-           border-t
-           border-zinc-700">
-
+<section
+    id="errorSection"
+    class="max-w-7xl mx-auto px-6 pb-8 hidden">
 
     <div
-        class="max-w-7xl
-               mx-auto
-               px-6
-               py-16">
-
+        class="launcher-panel border-red-700 p-6">
 
         <div
-            class="grid
-                   md:grid-cols-3
-                   gap-10">
+            class="text-red-400 font-bold text-lg">
+
+            ERROR
+
+        </div>
+
+        <div
+            id="errorText"
+            class="text-zinc-400 mt-2">
+
+        </div>
+
+    </div>
+
+</section>
 
 
-            <!-- ABOUT -->
+
+<!-- PLAYER LIST -->
+
+<main
+    class="max-w-7xl mx-auto px-6 pb-20">
+
+    <div
+        id="playerList"
+        class="space-y-6">
+
+    </div>
+
+
+    <!-- INITIAL LOADING -->
+
+    <div
+        id="initialLoading"
+        class="flex flex-col items-center justify-center py-20">
+
+        <div class="loader"></div>
+
+        <div
+            class="text-zinc-400 mt-5">
+
+            Loading player statistics...
+
+        </div>
+
+    </div>
+
+
+    <!-- LOAD MORE -->
+
+    <div
+        id="loadMoreContainer"
+        class="flex flex-col items-center justify-center pt-10">
+
+        <div
+            id="loadMoreLoader"
+            class="loader hidden">
+
+        </div>
+
+        <div
+            id="loadMoreText"
+            class="text-zinc-500 text-sm mt-4">
+
+        </div>
+
+    </div>
+
+
+    <!-- IMPORTANT:
+         Invisible element used by IntersectionObserver -->
+
+    <div
+        id="loadMoreTrigger">
+
+    </div>
+
+</main>
+
+
+
+<!-- FOOTER -->
+
+<footer
+    class="bg-black/40 border-t border-zinc-700">
+
+    <div
+        class="max-w-7xl mx-auto px-6 py-16">
+
+        <div
+            class="grid md:grid-cols-3 gap-10">
+
 
             <div>
 
                 <div
-                    class="minecraft-font
-                           text-2xl
-                           mb-4">
+                    class="minecraft-font text-2xl mb-4">
 
                     Gearbound SMP
 
                 </div>
 
-
                 <p
                     class="text-zinc-500">
 
-                    A true Minecraft
-                    Anarchy experience.
+                    A true Minecraft Anarchy experience.
 
                 </p>
 
             </div>
 
 
-
-            <!-- LINKS -->
-
             <div>
 
                 <h3
-                    class="font-bold
-                           mb-4">
+                    class="font-bold mb-4">
 
                     Links
 
@@ -792,56 +553,42 @@
                 <div
                     class="space-y-2">
 
-
                     <a
-                        href="../index.html"
-                        class="block
-                               text-zinc-400
-                               hover:text-white">
+                        href="/"
+                        class="block text-zinc-400 hover:text-white">
 
                         Home
 
                     </a>
 
-
                     <a
-                        href="../gallery/"
-                        class="block
-                               text-zinc-400
-                               hover:text-white">
+                        href="/gallery/"
+                        class="block text-zinc-400 hover:text-white">
 
                         Gallery
 
                     </a>
 
-
                     <a
-                        href="./"
-                        class="block
-                               text-green-400">
+                        href="/playerstatistics/"
+                        class="block text-zinc-400 hover:text-white">
 
                         Player Statistics
 
                     </a>
 
-
                     <a
                         href="http://mc.gearboundsmp.org:8123"
-                        class="block
-                               text-zinc-400
-                               hover:text-white">
+                        class="block text-zinc-400 hover:text-white">
 
                         Live Map
 
                     </a>
 
-
                     <a
                         href="https://discord.gg/5t7FCHrx8g"
                         target="_blank"
-                        class="block
-                               text-zinc-400
-                               hover:text-white">
+                        class="block text-zinc-400 hover:text-white">
 
                         Discord
 
@@ -852,35 +599,24 @@
             </div>
 
 
-
-            <!-- IMPRINT -->
-
             <div>
 
                 <h3
-                    class="font-bold
-                           mb-4">
+                    class="font-bold mb-4">
 
                     Imprint
 
                 </h3>
 
-
                 <div
-                    class="text-zinc-500
-                           text-sm
-                           leading-relaxed">
-
+                    class="text-zinc-500 text-sm leading-relaxed">
 
                     Responsible for content:
                     Gearbound SMP Administration
 
-
                     <br><br>
 
-
                     Server Owner:
-
 
                     <a
                         href="https://laby.net/@LogicJo"
@@ -891,9 +627,7 @@
 
                     </a>
 
-
                     <br><br>
-
 
                     admin@gearboundsmp.org
 
@@ -914,7 +648,7 @@
 
 /* =========================================================
    CONFIGURATION
-========================================================= */
+   ========================================================= */
 
 const GITHUB_OWNER =
     "LogicJo";
@@ -929,68 +663,84 @@ const JSON_FOLDER =
     "playerstats";
 
 
+/*
+ * Number of player files loaded per batch.
+ */
+
+const BATCH_SIZE = 20;
+
+
+/*
+ * GitHub API endpoint.
+ */
+
 const GITHUB_API_URL =
     `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPOSITORY}/contents/${JSON_FOLDER}?ref=${GITHUB_BRANCH}`;
 
 
 
 /* =========================================================
-   GLOBAL DATA
-========================================================= */
+   STATE
+   ========================================================= */
 
-let allPlayers = [];
+let allFiles = [];
+
+let currentIndex = 0;
+
+let isLoading = false;
+
+let finishedLoading = false;
+
+let loadedPlayers = [];
 
 
 
 /* =========================================================
    DOM
-========================================================= */
+   ========================================================= */
 
-const playersContainer =
-    document.getElementById(
-        "playersContainer"
-    );
+const playerList =
+    document.getElementById("playerList");
 
-const loadingState =
-    document.getElementById(
-        "loadingState"
-    );
+const initialLoading =
+    document.getElementById("initialLoading");
 
-const errorState =
-    document.getElementById(
-        "errorState"
-    );
+const loadMoreLoader =
+    document.getElementById("loadMoreLoader");
 
-const errorMessage =
-    document.getElementById(
-        "errorMessage"
-    );
+const loadMoreText =
+    document.getElementById("loadMoreText");
 
-const playerInfo =
-    document.getElementById(
-        "playerInfo"
-    );
+const loadMoreTrigger =
+    document.getElementById("loadMoreTrigger");
 
-const playerCount =
-    document.getElementById(
-        "playerCount"
-    );
+const loadedCount =
+    document.getElementById("loadedCount");
+
+const totalCount =
+    document.getElementById("totalCount");
 
 const searchInput =
-    document.getElementById(
-        "searchInput"
-    );
+    document.getElementById("searchInput");
+
+const refreshButton =
+    document.getElementById("refreshButton");
+
+const errorSection =
+    document.getElementById("errorSection");
+
+const errorText =
+    document.getElementById("errorText");
 
 
 
 /* =========================================================
-   UUID
-========================================================= */
+   UUID FUNCTIONS
+   ========================================================= */
 
 function normalizeUUID(uuid) {
 
     return uuid
-        .replace(".json", "")
         .replace(/-/g, "")
         .toLowerCase();
 
@@ -1002,22 +752,16 @@ function formatUUID(uuid) {
     const clean =
         normalizeUUID(uuid);
 
-
     if (clean.length !== 32) {
-
         return uuid;
-
     }
 
-
     return (
-
         clean.substring(0, 8) + "-" +
         clean.substring(8, 12) + "-" +
         clean.substring(12, 16) + "-" +
         clean.substring(16, 20) + "-" +
         clean.substring(20, 32)
-
     );
 
 }
@@ -1025,207 +769,19 @@ function formatUUID(uuid) {
 
 
 /* =========================================================
-   MINECRAFT PROFILE
-========================================================= */
+   FORMAT NUMBERS
+   ========================================================= */
 
-async function getMinecraftProfile(uuid) {
+function formatNumber(value) {
 
-    const cleanUUID =
-        normalizeUUID(uuid);
-
-
-    const mojangURL =
-        `https://sessionserver.mojang.com/session/minecraft/profile/${cleanUUID}`;
-
-
-    try {
-
-        const response =
-            await fetch(
-                mojangURL
-            );
-
-
-        if (!response.ok) {
-
-            throw new Error(
-                `HTTP ${response.status}`
-            );
-
-        }
-
-
-        const profile =
-            await response.json();
-
-
-        if (profile && profile.name) {
-
-            return {
-
-                name:
-                    profile.name,
-
-                uuid:
-                    profile.id ||
-                    cleanUUID
-
-            };
-
-        }
-
-
-        throw new Error(
-            "No player name returned."
-        );
-
-
-    } catch (error) {
-
-        console.warn(
-            "Direct Mojang lookup failed:",
-            uuid,
-            error
-        );
-
-
-        /*
-            Fallback
-        */
-
-        try {
-
-            const proxyURL =
-                "https://api.allorigins.win/raw?url=" +
-                encodeURIComponent(
-                    mojangURL
-                );
-
-
-            const response =
-                await fetch(
-                    proxyURL
-                );
-
-
-            if (!response.ok) {
-
-                throw new Error(
-                    `HTTP ${response.status}`
-                );
-
-            }
-
-
-            const profile =
-                await response.json();
-
-
-            if (
-                profile &&
-                profile.name
-            ) {
-
-                return {
-
-                    name:
-                        profile.name,
-
-                    uuid:
-                        profile.id ||
-                        cleanUUID
-
-                };
-
-            }
-
-        } catch (error) {
-
-            console.warn(
-                "Fallback profile lookup failed:",
-                uuid,
-                error
-            );
-
-        }
-
-
-        /*
-            If the API cannot be reached,
-            show the UUID.
-        */
-
-        return {
-
-            name:
-                formatUUID(uuid),
-
-            uuid:
-                cleanUUID
-
-        };
-
+    if (
+        value === undefined ||
+        value === null
+    ) {
+        return "0";
     }
 
-}
-
-
-
-/* =========================================================
-   STATISTICS
-========================================================= */
-
-function getCustomStat(
-    data,
-    name
-) {
-
-    return (
-        data?.stats
-            ?.["minecraft:custom"]
-            ?.[name] ?? 0
-    );
-
-}
-
-
-
-function getCategoryTotal(
-    data,
-    category
-) {
-
-    const stats =
-        data?.stats?.[category] || {};
-
-
-    return Object
-        .values(stats)
-        .reduce(
-
-            (total, value) =>
-                total +
-                Number(value || 0),
-
-            0
-
-        );
-
-}
-
-
-
-/* =========================================================
-   NUMBER
-========================================================= */
-
-function formatNumber(number) {
-
-    return new Intl.NumberFormat(
-        "en-US"
-    ).format(
-        Number(number) || 0
-    );
+    return Number(value).toLocaleString("en-US");
 
 }
 
@@ -1233,31 +789,32 @@ function formatNumber(number) {
 
 /* =========================================================
    PLAYTIME
-========================================================= */
+   ========================================================= */
 
 function formatPlaytime(ticks) {
 
-    ticks =
-        Number(ticks) || 0;
+    if (!ticks) {
+        return "0h 0m";
+    }
 
+
+    /*
+     * Minecraft:
+     *
+     * 20 ticks = 1 second
+     */
 
     const seconds =
-        Math.floor(
-            ticks / 20
-        );
+        Math.floor(ticks / 20);
 
 
     const days =
-        Math.floor(
-            seconds / 86400
-        );
-
+        Math.floor(seconds / 86400);
 
     const hours =
         Math.floor(
             (seconds % 86400) / 3600
         );
-
 
     const minutes =
         Math.floor(
@@ -1286,13 +843,57 @@ function formatPlaytime(ticks) {
 
 
 /* =========================================================
-   PLAYER CARD
-========================================================= */
+   GET STATISTIC
+   ========================================================= */
+
+function getCustomStat(data, key) {
+
+    return (
+        data?.stats?.["minecraft:custom"]?.[key] || 0
+    );
+
+}
+
+
+
+/* =========================================================
+   COUNT STATISTICS
+   ========================================================= */
+
+function countCategory(data, category) {
+
+    const stats =
+        data?.stats?.[category];
+
+    if (!stats) {
+        return 0;
+    }
+
+    return Object.values(stats)
+        .reduce(
+            (total, value) =>
+                total + Number(value || 0),
+            0
+        );
+
+}
+
+
+
+/* =========================================================
+   CREATE PLAYER CARD
+   ========================================================= */
 
 function createPlayerCard(player) {
 
     const data =
         player.data;
+
+    const uuid =
+        player.uuid;
+
+    const name =
+        player.name;
 
 
     const playtime =
@@ -1301,13 +902,11 @@ function createPlayerCard(player) {
             "minecraft:play_time"
         );
 
-
     const deaths =
         getCustomStat(
             data,
             "minecraft:deaths"
         );
-
 
     const playerKills =
         getCustomStat(
@@ -1315,13 +914,11 @@ function createPlayerCard(player) {
             "minecraft:player_kills"
         );
 
-
     const mobKills =
         getCustomStat(
             data,
             "minecraft:mob_kills"
         );
-
 
     const damageDealt =
         getCustomStat(
@@ -1329,13 +926,11 @@ function createPlayerCard(player) {
             "minecraft:damage_dealt"
         );
 
-
     const damageTaken =
         getCustomStat(
             data,
             "minecraft:damage_taken"
         );
-
 
     const jumps =
         getCustomStat(
@@ -1345,256 +940,384 @@ function createPlayerCard(player) {
 
 
     const blocksMined =
-        getCategoryTotal(
+        countCategory(
             data,
             "minecraft:mined"
         );
 
-
     const itemsCrafted =
-        getCategoryTotal(
+        countCategory(
             data,
             "minecraft:crafted"
         );
 
-
     const itemsUsed =
-        getCategoryTotal(
+        countCategory(
             data,
             "minecraft:used"
         );
 
-
     const itemsPickedUp =
-        getCategoryTotal(
+        countCategory(
             data,
             "minecraft:picked_up"
         );
 
-
     const itemsDropped =
-        getCategoryTotal(
+        countCategory(
             data,
             "minecraft:dropped"
         );
 
-
     const mobsKilled =
-        getCategoryTotal(
+        countCategory(
             data,
             "minecraft:killed"
         );
 
 
-
     const card =
-        document.createElement(
-            "article"
-        );
-
+        document.createElement("div");
 
     card.className =
-        "player-card launcher-panel p-6 fade-in";
+        "launcher-panel player-card overflow-hidden";
 
+
+    card.dataset.name =
+        name.toLowerCase();
+
+    card.dataset.uuid =
+        uuid.toLowerCase();
 
 
     card.innerHTML = `
 
+        <!-- PLAYER HEADER -->
 
-        <!-- PLAYER -->
+        <div class="p-6">
 
-        <div
-            class="flex
-                   items-center
-                   gap-5
-                   mb-6">
+            <div class="flex flex-col md:flex-row md:items-center gap-5">
 
+                <img
+                    src="https://mc-heads.net/avatar/${encodeURIComponent(uuid)}/64"
+                    alt="${escapeHTML(name)}"
+                    class="player-head">
 
-            <img
-                src="https://mc-heads.net/avatar/${formatUUID(player.uuid)}/96"
-                alt="${escapeHTML(player.name)}"
-                class="player-head
-                       w-20
-                       h-20"
-                loading="lazy"
-                onerror="
-                    this.src='https://mc-heads.net/avatar/MHF_Steve/96'
-                ">
+                <div class="flex-1">
 
+                    <h2
+                        class="minecraft-font text-2xl">
 
-            <div
-                class="min-w-0">
+                        ${escapeHTML(name)}
 
+                    </h2>
 
-                <h2
-                    class="minecraft-font
-                           text-xl
-                           truncate">
+                    <div
+                        class="text-zinc-500 font-mono text-xs mt-2">
 
-                    ${escapeHTML(
-                        player.name
-                    )}
+                        ${escapeHTML(formatUUID(uuid))}
 
-                </h2>
+                    </div>
 
-
-                <p
-                    class="text-xs
-                           text-zinc-500
-                           break-all
-                           mt-2">
-
-                    ${escapeHTML(
-                        formatUUID(
-                            player.uuid
-                        )
-                    )}
-
-                </p>
+                </div>
 
             </div>
 
         </div>
 
 
-
         <!-- MAIN STATS -->
 
         <div
-            class="grid
-                   grid-cols-2
-                   gap-3
-                   mb-3">
+            class="border-t border-[#444] p-6">
+
+            <div
+                class="grid grid-cols-2 md:grid-cols-4 gap-4">
 
 
-            ${statBox(
-                "Playtime",
-                formatPlaytime(playtime)
-            )}
+                <div class="stat-box p-4">
+
+                    <div
+                        class="text-2xl font-bold">
+
+                        ${formatPlaytime(playtime)}
+
+                    </div>
+
+                    <div
+                        class="text-zinc-500 text-sm mt-1">
+
+                        Playtime
+
+                    </div>
+
+                </div>
 
 
-            ${statBox(
-                "Deaths",
-                formatNumber(deaths)
-            )}
+                <div class="stat-box p-4">
+
+                    <div
+                        class="text-2xl font-bold">
+
+                        ${formatNumber(deaths)}
+
+                    </div>
+
+                    <div
+                        class="text-zinc-500 text-sm mt-1">
+
+                        Deaths
+
+                    </div>
+
+                </div>
 
 
-            ${statBox(
-                "Player Kills",
-                formatNumber(playerKills)
-            )}
+                <div class="stat-box p-4">
+
+                    <div
+                        class="text-2xl font-bold">
+
+                        ${formatNumber(playerKills)}
+
+                    </div>
+
+                    <div
+                        class="text-zinc-500 text-sm mt-1">
+
+                        Player Kills
+
+                    </div>
+
+                </div>
 
 
-            ${statBox(
-                "Mob Kills",
-                formatNumber(mobKills)
-            )}
+                <div class="stat-box p-4">
+
+                    <div
+                        class="text-2xl font-bold">
+
+                        ${formatNumber(mobKills)}
+
+                    </div>
+
+                    <div
+                        class="text-zinc-500 text-sm mt-1">
+
+                        Mob Kills
+
+                    </div>
+
+                </div>
 
 
-            ${statBox(
-                "Damage Dealt",
-                formatNumber(damageDealt)
-            )}
+                <div class="stat-box p-4">
+
+                    <div
+                        class="text-2xl font-bold">
+
+                        ${formatNumber(damageDealt)}
+
+                    </div>
+
+                    <div
+                        class="text-zinc-500 text-sm mt-1">
+
+                        Damage Dealt
+
+                    </div>
+
+                </div>
 
 
-            ${statBox(
-                "Damage Taken",
-                formatNumber(damageTaken)
-            )}
+                <div class="stat-box p-4">
+
+                    <div
+                        class="text-2xl font-bold">
+
+                        ${formatNumber(damageTaken)}
+
+                    </div>
+
+                    <div
+                        class="text-zinc-500 text-sm mt-1">
+
+                        Damage Taken
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-box p-4">
+
+                    <div
+                        class="text-2xl font-bold">
+
+                        ${formatNumber(jumps)}
+
+                    </div>
+
+                    <div
+                        class="text-zinc-500 text-sm mt-1">
+
+                        Jumps
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-box p-4">
+
+                    <div
+                        class="text-2xl font-bold">
+
+                        ${formatNumber(blocksMined)}
+
+                    </div>
+
+                    <div
+                        class="text-zinc-500 text-sm mt-1">
+
+                        Blocks Mined
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-box p-4">
+
+                    <div
+                        class="text-2xl font-bold">
+
+                        ${formatNumber(itemsCrafted)}
+
+                    </div>
+
+                    <div
+                        class="text-zinc-500 text-sm mt-1">
+
+                        Items Crafted
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-box p-4">
+
+                    <div
+                        class="text-2xl font-bold">
+
+                        ${formatNumber(itemsUsed)}
+
+                    </div>
+
+                    <div
+                        class="text-zinc-500 text-sm mt-1">
+
+                        Items Used
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-box p-4">
+
+                    <div
+                        class="text-2xl font-bold">
+
+                        ${formatNumber(itemsPickedUp)}
+
+                    </div>
+
+                    <div
+                        class="text-zinc-500 text-sm mt-1">
+
+                        Items Picked Up
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-box p-4">
+
+                    <div
+                        class="text-2xl font-bold">
+
+                        ${formatNumber(itemsDropped)}
+
+                    </div>
+
+                    <div
+                        class="text-zinc-500 text-sm mt-1">
+
+                        Items Dropped
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-box p-4">
+
+                    <div
+                        class="text-2xl font-bold">
+
+                        ${formatNumber(mobsKilled)}
+
+                    </div>
+
+                    <div
+                        class="text-zinc-500 text-sm mt-1">
+
+                        Mobs Killed
+
+                    </div>
+
+                </div>
+
+
+            </div>
 
         </div>
 
 
-
-        <!-- ADDITIONAL STATS -->
+        <!-- RAW JSON -->
 
         <div
-            class="grid
-                   grid-cols-2
-                   gap-3">
+            class="border-t border-[#444]">
+
+            <button
+                onclick="toggleRawJSON(this)"
+                class="w-full text-left px-6 py-4 text-zinc-400 hover:text-white">
+
+                <span>
+                    ▶ View Raw Statistics
+                </span>
+
+            </button>
 
 
-            ${smallStat(
-                "Jumps",
-                formatNumber(jumps)
-            )}
+            <div
+                class="hidden px-6 pb-6">
 
+                <pre
+                    class="raw-json p-4">${escapeHTML(
+                        JSON.stringify(
+                            data,
+                            null,
+                            2
+                        )
+                    )}</pre>
 
-            ${smallStat(
-                "Blocks Mined",
-                formatNumber(blocksMined)
-            )}
-
-
-            ${smallStat(
-                "Items Crafted",
-                formatNumber(itemsCrafted)
-            )}
-
-
-            ${smallStat(
-                "Items Used",
-                formatNumber(itemsUsed)
-            )}
-
-
-            ${smallStat(
-                "Items Picked Up",
-                formatNumber(itemsPickedUp)
-            )}
-
-
-            ${smallStat(
-                "Items Dropped",
-                formatNumber(itemsDropped)
-            )}
-
-
-            ${smallStat(
-                "Mobs Killed",
-                formatNumber(mobsKilled)
-            )}
+            </div>
 
         </div>
-
-
-
-        <!-- RAW DATA -->
-
-        <details
-            class="mt-5">
-
-
-            <summary
-                class="cursor-pointer
-                       text-sm
-                       text-zinc-500
-                       hover:text-white">
-
-                Show Raw Data
-
-            </summary>
-
-
-            <pre
-                class="mt-3
-                       p-3
-                       bg-[#181818]
-                       border
-                       border-[#333]
-                       text-xs
-                       text-zinc-500
-                       overflow-auto
-                       max-h-80">${escapeHTML(
-                           JSON.stringify(
-                               data,
-                               null,
-                               2
-                           )
-                       )}</pre>
-
-
-        </details>
 
     `;
 
@@ -1606,174 +1329,144 @@ function createPlayerCard(player) {
 
 
 /* =========================================================
-   STAT BOX
-========================================================= */
-
-function statBox(
-    label,
-    value
-) {
-
-    return `
-
-        <div
-            class="stat-box
-                   p-3">
-
-
-            <div
-                class="text-xs
-                       text-zinc-500
-                       mb-1">
-
-                ${label}
-
-            </div>
-
-
-            <div
-                class="font-bold">
-
-                ${value}
-
-            </div>
-
-        </div>
-
-    `;
-
-}
-
-
-
-/* =========================================================
-   SMALL STAT
-========================================================= */
-
-function smallStat(
-    label,
-    value
-) {
-
-    return `
-
-        <div
-            class="stat-box
-                   px-3
-                   py-2">
-
-
-            <div
-                class="flex
-                       justify-between
-                       gap-2">
-
-
-                <span
-                    class="text-xs
-                           text-zinc-500">
-
-                    ${label}
-
-                </span>
-
-
-                <span
-                    class="text-xs
-                           font-bold">
-
-                    ${value}
-
-                </span>
-
-
-            </div>
-
-        </div>
-
-    `;
-
-}
-
-
-
-/* =========================================================
    ESCAPE HTML
-========================================================= */
+   ========================================================= */
 
 function escapeHTML(value) {
 
     return String(value)
-
-        .replace(
-            /&/g,
-            "&amp;"
-        )
-
-        .replace(
-            /</g,
-            "&lt;"
-        )
-
-        .replace(
-            />/g,
-            "&gt;"
-        )
-
-        .replace(
-            /"/g,
-            "&quot;"
-        )
-
-        .replace(
-            /'/g,
-            "&#039;"
-        );
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
 
 }
 
 
 
 /* =========================================================
-   LOAD PLAYERS
-========================================================= */
+   RAW JSON TOGGLE
+   ========================================================= */
 
-async function loadPlayers() {
+function toggleRawJSON(button) {
 
-    loadingState.classList.remove(
-        "hidden"
-    );
+    const container =
+        button.nextElementSibling;
 
-    errorState.classList.add(
-        "hidden"
-    );
-
-    playerInfo.classList.add(
-        "hidden"
-    );
+    container.classList.toggle("hidden");
 
 
-    playersContainer.innerHTML =
-        "";
+    const span =
+        button.querySelector("span");
+
+
+    if (container.classList.contains("hidden")) {
+
+        span.textContent =
+            "▶ View Raw Statistics";
+
+    } else {
+
+        span.textContent =
+            "▼ Hide Raw Statistics";
+
+    }
+
+}
+
+
+
+/* =========================================================
+   GET PLAYER NAME
+   ========================================================= */
+
+/*
+ * Mojang's profile endpoint does not reliably allow
+ * browser-side CORS requests.
+ *
+ * Therefore this function tries the profile API, but
+ * falls back to the UUID if the browser blocks it.
+ */
+
+async function getMinecraftProfile(uuid) {
+
+    const cleanUUID =
+        normalizeUUID(uuid);
 
 
     try {
 
-
-        /* ---------------------------------------------
-           GITHUB
-        --------------------------------------------- */
-
         const response =
             await fetch(
-                GITHUB_API_URL
+                `https://sessionserver.mojang.com/session/minecraft/profile/${cleanUUID}`,
+                {
+                    method: "GET",
+                    cache: "no-store"
+                }
             );
 
 
         if (!response.ok) {
 
             throw new Error(
-                `GitHub API error: ${response.status}`
+                `HTTP ${response.status}`
+            );
+
+        }
+
+
+        const profile =
+            await response.json();
+
+
+        if (profile.name) {
+
+            return profile.name;
+
+        }
+
+    } catch (error) {
+
+        console.warn(
+            "Could not resolve Minecraft name:",
+            uuid,
+            error
+        );
+
+    }
+
+
+    return formatUUID(uuid);
+
+}
+
+
+
+/* =========================================================
+   LOAD GITHUB FILE LIST
+   ========================================================= */
+
+async function loadFileList() {
+
+    try {
+
+        showError(false);
+
+
+        const response =
+            await fetch(
+                GITHUB_API_URL,
+                {
+                    cache: "no-store"
+                }
+            );
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                `GitHub API returned HTTP ${response.status}`
             );
 
         }
@@ -1783,143 +1476,65 @@ async function loadPlayers() {
             await response.json();
 
 
+        /*
+         * Only JSON files.
+         */
 
-        /* ---------------------------------------------
-           JSON FILES
-        --------------------------------------------- */
-
-        const jsonFiles =
+        allFiles =
             files.filter(
-
                 file =>
                     file.type === "file" &&
-                    file.name
-                        .toLowerCase()
-                        .endsWith(".json")
-
+                    file.name.toLowerCase().endsWith(".json")
             );
 
 
+        /*
+         * Sort alphabetically by filename.
+         */
 
-        /* ---------------------------------------------
-           LOAD DATA
-        --------------------------------------------- */
-
-        const players =
-            await Promise.all(
-
-                jsonFiles.map(
-                    async file => {
-
-
-                        const uuid =
-                            file.name
-                                .replace(
-                                    /\.json$/i,
-                                    ""
-                                );
-
-
-                        const statsResponse =
-                            await fetch(
-                                file.download_url
-                            );
-
-
-                        if (
-                            !statsResponse.ok
-                        ) {
-
-                            throw new Error(
-                                `Could not load ${file.name}`
-                            );
-
-                        }
-
-
-                        const statsData =
-                            await statsResponse.json();
-
-
-                        const profile =
-                            await getMinecraftProfile(
-                                uuid
-                            );
-
-
-                        return {
-
-                            uuid:
-                                uuid,
-
-                            name:
-                                profile.name,
-
-                            data:
-                                statsData
-
-                        };
-
-                    }
-
-                )
-
-            );
-
-
-
-        /* ---------------------------------------------
-           SAVE
-        --------------------------------------------- */
-
-        allPlayers =
-            players;
-
-
-
-        /* ---------------------------------------------
-           DISPLAY
-        --------------------------------------------- */
-
-        renderPlayers(
-            allPlayers
+        allFiles.sort(
+            (a, b) =>
+                a.name.localeCompare(b.name)
         );
 
 
-        loadingState.classList.add(
-            "hidden"
-        );
+        totalCount.textContent =
+            allFiles.length;
 
 
-        playerInfo.classList.remove(
-            "hidden"
-        );
+        currentIndex = 0;
+
+        finishedLoading = false;
 
 
-        playerCount.textContent =
-            allPlayers.length;
+        /*
+         * Clear existing cards.
+         */
+
+        playerList.innerHTML = "";
+
+
+        loadedPlayers = [];
+
+
+        /*
+         * Load first 20.
+         */
+
+        await loadNextBatch();
 
 
     } catch (error) {
 
-        console.error(
-            error
+        console.error(error);
+
+        showError(
+            true,
+            "Could not load the player statistics from GitHub. " +
+            error.message
         );
 
-
-        loadingState.classList.add(
-            "hidden"
-        );
-
-
-        errorState.classList.remove(
-            "hidden"
-        );
-
-
-        errorMessage.textContent =
-            error.message ||
-            "An unknown error occurred.";
+        initialLoading.classList.add("hidden");
 
     }
 
@@ -1928,72 +1543,280 @@ async function loadPlayers() {
 
 
 /* =========================================================
-   RENDER
-========================================================= */
+   LOAD NEXT 20 PLAYERS
+   ========================================================= */
 
-function renderPlayers(
-    players
-) {
+async function loadNextBatch() {
 
-    playersContainer.innerHTML =
-        "";
+    /*
+     * Prevent multiple simultaneous loads.
+     */
 
+    if (isLoading) {
+        return;
+    }
+
+
+    /*
+     * Nothing left.
+     */
 
     if (
-        players.length === 0
+        currentIndex >= allFiles.length
     ) {
 
-        playersContainer.innerHTML = `
+        finishedLoading = true;
 
-            <div
-                class="launcher-panel
-                       p-12
-                       text-center
-                       col-span-full">
-
-
-                <div
-                    class="minecraft-font
-                           text-2xl
-                           mb-4">
-
-                    NO PLAYERS FOUND
-
-                </div>
-
-
-                <p
-                    class="text-zinc-500">
-
-                    No player matches your search.
-
-                </p>
-
-
-            </div>
-
-        `;
+        updateLoadMoreText();
 
         return;
 
     }
 
 
-    players.forEach(
-        player => {
+    isLoading = true;
 
-            playersContainer.appendChild(
-                createPlayerCard(
-                    player
+
+    loadMoreLoader.classList.remove("hidden");
+
+    loadMoreText.textContent =
+        "Loading more player statistics...";
+
+
+    /*
+     * Determine next batch.
+     */
+
+    const batch =
+        allFiles.slice(
+            currentIndex,
+            currentIndex + BATCH_SIZE
+        );
+
+
+    /*
+     * Move index immediately.
+     *
+     * This prevents duplicate loading if
+     * IntersectionObserver fires twice.
+     */
+
+    currentIndex += batch.length;
+
+
+    try {
+
+        /*
+         * Load only this batch.
+         *
+         * Promise.all means the 20 files
+         * are loaded in parallel.
+         *
+         * But ONLY these 20.
+         */
+
+        const players =
+            await Promise.all(
+
+                batch.map(
+                    file =>
+                        loadPlayerFile(file)
                 )
+
+            );
+
+
+        /*
+         * Remove failed files.
+         */
+
+        const validPlayers =
+            players.filter(
+                player => player !== null
+            );
+
+
+        /*
+         * Add to state.
+         */
+
+        loadedPlayers.push(
+            ...validPlayers
+        );
+
+
+        /*
+         * Render cards.
+         */
+
+        validPlayers.forEach(
+            player => {
+
+                const card =
+                    createPlayerCard(player);
+
+                playerList.appendChild(card);
+
+            }
+        );
+
+
+        /*
+         * Update counter.
+         */
+
+        loadedCount.textContent =
+            loadedPlayers.length;
+
+
+        /*
+         * Hide initial loader.
+         */
+
+        initialLoading.classList.add("hidden");
+
+
+        /*
+         * If there are more files,
+         * keep observer active.
+         */
+
+        if (
+            currentIndex >= allFiles.length
+        ) {
+
+            finishedLoading = true;
+
+        }
+
+
+        updateLoadMoreText();
+
+
+    } catch (error) {
+
+        console.error(
+            "Batch loading error:",
+            error
+        );
+
+
+        showError(
+            true,
+            "Some player statistics could not be loaded."
+        );
+
+    }
+
+
+    loadMoreLoader.classList.add("hidden");
+
+    isLoading = false;
+
+}
+
+
+
+/* =========================================================
+   LOAD ONE PLAYER FILE
+   ========================================================= */
+
+async function loadPlayerFile(file) {
+
+    try {
+
+        /*
+         * UUID is the filename without .json
+         */
+
+        const uuid =
+            file.name.replace(
+                /\.json$/i,
+                ""
+            );
+
+
+        /*
+         * Validate UUID.
+         */
+
+        const cleanUUID =
+            normalizeUUID(uuid);
+
+
+        if (
+            !/^[0-9a-f]{32}$/i.test(cleanUUID)
+        ) {
+
+            console.warn(
+                "Skipping invalid UUID file:",
+                file.name
+            );
+
+            return null;
+
+        }
+
+
+        /*
+         * Download JSON.
+         *
+         * IMPORTANT:
+         * This only happens for files
+         * in the current 20-player batch.
+         */
+
+        const response =
+            await fetch(
+                file.download_url,
+                {
+                    cache: "no-store"
+                }
+            );
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                `HTTP ${response.status}`
             );
 
         }
-    );
 
 
-    playerCount.textContent =
-        players.length;
+        const statsData =
+            await response.json();
+
+
+        /*
+         * Try to resolve Minecraft username.
+         */
+
+        const name =
+            await getMinecraftProfile(uuid);
+
+
+        return {
+
+            uuid: uuid,
+
+            name: name,
+
+            data: statsData
+
+        };
+
+
+    } catch (error) {
+
+        console.error(
+            `Could not load ${file.name}:`,
+            error
+        );
+
+        return null;
+
+    }
 
 }
 
@@ -2001,64 +1824,54 @@ function renderPlayers(
 
 /* =========================================================
    SEARCH
-========================================================= */
+   ========================================================= */
 
 searchInput.addEventListener(
     "input",
-    function () {
-
+    function() {
 
         const query =
             this.value
-                .toLowerCase()
-                .trim();
+                .trim()
+                .toLowerCase();
 
 
-        if (!query) {
-
-            renderPlayers(
-                allPlayers
+        const cards =
+            playerList.querySelectorAll(
+                ".player-card"
             );
 
-            return;
 
-        }
+        cards.forEach(
+            card => {
 
+                const name =
+                    card.dataset.name || "";
 
-        const filtered =
-            allPlayers.filter(
-                player => {
-
-
-                    const name =
-                        player.name
-                            .toLowerCase();
+                const uuid =
+                    card.dataset.uuid || "";
 
 
-                    const uuid =
-                        formatUUID(
-                            player.uuid
-                        ).toLowerCase();
+                const matches =
+                    name.includes(query) ||
+                    uuid.includes(query);
 
 
-                    return (
+                if (matches) {
 
-                        name.includes(
-                            query
-                        ) ||
+                    card.classList.remove(
+                        "hidden"
+                    );
 
-                        uuid.includes(
-                            query
-                        )
+                } else {
 
+                    card.classList.add(
+                        "hidden"
                     );
 
                 }
-            );
 
-
-        renderPlayers(
-            filtered
+            }
         );
 
     }
@@ -2067,10 +1880,182 @@ searchInput.addEventListener(
 
 
 /* =========================================================
-   START
-========================================================= */
+   LOAD MORE TEXT
+   ========================================================= */
 
-loadPlayers();
+function updateLoadMoreText() {
+
+    if (
+        finishedLoading &&
+        allFiles.length > 0
+    ) {
+
+        loadMoreText.textContent =
+            "All player statistics have been loaded.";
+
+        return;
+
+    }
+
+
+    if (
+        allFiles.length === 0
+    ) {
+
+        loadMoreText.textContent =
+            "No player statistics found.";
+
+        return;
+
+    }
+
+
+    const remaining =
+        allFiles.length - currentIndex;
+
+
+    if (remaining > 0) {
+
+        loadMoreText.textContent =
+            `${remaining} more player statistics available`;
+
+    }
+
+}
+
+
+
+/* =========================================================
+   INTERSECTION OBSERVER
+   ========================================================= */
+
+/*
+ * This watches the invisible element at the bottom
+ * of the page.
+ *
+ * When the user gets close to it, another batch
+ * of 20 players is loaded automatically.
+ */
+
+const observer =
+    new IntersectionObserver(
+        entries => {
+
+            if (
+                entries[0].isIntersecting &&
+                !isLoading &&
+                !finishedLoading
+            ) {
+
+                loadNextBatch();
+
+            }
+
+        },
+        {
+            /*
+             * Start loading a little before
+             * the user actually reaches the bottom.
+             */
+
+            rootMargin: "600px"
+        }
+    );
+
+
+observer.observe(
+    loadMoreTrigger
+);
+
+
+
+/* =========================================================
+   ERROR DISPLAY
+   ========================================================= */
+
+function showError(
+    visible,
+    message = ""
+) {
+
+    if (visible) {
+
+        errorSection.classList.remove(
+            "hidden"
+        );
+
+        errorText.textContent =
+            message;
+
+    } else {
+
+        errorSection.classList.add(
+            "hidden"
+        );
+
+        errorText.textContent =
+            "";
+
+    }
+
+}
+
+
+
+/* =========================================================
+   REFRESH
+   ========================================================= */
+
+refreshButton.addEventListener(
+    "click",
+    async function() {
+
+        /*
+         * Disable button temporarily.
+         */
+
+        refreshButton.disabled = true;
+
+        refreshButton.classList.add(
+            "opacity-50"
+        );
+
+
+        initialLoading.classList.remove(
+            "hidden"
+        );
+
+
+        loadMoreText.textContent =
+            "";
+
+
+        try {
+
+            await loadFileList();
+
+        } finally {
+
+            refreshButton.disabled =
+                false;
+
+            refreshButton.classList.remove(
+                "opacity-50"
+            );
+
+        }
+
+    }
+);
+
+
+
+/* =========================================================
+   INITIAL LOAD
+   ========================================================= */
+
+loadFileList();
+
 
 </script>
 
