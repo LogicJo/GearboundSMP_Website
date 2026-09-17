@@ -1,35 +1,59 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 9701,
-      "minecraft:walk_one_cm": 687566,
-      "minecraft:damage_taken": 445,
-      "minecraft:play_time": 9952,
-      "minecraft:damage_dealt": 25,
-      "minecraft:jump": 77,
-      "minecraft:time_since_death": 9672,
-      "minecraft:interact_with_furnace": 8,
-      "minecraft:sprint_one_cm": 55710,
-      "minecraft:open_chest": 10,
-      "minecraft:fall_one_cm": 21754,
-      "minecraft:total_world_time": 9952,
-      "minecraft:fly_one_cm": 21594,
-      "minecraft:crouch_one_cm": 14742,
-      "minecraft:sneak_time": 1726,
+      "minecraft:time_since_rest": 21654,
+      "minecraft:walk_one_cm": 2277779,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 3,
+      "minecraft:walk_under_water_one_cm": 12586,
+      "minecraft:damage_taken": 576,
+      "minecraft:damage_dealt": 665,
+      "minecraft:play_time": 21905,
+      "minecraft:jump": 158,
+      "minecraft:time_since_death": 21625,
+      "minecraft:drop": 1,
+      "minecraft:interact_with_furnace": 9,
+      "minecraft:sprint_one_cm": 280764,
+      "minecraft:open_chest": 29,
+      "minecraft:fall_one_cm": 65280,
+      "minecraft:swim_one_cm": 1005,
+      "minecraft:total_world_time": 21905,
+      "minecraft:fly_one_cm": 38945,
+      "minecraft:walk_on_water_one_cm": 24531,
+      "minecraft:crouch_one_cm": 69304,
+      "minecraft:sneak_time": 2187,
+      "minecraft:climb_one_cm": 178,
       "minecraft:deaths": 1
     },
     "minecraft:used": {
-      "minecraft:cooked_porkchop": 1,
-      "minecraft:dirt": 7
+      "minecraft:sand": 2,
+      "minecraft:stone_sword": 11,
+      "minecraft:iron_pickaxe": 2,
+      "minecraft:cooked_porkchop": 2,
+      "minecraft:bread": 9,
+      "minecraft:dirt": 11
     },
     "minecraft:mined": {
-      "minecraft:sand": 2,
+      "minecraft:purple_bed": 1,
+      "minecraft:sand": 8,
       "minecraft:dirt": 7,
+      "minecraft:deepslate_bricks": 1,
       "minecraft:grass_block": 4
+    },
+    "minecraft:killed": {
+      "minecraft:skeleton": 3
     },
     "minecraft:picked_up": {
       "minecraft:dirt": 11,
-      "minecraft:sand": 2
+      "minecraft:poppy": 1,
+      "minecraft:pumpkin_seeds": 4,
+      "minecraft:sand": 10,
+      "minecraft:deepslate_bricks": 1,
+      "minecraft:arrow": 5,
+      "minecraft:bone": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:pumpkin_seeds": 4
     }
   },
   "DataVersion": 4671
