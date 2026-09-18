@@ -2,21 +2,22 @@
   "stats": {
     "minecraft:custom": {
       "minecraft:time_since_rest": 1,
-      "minecraft:total_world_time": 592783,
-      "minecraft:leave_game": 29,
-      "minecraft:damage_taken": 6705,
-      "minecraft:play_time": 592783,
-      "minecraft:deaths": 25,
+      "minecraft:total_world_time": 593868,
+      "minecraft:leave_game": 33,
+      "minecraft:damage_taken": 7968,
+      "minecraft:play_time": 593868,
+      "minecraft:deaths": 29,
       "minecraft:time_since_death": 1
     },
     "minecraft:killed_by": {
       "minecraft:skeleton": 2,
-      "minecraft:player": 20,
+      "minecraft:player": 24,
       "minecraft:creeper": 1,
       "minecraft:ghast": 1
     },
     "minecraft:picked_up": {
       "minecraft:baked_potato": 2,
+      "minecraft:splash_potion": 3,
       "minecraft:potion": 2,
       "minecraft:blaze_rod": 1,
       "minecraft:torch": 1,
