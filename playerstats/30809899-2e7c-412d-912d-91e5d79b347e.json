@@ -1,28 +1,57 @@
 {
   "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 2,
+      "minecraft:time_since_rest": 4011,
+      "minecraft:walk_one_cm": 6595,
+      "minecraft:leave_game": 2,
+      "minecraft:damage_taken": 380,
+      "minecraft:play_time": 7603,
+      "minecraft:jump": 125,
+      "minecraft:time_since_death": 3969,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 4424,
+      "minecraft:fall_one_cm": 8457,
+      "minecraft:total_world_time": 7603,
+      "minecraft:fly_one_cm": 36747,
+      "minecraft:walk_on_water_one_cm": 37,
+      "minecraft:crouch_one_cm": 2896,
+      "minecraft:sneak_time": 1302,
+      "minecraft:deaths": 1
+    },
+    "minecraft:used": {
+      "minecraft:leaf_litter": 7,
+      "minecraft:crafting_table": 1,
+      "minecraft:wooden_pickaxe": 14,
+      "minecraft:dirt": 9
+    },
     "minecraft:mined": {
-      "minecraft:dirt": 8,
+      "minecraft:short_grass": 5,
       "minecraft:spruce_log": 6,
-      "minecraft:spruce_leaves": 7
+      "minecraft:dirt": 13,
+      "minecraft:dandelion": 1,
+      "minecraft:birch_log": 7,
+      "minecraft:leaf_litter": 2,
+      "minecraft:birch_leaves": 1,
+      "minecraft:grass_block": 5,
+      "minecraft:red_stained_glass": 1,
+      "minecraft:spruce_leaves": 7,
+      "minecraft:stone": 9
+    },
+    "minecraft:crafted": {
+      "minecraft:stone_sword": 1,
+      "minecraft:stick": 4,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:birch_planks": 28,
+      "minecraft:crafting_table": 1
     },
     "minecraft:picked_up": {
       "minecraft:spruce_log": 6,
-      "minecraft:dirt": 8
-    },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 3016,
-      "minecraft:walk_one_cm": 56,
-      "minecraft:leave_game": 2,
-      "minecraft:damage_taken": 20,
-      "minecraft:play_time": 3016,
-      "minecraft:jump": 7,
-      "minecraft:time_since_death": 3016,
-      "minecraft:drop": 1,
-      "minecraft:sprint_one_cm": 3,
-      "minecraft:fall_one_cm": 1400,
-      "minecraft:total_world_time": 3016,
-      "minecraft:crouch_one_cm": 2342,
-      "minecraft:sneak_time": 1020
+      "minecraft:leaf_litter": 7,
+      "minecraft:dirt": 17,
+      "minecraft:cobblestone": 9,
+      "minecraft:dandelion": 1,
+      "minecraft:birch_log": 7
     },
     "minecraft:dropped": {
       "minecraft:dirt": 1
