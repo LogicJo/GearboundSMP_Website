@@ -2,21 +2,21 @@
   "stats": {
     "minecraft:custom": {
       "minecraft:interact_with_crafting_table": 3,
-      "minecraft:time_since_rest": 4153,
-      "minecraft:walk_one_cm": 4057,
-      "minecraft:leave_game": 1,
+      "minecraft:time_since_rest": 5412,
+      "minecraft:walk_one_cm": 6533,
+      "minecraft:leave_game": 2,
       "minecraft:damage_taken": 30,
-      "minecraft:play_time": 4153,
-      "minecraft:jump": 78,
-      "minecraft:time_since_death": 4153,
+      "minecraft:play_time": 5412,
+      "minecraft:jump": 108,
+      "minecraft:time_since_death": 5412,
       "minecraft:drop": 1,
-      "minecraft:sprint_one_cm": 8037,
-      "minecraft:fall_one_cm": 4975,
-      "minecraft:total_world_time": 4153,
-      "minecraft:fly_one_cm": 14843,
+      "minecraft:sprint_one_cm": 9435,
+      "minecraft:fall_one_cm": 5975,
+      "minecraft:total_world_time": 5412,
+      "minecraft:fly_one_cm": 17571,
       "minecraft:walk_on_water_one_cm": 492,
-      "minecraft:crouch_one_cm": 1856,
-      "minecraft:sneak_time": 723
+      "minecraft:crouch_one_cm": 2344,
+      "minecraft:sneak_time": 921
     },
     "minecraft:used": {
       "minecraft:stone_axe": 1,
