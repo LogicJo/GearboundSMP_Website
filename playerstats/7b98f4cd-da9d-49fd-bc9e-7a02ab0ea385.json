@@ -1,0 +1,41 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:acacia_shelf": 1,
+      "minecraft:dirt": 2
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 8,
+      "minecraft:warped_planks": 28,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 5187,
+      "minecraft:walk_one_cm": 3801,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 10,
+      "minecraft:play_time": 5187,
+      "minecraft:jump": 148,
+      "minecraft:time_since_death": 5187,
+      "minecraft:sprint_one_cm": 10064,
+      "minecraft:fall_one_cm": 3200,
+      "minecraft:total_world_time": 5187,
+      "minecraft:fly_one_cm": 24526,
+      "minecraft:crouch_one_cm": 12,
+      "minecraft:sneak_time": 36
+    },
+    "minecraft:picked_up": {
+      "minecraft:acacia_shelf": 1,
+      "minecraft:dirt": 2,
+      "minecraft:warped_stem": 7
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 1,
+      "minecraft:acacia_shelf": 1,
+      "minecraft:dirt": 1,
+      "minecraft:warped_stem": 7,
+      "minecraft:grass_block": 1
+    }
+  },
+  "DataVersion": 4671
+}
