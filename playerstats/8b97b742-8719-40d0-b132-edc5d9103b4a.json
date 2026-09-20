@@ -1,35 +1,49 @@
 {
   "stats": {
     "minecraft:used": {
+      "minecraft:stone_axe": 1,
       "minecraft:crafting_table": 1,
+      "minecraft:wooden_pickaxe": 6,
       "minecraft:dirt": 2
     },
+    "minecraft:crafted": {
+      "minecraft:stick": 8,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:stone_axe": 1,
+      "minecraft:birch_planks": 16,
+      "minecraft:stone_pickaxe": 1
+    },
     "minecraft:custom": {
-      "minecraft:interact_with_crafting_table": 1,
-      "minecraft:time_since_rest": 4789,
-      "minecraft:walk_one_cm": 2518,
-      "minecraft:leave_game": 1,
+      "minecraft:interact_with_crafting_table": 3,
+      "minecraft:time_since_rest": 7972,
+      "minecraft:walk_one_cm": 6513,
+      "minecraft:leave_game": 2,
+      "minecraft:walk_under_water_one_cm": 354,
       "minecraft:damage_taken": 30,
-      "minecraft:play_time": 4789,
       "minecraft:damage_dealt": 9,
-      "minecraft:jump": 147,
-      "minecraft:time_since_death": 4789,
-      "minecraft:sprint_one_cm": 11493,
-      "minecraft:fall_one_cm": 4978,
-      "minecraft:total_world_time": 4789,
-      "minecraft:fly_one_cm": 41707,
-      "minecraft:walk_on_water_one_cm": 335,
+      "minecraft:play_time": 7972,
+      "minecraft:jump": 207,
+      "minecraft:time_since_death": 7972,
+      "minecraft:sprint_one_cm": 21843,
+      "minecraft:fall_one_cm": 7203,
+      "minecraft:swim_one_cm": 4463,
+      "minecraft:total_world_time": 7972,
+      "minecraft:fly_one_cm": 49830,
+      "minecraft:walk_on_water_one_cm": 549,
       "minecraft:climb_one_cm": 154
     },
     "minecraft:picked_up": {
-      "minecraft:dirt": 6,
+      "minecraft:dirt": 8,
+      "minecraft:cobblestone": 6,
       "minecraft:birch_log": 4,
-      "minecraft:crafting_table": 1
+      "minecraft:spruce_boat": 1,
+      "minecraft:crafting_table": 2
     },
     "minecraft:mined": {
-      "minecraft:dirt": 6,
-      "minecraft:crafting_table": 1,
-      "minecraft:birch_log": 4
+      "minecraft:dirt": 8,
+      "minecraft:crafting_table": 2,
+      "minecraft:birch_log": 4,
+      "minecraft:stone": 6
     }
   },
   "DataVersion": 4671
