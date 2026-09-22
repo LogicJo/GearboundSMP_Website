@@ -1,22 +1,23 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 18348,
-      "minecraft:total_world_time": 12439851,
-      "minecraft:leave_game": 78,
-      "minecraft:damage_taken": 21411,
-      "minecraft:play_time": 12439851,
-      "minecraft:deaths": 56,
-      "minecraft:time_since_death": 18348
+      "minecraft:time_since_rest": 9473,
+      "minecraft:total_world_time": 12475670,
+      "minecraft:leave_game": 79,
+      "minecraft:damage_taken": 21761,
+      "minecraft:play_time": 12475670,
+      "minecraft:deaths": 57,
+      "minecraft:time_since_death": 9473
     },
     "minecraft:killed_by": {
-      "minecraft:player": 50,
+      "minecraft:player": 51,
       "minecraft:enderman": 1,
       "minecraft:zombie": 1
     },
     "minecraft:picked_up": {
       "minecraft:cobbled_deepslate_slab": 1,
       "minecraft:netherrack": 1,
+      "minecraft:resin_clump": 1,
       "minecraft:ender_pearl": 331,
       "minecraft:cooked_porkchop": 1
     }
