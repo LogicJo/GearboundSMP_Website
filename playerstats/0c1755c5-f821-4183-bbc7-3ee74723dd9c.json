@@ -1,0 +1,39 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:salmon_bucket": 1,
+      "minecraft:water_bucket": 18,
+      "minecraft:bucket": 20
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 737,
+      "minecraft:walk_one_cm": 6145,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 2184,
+      "minecraft:damage_taken": 370,
+      "minecraft:play_time": 5778,
+      "minecraft:jump": 217,
+      "minecraft:time_since_death": 704,
+      "minecraft:interact_with_furnace": 5,
+      "minecraft:sprint_one_cm": 18171,
+      "minecraft:open_chest": 5,
+      "minecraft:fall_one_cm": 14608,
+      "minecraft:swim_one_cm": 5150,
+      "minecraft:total_world_time": 5778,
+      "minecraft:fly_one_cm": 45227,
+      "minecraft:walk_on_water_one_cm": 2210,
+      "minecraft:sneak_time": 2,
+      "minecraft:deaths": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 2,
+      "minecraft:crafting_table": 1,
+      "minecraft:leaf_litter": 1
+    }
+  },
+  "DataVersion": 4671
+}
