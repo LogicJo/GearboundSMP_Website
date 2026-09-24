@@ -1,0 +1,84 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:crafting_table": 1,
+      "minecraft:wooden_pickaxe": 31,
+      "minecraft:furnace": 2,
+      "minecraft:stone_pickaxe": 116,
+      "minecraft:dirt": 4,
+      "minecraft:cooked_chicken": 2,
+      "minecraft:cobblestone": 24,
+      "minecraft:cooked_salmon": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:furnace": 2,
+      "minecraft:stick": 12,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:cooked_salmon": 3,
+      "minecraft:iron_ingot": 11,
+      "minecraft:cooked_chicken": 2,
+      "minecraft:spruce_planks": 28,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:air": 0,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 5,
+      "minecraft:time_since_rest": 23552,
+      "minecraft:walk_one_cm": 82481,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 12679,
+      "minecraft:mob_kills": 12,
+      "minecraft:damage_taken": 1100,
+      "minecraft:play_time": 31154,
+      "minecraft:damage_dealt": 513,
+      "minecraft:jump": 502,
+      "minecraft:time_since_death": 23529,
+      "minecraft:interact_with_furnace": 12,
+      "minecraft:sprint_one_cm": 57466,
+      "minecraft:fall_one_cm": 14029,
+      "minecraft:total_world_time": 31154,
+      "minecraft:swim_one_cm": 15370,
+      "minecraft:fly_one_cm": 73996,
+      "minecraft:walk_on_water_one_cm": 4391,
+      "minecraft:crouch_one_cm": 46,
+      "minecraft:sneak_time": 476,
+      "minecraft:deaths": 3
+    },
+    "minecraft:killed_by": {
+      "minecraft:skeleton": 1,
+      "minecraft:zombie": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_log": 7,
+      "minecraft:salmon": 10,
+      "minecraft:leaf_litter": 9,
+      "minecraft:coal": 22,
+      "minecraft:dirt": 4,
+      "minecraft:cobblestone": 96,
+      "minecraft:feather": 3,
+      "minecraft:chicken": 2,
+      "minecraft:bone": 1,
+      "minecraft:bone_meal": 1,
+      "minecraft:raw_iron": 15
+    },
+    "minecraft:killed": {
+      "minecraft:salmon": 9,
+      "minecraft:skeleton": 1,
+      "minecraft:chicken": 2
+    },
+    "minecraft:mined": {
+      "minecraft:dirt_path": 1,
+      "minecraft:dirt": 2,
+      "minecraft:spruce_log": 7,
+      "minecraft:podzol": 1,
+      "minecraft:leaf_litter": 3,
+      "minecraft:coal_ore": 22,
+      "minecraft:cobblestone": 2,
+      "minecraft:spruce_leaves": 4,
+      "minecraft:iron_ore": 15,
+      "minecraft:stone": 99
+    }
+  },
+  "DataVersion": 4671
+}
