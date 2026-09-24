@@ -1,27 +1,29 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 2940,
-      "minecraft:walk_one_cm": 4894,
-      "minecraft:leave_game": 2,
+      "minecraft:time_since_rest": 308,
+      "minecraft:walk_one_cm": 26371,
+      "minecraft:leave_game": 3,
       "minecraft:walk_under_water_one_cm": 605,
-      "minecraft:damage_taken": 735,
-      "minecraft:play_time": 4561,
+      "minecraft:damage_taken": 795,
+      "minecraft:play_time": 6051,
       "minecraft:damage_dealt": 33,
       "minecraft:jump": 113,
-      "minecraft:time_since_death": 2911,
-      "minecraft:sprint_one_cm": 21347,
-      "minecraft:open_chest": 20,
+      "minecraft:time_since_death": 277,
+      "minecraft:sprint_one_cm": 51419,
+      "minecraft:open_chest": 21,
       "minecraft:fall_one_cm": 9285,
       "minecraft:swim_one_cm": 1280,
-      "minecraft:total_world_time": 4561,
-      "minecraft:fly_one_cm": 100674,
+      "minecraft:total_world_time": 6051,
+      "minecraft:fly_one_cm": 101759,
       "minecraft:walk_on_water_one_cm": 169,
-      "minecraft:sneak_time": 45,
-      "minecraft:deaths": 2
+      "minecraft:crouch_one_cm": 2699,
+      "minecraft:sneak_time": 167,
+      "minecraft:deaths": 3
     },
     "minecraft:killed_by": {
       "minecraft:skeleton": 1,
+      "minecraft:spider": 1,
       "minecraft:zombie": 1
     },
     "minecraft:mined": {
