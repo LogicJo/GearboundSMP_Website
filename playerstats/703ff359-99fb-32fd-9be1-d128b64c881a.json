@@ -1,19 +1,20 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 0,
-      "minecraft:total_world_time": 14913227,
-      "minecraft:leave_game": 20,
+      "minecraft:time_since_rest": 1143,
+      "minecraft:total_world_time": 14914370,
+      "minecraft:leave_game": 21,
       "minecraft:damage_taken": 2231,
-      "minecraft:play_time": 14913227,
+      "minecraft:play_time": 14914370,
       "minecraft:deaths": 8,
-      "minecraft:time_since_death": 0
+      "minecraft:time_since_death": 1143
     },
     "minecraft:killed_by": {
       "minecraft:player": 6,
       "minecraft:zombie": 2
     },
     "minecraft:picked_up": {
+      "minecraft:netherrack": 6,
       "minecraft:oak_door": 1,
       "minecraft:arrow": 1,
       "minecraft:bone": 1
