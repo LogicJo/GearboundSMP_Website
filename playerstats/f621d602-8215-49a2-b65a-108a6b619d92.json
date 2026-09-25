@@ -1,0 +1,26 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 485,
+      "minecraft:walk_one_cm": 2322,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 210,
+      "minecraft:play_time": 2530,
+      "minecraft:jump": 100,
+      "minecraft:time_since_death": 444,
+      "minecraft:interact_with_furnace": 1,
+      "minecraft:sprint_one_cm": 14091,
+      "minecraft:fall_one_cm": 5659,
+      "minecraft:total_world_time": 2530,
+      "minecraft:fly_one_cm": 21362,
+      "minecraft:deaths": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:mined": {
+      "minecraft:crafting_table": 1
+    }
+  },
+  "DataVersion": 4671
+}
