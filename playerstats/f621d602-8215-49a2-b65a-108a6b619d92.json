@@ -1,25 +1,56 @@
 {
   "stats": {
+    "minecraft:used": {
+      "minecraft:stone_sword": 4,
+      "minecraft:crafting_table": 2,
+      "minecraft:wooden_pickaxe": 6,
+      "minecraft:stone_pickaxe": 8
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 12,
+      "minecraft:stone_sword": 1,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:oak_planks": 20,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:crafting_table": 1
+    },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 485,
-      "minecraft:walk_one_cm": 2322,
-      "minecraft:leave_game": 1,
-      "minecraft:damage_taken": 210,
-      "minecraft:play_time": 2530,
-      "minecraft:jump": 100,
-      "minecraft:time_since_death": 444,
-      "minecraft:interact_with_furnace": 1,
-      "minecraft:sprint_one_cm": 14091,
-      "minecraft:fall_one_cm": 5659,
-      "minecraft:total_world_time": 2530,
-      "minecraft:fly_one_cm": 21362,
-      "minecraft:deaths": 1
+      "minecraft:interact_with_crafting_table": 3,
+      "minecraft:time_since_rest": 1500,
+      "minecraft:walk_one_cm": 7644,
+      "minecraft:leave_game": 2,
+      "minecraft:damage_taken": 495,
+      "minecraft:damage_dealt": 48,
+      "minecraft:play_time": 8229,
+      "minecraft:jump": 196,
+      "minecraft:time_since_death": 1461,
+      "minecraft:drop": 1,
+      "minecraft:interact_with_furnace": 2,
+      "minecraft:sprint_one_cm": 23084,
+      "minecraft:open_chest": 1,
+      "minecraft:fall_one_cm": 7934,
+      "minecraft:total_world_time": 8229,
+      "minecraft:fly_one_cm": 30989,
+      "minecraft:crouch_one_cm": 725,
+      "minecraft:sneak_time": 351,
+      "minecraft:deaths": 2
+    },
+    "minecraft:killed_by": {
+      "minecraft:zombie": 1
     },
     "minecraft:picked_up": {
-      "minecraft:crafting_table": 1
+      "minecraft:oak_log": 5,
+      "minecraft:cobblestone": 13,
+      "minecraft:crafting_table": 2
+    },
+    "minecraft:dropped": {
+      "minecraft:wooden_pickaxe": 1
     },
     "minecraft:mined": {
-      "minecraft:crafting_table": 1
+      "minecraft:oak_leaves": 1,
+      "minecraft:crafting_table": 2,
+      "minecraft:oak_log": 5,
+      "minecraft:cobblestone": 13
     }
   },
   "DataVersion": 4671
