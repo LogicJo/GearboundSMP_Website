@@ -1,12 +1,13 @@
 {
   "stats": {
     "minecraft:used": {
-      "minecraft:stone_axe": 1,
+      "minecraft:stone_axe": 7,
       "minecraft:rabbit": 1,
+      "minecraft:spruce_boat": 1,
       "minecraft:crafting_table": 2,
       "minecraft:wooden_pickaxe": 5,
       "minecraft:stone_pickaxe": 8,
-      "minecraft:dirt": 3,
+      "minecraft:dirt": 4,
       "minecraft:cobblestone": 7
     },
     "minecraft:crafted": {
@@ -19,44 +20,51 @@
     },
     "minecraft:custom": {
       "minecraft:interact_with_crafting_table": 6,
-      "minecraft:time_since_rest": 6831,
-      "minecraft:walk_one_cm": 86778,
+      "minecraft:time_since_rest": 1462,
+      "minecraft:walk_one_cm": 88920,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 86,
       "minecraft:mob_kills": 1,
-      "minecraft:damage_taken": 755,
-      "minecraft:damage_dealt": 145,
-      "minecraft:boat_one_cm": 105575,
-      "minecraft:play_time": 30655,
-      "minecraft:jump": 689,
-      "minecraft:time_since_death": 6804,
+      "minecraft:damage_taken": 1130,
+      "minecraft:boat_one_cm": 115209,
+      "minecraft:play_time": 34547,
+      "minecraft:damage_dealt": 227,
+      "minecraft:jump": 843,
+      "minecraft:time_since_death": 1440,
       "minecraft:interact_with_furnace": 5,
-      "minecraft:sprint_one_cm": 70631,
+      "minecraft:sprint_one_cm": 86836,
       "minecraft:open_chest": 1,
-      "minecraft:fall_one_cm": 29056,
-      "minecraft:total_world_time": 30655,
-      "minecraft:fly_one_cm": 132861,
+      "minecraft:fall_one_cm": 32301,
+      "minecraft:total_world_time": 34547,
+      "minecraft:fly_one_cm": 175807,
+      "minecraft:walk_on_water_one_cm": 392,
       "minecraft:crouch_one_cm": 1304,
       "minecraft:sneak_time": 516,
-      "minecraft:deaths": 2
+      "minecraft:deaths": 4
     },
     "minecraft:killed_by": {
-      "minecraft:skeleton": 1
+      "minecraft:skeleton": 2,
+      "minecraft:zombie": 1
     },
     "minecraft:picked_up": {
       "minecraft:spruce_log": 13,
-      "minecraft:dirt": 3,
       "minecraft:stone_pickaxe": 1,
+      "minecraft:dirt": 4,
       "minecraft:rabbit": 1,
       "minecraft:cobblestone": 13,
       "minecraft:stone_axe": 1,
-      "minecraft:crafting_table": 1
+      "minecraft:spruce_boat": 2,
+      "minecraft:crafting_table": 1,
+      "minecraft:kelp": 4
     },
     "minecraft:killed": {
       "minecraft:rabbit": 1
     },
     "minecraft:mined": {
-      "minecraft:short_grass": 6,
+      "minecraft:short_grass": 8,
+      "minecraft:kelp": 6,
+      "minecraft:dirt": 3,
       "minecraft:spruce_log": 13,
-      "minecraft:dirt": 2,
       "minecraft:crafting_table": 1,
       "minecraft:grass_block": 1,
       "minecraft:cobblestone": 13,
