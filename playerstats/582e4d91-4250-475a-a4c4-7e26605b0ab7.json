@@ -1,0 +1,70 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:stone_axe": 4,
+      "minecraft:wooden_axe": 14,
+      "minecraft:spruce_boat": 1,
+      "minecraft:crafting_table": 2,
+      "minecraft:wooden_pickaxe": 11,
+      "minecraft:stone_pickaxe": 9
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 12,
+      "minecraft:wooden_axe": 1,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:spruce_boat": 1,
+      "minecraft:stone_axe": 2,
+      "minecraft:spruce_planks": 56,
+      "minecraft:stone_pickaxe": 2
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 10,
+      "minecraft:time_since_rest": 16756,
+      "minecraft:walk_one_cm": 23674,
+      "minecraft:leave_game": 4,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 325,
+      "minecraft:boat_one_cm": 105499,
+      "minecraft:play_time": 17852,
+      "minecraft:damage_dealt": 85,
+      "minecraft:jump": 229,
+      "minecraft:time_since_death": 16732,
+      "minecraft:drop": 7,
+      "minecraft:sprint_one_cm": 24238,
+      "minecraft:open_chest": 1,
+      "minecraft:fall_one_cm": 9425,
+      "minecraft:total_world_time": 17852,
+      "minecraft:fly_one_cm": 33292,
+      "minecraft:crouch_one_cm": 33,
+      "minecraft:sneak_time": 21,
+      "minecraft:deaths": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_log": 14,
+      "minecraft:cobblestone": 19,
+      "minecraft:crafting_table": 4,
+      "minecraft:chest": 1,
+      "minecraft:arrow": 2,
+      "minecraft:bone": 1
+    },
+    "minecraft:killed": {
+      "minecraft:skeleton": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:arrow": 2,
+      "minecraft:wooden_axe": 1,
+      "minecraft:stone_axe": 1,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:bone": 1,
+      "minecraft:wooden_pickaxe": 1
+    },
+    "minecraft:mined": {
+      "minecraft:spruce_log": 14,
+      "minecraft:chest": 1,
+      "minecraft:crafting_table": 4,
+      "minecraft:cobblestone": 19,
+      "minecraft:spruce_leaves": 6
+    }
+  },
+  "DataVersion": 4671
+}
