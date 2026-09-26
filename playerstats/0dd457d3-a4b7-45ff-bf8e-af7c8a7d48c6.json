@@ -1,0 +1,44 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:crafting_table": 1,
+      "minecraft:birch_boat": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:birch_boat": 1,
+      "minecraft:birch_planks": 8,
+      "minecraft:spruce_planks": 4,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 7373,
+      "minecraft:walk_one_cm": 2763,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 60,
+      "minecraft:damage_taken": 10,
+      "minecraft:boat_one_cm": 9851,
+      "minecraft:play_time": 7373,
+      "minecraft:jump": 225,
+      "minecraft:time_since_death": 7373,
+      "minecraft:sprint_one_cm": 23692,
+      "minecraft:fall_one_cm": 5420,
+      "minecraft:swim_one_cm": 996,
+      "minecraft:total_world_time": 7373,
+      "minecraft:fly_one_cm": 66190,
+      "minecraft:walk_on_water_one_cm": 459,
+      "minecraft:crouch_one_cm": 239,
+      "minecraft:sneak_time": 73
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_log": 1,
+      "minecraft:birch_log": 2,
+      "minecraft:lily_pad": 6
+    },
+    "minecraft:mined": {
+      "minecraft:spruce_log": 1,
+      "minecraft:birch_log": 2
+    }
+  },
+  "DataVersion": 4671
+}
