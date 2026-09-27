@@ -1,0 +1,42 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:minecart": 2,
+      "minecraft:dirt": 4
+    },
+    "minecraft:crafted": {
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:custom": {
+      "minecraft:minecart_one_cm": 73136,
+      "minecraft:interact_with_crafting_table": 2,
+      "minecraft:time_since_rest": 10179,
+      "minecraft:walk_one_cm": 33792,
+      "minecraft:walk_under_water_one_cm": 360,
+      "minecraft:damage_taken": 180,
+      "minecraft:play_time": 10179,
+      "minecraft:jump": 175,
+      "minecraft:time_since_death": 10179,
+      "minecraft:sprint_one_cm": 4289,
+      "minecraft:open_chest": 2,
+      "minecraft:fall_one_cm": 5425,
+      "minecraft:swim_one_cm": 7010,
+      "minecraft:total_world_time": 10179,
+      "minecraft:fly_one_cm": 8361,
+      "minecraft:walk_on_water_one_cm": 698,
+      "minecraft:crouch_one_cm": 132,
+      "minecraft:sneak_time": 134
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 17,
+      "minecraft:minecart": 2,
+      "minecraft:birch_planks": 11
+    },
+    "minecraft:mined": {
+      "minecraft:dirt": 8,
+      "minecraft:birch_planks": 11,
+      "minecraft:grass_block": 9
+    }
+  },
+  "DataVersion": 4671
+}
