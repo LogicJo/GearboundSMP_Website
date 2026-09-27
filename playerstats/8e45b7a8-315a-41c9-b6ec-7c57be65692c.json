@@ -1,24 +1,55 @@
 {
   "stats": {
+    "minecraft:used": {
+      "minecraft:pumpkin": 1,
+      "minecraft:oak_sign": 5,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 8,
+      "minecraft:oak_planks": 20,
+      "minecraft:spruce_planks": 16,
+      "minecraft:oak_sign": 6,
+      "minecraft:crafting_table": 1
+    },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 45,
-      "minecraft:walk_one_cm": 3636,
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 25045,
+      "minecraft:walk_one_cm": 42789,
       "minecraft:leave_game": 1,
-      "minecraft:damage_taken": 350,
-      "minecraft:play_time": 2610,
-      "minecraft:jump": 120,
-      "minecraft:time_since_death": 18,
-      "minecraft:sprint_one_cm": 8434,
-      "minecraft:fall_one_cm": 6536,
-      "minecraft:total_world_time": 2610,
-      "minecraft:fly_one_cm": 34849,
+      "minecraft:walk_under_water_one_cm": 335,
+      "minecraft:damage_taken": 640,
+      "minecraft:damage_dealt": 60,
+      "minecraft:play_time": 28731,
+      "minecraft:jump": 390,
+      "minecraft:time_since_death": 25015,
+      "minecraft:sprint_one_cm": 40085,
+      "minecraft:fall_one_cm": 14736,
+      "minecraft:swim_one_cm": 5407,
+      "minecraft:total_world_time": 28731,
+      "minecraft:fly_one_cm": 101686,
+      "minecraft:walk_on_water_one_cm": 1140,
       "minecraft:crouch_one_cm": 850,
-      "minecraft:sneak_time": 195,
+      "minecraft:sneak_time": 203,
       "minecraft:climb_one_cm": 61,
-      "minecraft:deaths": 1
+      "minecraft:deaths": 2
     },
     "minecraft:killed_by": {
+      "minecraft:skeleton": 1,
       "minecraft:player": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_log": 4,
+      "minecraft:oak_log": 5,
+      "minecraft:pumpkin": 1
+    },
+    "minecraft:mined": {
+      "minecraft:oak_leaves": 1,
+      "minecraft:spruce_log": 4,
+      "minecraft:pumpkin": 1,
+      "minecraft:leaf_litter": 1,
+      "minecraft:oak_log": 5,
+      "minecraft:spruce_leaves": 1
     }
   },
   "DataVersion": 4671
