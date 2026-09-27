@@ -1,0 +1,62 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:iron_axe": 1,
+      "minecraft:iron_leggings": 1,
+      "minecraft:crafting_table": 1,
+      "minecraft:iron_helmet": 1,
+      "minecraft:iron_chestplate": 1,
+      "minecraft:iron_boots": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:iron_ingot": 288,
+      "minecraft:iron_spear": 1,
+      "minecraft:smithing_table": 1,
+      "minecraft:iron_chestplate": 1,
+      "minecraft:iron_boots": 1,
+      "minecraft:crafting_table": 1,
+      "minecraft:stick": 8,
+      "minecraft:shield": 1,
+      "minecraft:oak_planks": 44,
+      "minecraft:iron_helmet": 1,
+      "minecraft:iron_pickaxe": 1,
+      "minecraft:iron_axe": 1,
+      "minecraft:iron_leggings": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 4,
+      "minecraft:time_since_rest": 8839,
+      "minecraft:walk_one_cm": 8312,
+      "minecraft:leave_game": 3,
+      "minecraft:walk_under_water_one_cm": 249,
+      "minecraft:damage_taken": 800,
+      "minecraft:play_time": 16432,
+      "minecraft:jump": 99,
+      "minecraft:time_since_death": 8797,
+      "minecraft:sprint_one_cm": 5256,
+      "minecraft:fall_one_cm": 20524,
+      "minecraft:swim_one_cm": 2407,
+      "minecraft:total_world_time": 16432,
+      "minecraft:fly_one_cm": 15695,
+      "minecraft:walk_on_water_one_cm": 3143,
+      "minecraft:crouch_one_cm": 1868,
+      "minecraft:sneak_time": 749,
+      "minecraft:deaths": 3
+    },
+    "minecraft:killed_by": {
+      "minecraft:drowned": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 1,
+      "minecraft:oak_log": 11,
+      "minecraft:iron_block": 32,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:mined": {
+      "minecraft:crafting_table": 1,
+      "minecraft:oak_log": 2,
+      "minecraft:grass_block": 1
+    }
+  },
+  "DataVersion": 4671
+}
