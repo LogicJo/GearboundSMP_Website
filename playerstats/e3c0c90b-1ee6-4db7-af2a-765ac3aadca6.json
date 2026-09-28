@@ -1,0 +1,96 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:stone_axe": 2,
+      "minecraft:stone_sword": 37,
+      "minecraft:crafting_table": 3,
+      "minecraft:wooden_sword": 5,
+      "minecraft:wooden_pickaxe": 12,
+      "minecraft:furnace": 1,
+      "minecraft:oak_sapling": 1,
+      "minecraft:stone_pickaxe": 6,
+      "minecraft:dirt": 1,
+      "minecraft:cobblestone": 1,
+      "minecraft:cooked_salmon": 6
+    },
+    "minecraft:crafted": {
+      "minecraft:furnace": 1,
+      "minecraft:stone_sword": 1,
+      "minecraft:wooden_axe": 1,
+      "minecraft:cooked_salmon": 6,
+      "minecraft:wooden_sword": 1,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:crafting_table": 2,
+      "minecraft:stick": 16,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:stone_axe": 1,
+      "minecraft:oak_planks": 16,
+      "minecraft:spruce_planks": 16,
+      "minecraft:air": 0,
+      "minecraft:wooden_spear": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 4,
+      "minecraft:time_since_rest": 1140,
+      "minecraft:walk_one_cm": 20748,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 5766,
+      "minecraft:mob_kills": 8,
+      "minecraft:damage_taken": 1149,
+      "minecraft:play_time": 17284,
+      "minecraft:damage_dealt": 656,
+      "minecraft:jump": 573,
+      "minecraft:time_since_death": 1116,
+      "minecraft:drop": 1,
+      "minecraft:interact_with_furnace": 12,
+      "minecraft:sprint_one_cm": 41321,
+      "minecraft:fall_one_cm": 20836,
+      "minecraft:total_world_time": 17284,
+      "minecraft:swim_one_cm": 16541,
+      "minecraft:fly_one_cm": 94900,
+      "minecraft:walk_on_water_one_cm": 2116,
+      "minecraft:crouch_one_cm": 1160,
+      "minecraft:sneak_time": 689,
+      "minecraft:climb_one_cm": 41,
+      "minecraft:deaths": 2
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_log": 4,
+      "minecraft:salmon": 6,
+      "minecraft:dirt": 1,
+      "minecraft:string": 2,
+      "minecraft:oak_log": 10,
+      "minecraft:cobblestone": 17,
+      "minecraft:furnace": 1,
+      "minecraft:oak_planks": 1,
+      "minecraft:crafting_table": 3,
+      "minecraft:oak_sapling": 1,
+      "minecraft:spider_eye": 1,
+      "minecraft:bone_meal": 1
+    },
+    "minecraft:killed": {
+      "minecraft:salmon": 6,
+      "minecraft:spider": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:wooden_pickaxe": 1
+    },
+    "minecraft:mined": {
+      "minecraft:oak_leaves": 10,
+      "minecraft:tall_seagrass": 1,
+      "minecraft:furnace": 1,
+      "minecraft:seagrass": 1,
+      "minecraft:spruce_log": 4,
+      "minecraft:crafting_table": 2,
+      "minecraft:oak_log": 10,
+      "minecraft:grass_block": 1,
+      "minecraft:pink_petals": 1,
+      "minecraft:spruce_leaves": 1,
+      "minecraft:stone": 17
+    }
+  },
+  "DataVersion": 4671
+}
