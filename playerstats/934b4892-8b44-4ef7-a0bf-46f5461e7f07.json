@@ -1,30 +1,59 @@
 {
   "stats": {
+    "minecraft:used": {
+      "minecraft:crafting_table": 2,
+      "minecraft:wooden_pickaxe": 3
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 12,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:spruce_planks": 16,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:crafting_table": 2
+    },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 2492,
-      "minecraft:walk_one_cm": 30827,
-      "minecraft:leave_game": 3,
-      "minecraft:walk_under_water_one_cm": 499,
-      "minecraft:damage_taken": 1125,
-      "minecraft:play_time": 11812,
-      "minecraft:damage_dealt": 489,
-      "minecraft:jump": 191,
-      "minecraft:time_since_death": 2464,
+      "minecraft:interact_with_crafting_table": 2,
+      "minecraft:time_since_rest": 2133,
+      "minecraft:walk_one_cm": 33845,
+      "minecraft:leave_game": 5,
+      "minecraft:mob_kills": 1,
+      "minecraft:walk_under_water_one_cm": 2809,
+      "minecraft:damage_taken": 1895,
+      "minecraft:damage_dealt": 681,
+      "minecraft:play_time": 21318,
+      "minecraft:jump": 302,
+      "minecraft:time_since_death": 2110,
       "minecraft:sprint_one_cm": 36775,
-      "minecraft:fall_one_cm": 21517,
-      "minecraft:swim_one_cm": 1796,
-      "minecraft:total_world_time": 11812,
-      "minecraft:fly_one_cm": 182651,
-      "minecraft:walk_on_water_one_cm": 3865,
-      "minecraft:sneak_time": 85,
-      "minecraft:deaths": 3,
+      "minecraft:open_chest": 5,
+      "minecraft:fall_one_cm": 37258,
+      "minecraft:swim_one_cm": 3777,
+      "minecraft:total_world_time": 21318,
+      "minecraft:fly_one_cm": 511793,
+      "minecraft:walk_on_water_one_cm": 4659,
+      "minecraft:crouch_one_cm": 36,
+      "minecraft:sneak_time": 512,
+      "minecraft:deaths": 6,
       "minecraft:player_kills": 2
     },
     "minecraft:killed_by": {
       "minecraft:player": 1
     },
+    "minecraft:picked_up": {
+      "minecraft:spruce_log": 4,
+      "minecraft:string": 1,
+      "minecraft:cobblestone": 3,
+      "minecraft:birch_planks": 4,
+      "minecraft:crafting_table": 1
+    },
     "minecraft:killed": {
-      "minecraft:player": 2
+      "minecraft:player": 2,
+      "minecraft:spider": 1
+    },
+    "minecraft:mined": {
+      "minecraft:spruce_log": 4,
+      "minecraft:crafting_table": 1,
+      "minecraft:birch_planks": 4,
+      "minecraft:cobblestone": 3
     }
   },
   "DataVersion": 4671
