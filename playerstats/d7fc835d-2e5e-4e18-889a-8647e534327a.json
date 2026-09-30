@@ -1,0 +1,43 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:stick": 4,
+      "minecraft:crafting_table": 1,
+      "minecraft:mangrove_planks": 16
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 64,
+      "minecraft:walk_one_cm": 3097,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 480,
+      "minecraft:play_time": 3229,
+      "minecraft:jump": 146,
+      "minecraft:time_since_death": 0,
+      "minecraft:drop": 2,
+      "minecraft:open_enderchest": 1,
+      "minecraft:sprint_one_cm": 13490,
+      "minecraft:open_chest": 4,
+      "minecraft:fall_one_cm": 11140,
+      "minecraft:total_world_time": 3229,
+      "minecraft:fly_one_cm": 43297,
+      "minecraft:walk_on_water_one_cm": 17,
+      "minecraft:crouch_one_cm": 29,
+      "minecraft:sneak_time": 28,
+      "minecraft:climb_one_cm": 140,
+      "minecraft:deaths": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:mangrove_roots": 2,
+      "minecraft:mangrove_log": 4
+    },
+    "minecraft:dropped": {
+      "minecraft:mangrove_roots": 2
+    },
+    "minecraft:mined": {
+      "minecraft:mangrove_roots": 1,
+      "minecraft:leaf_litter": 1,
+      "minecraft:mangrove_log": 4
+    }
+  },
+  "DataVersion": 4671
+}
