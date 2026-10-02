@@ -1,0 +1,44 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:iron_leggings": 1,
+      "minecraft:iron_helmet": 1,
+      "minecraft:warped_wart_block": 1,
+      "minecraft:dirt": 3
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 7118,
+      "minecraft:walk_one_cm": 47061,
+      "minecraft:walk_under_water_one_cm": 1679,
+      "minecraft:damage_taken": 210,
+      "minecraft:play_time": 18037,
+      "minecraft:jump": 528,
+      "minecraft:time_since_death": 7092,
+      "minecraft:open_enderchest": 1,
+      "minecraft:interact_with_furnace": 2,
+      "minecraft:open_barrel": 2,
+      "minecraft:sprint_one_cm": 44145,
+      "minecraft:open_chest": 14,
+      "minecraft:fall_one_cm": 13877,
+      "minecraft:swim_one_cm": 14912,
+      "minecraft:total_world_time": 18037,
+      "minecraft:fly_one_cm": 106461,
+      "minecraft:walk_on_water_one_cm": 3707,
+      "minecraft:crouch_one_cm": 1951,
+      "minecraft:sneak_time": 857,
+      "minecraft:climb_one_cm": 1436,
+      "minecraft:deaths": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 3,
+      "minecraft:warped_wart_block": 1
+    },
+    "minecraft:mined": {
+      "minecraft:powder_snow": 1,
+      "minecraft:warped_wart_block": 1,
+      "minecraft:dirt": 3,
+      "minecraft:grass_block": 1
+    }
+  },
+  "DataVersion": 4671
+}
