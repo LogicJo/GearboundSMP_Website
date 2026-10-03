@@ -1,11 +1,11 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 2073229,
-      "minecraft:total_world_time": 2073229,
+      "minecraft:time_since_rest": 2109229,
+      "minecraft:total_world_time": 2109229,
       "minecraft:leave_game": 1,
-      "minecraft:play_time": 2073229,
-      "minecraft:time_since_death": 2073229
+      "minecraft:play_time": 2109229,
+      "minecraft:time_since_death": 2109229
     },
     "minecraft:picked_up": {
       "minecraft:spruce_slab": 1
