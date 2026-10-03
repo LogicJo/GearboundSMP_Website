@@ -1,24 +1,27 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 135438,
-      "minecraft:total_world_time": 16505162,
-      "minecraft:leave_game": 78,
-      "minecraft:damage_taken": 8650,
-      "minecraft:play_time": 16505162,
-      "minecraft:deaths": 31,
-      "minecraft:time_since_death": 135438
+      "minecraft:time_since_rest": 30579,
+      "minecraft:total_world_time": 16537627,
+      "minecraft:leave_game": 82,
+      "minecraft:damage_taken": 8875,
+      "minecraft:play_time": 16537627,
+      "minecraft:deaths": 32,
+      "minecraft:time_since_death": 30579
     },
     "minecraft:killed_by": {
-      "minecraft:player": 28,
+      "minecraft:player": 29,
       "minecraft:zombie": 2
     },
     "minecraft:picked_up": {
       "minecraft:book": 3,
       "minecraft:netherrack": 6,
       "minecraft:ender_pearl": 1431,
+      "minecraft:oak_trapdoor": 2,
+      "minecraft:oak_slab": 2,
       "minecraft:oak_door": 1,
       "minecraft:white_bed": 1,
+      "minecraft:stone": 3,
       "minecraft:arrow": 1,
       "minecraft:bone": 1,
       "minecraft:gold_nugget": 3
