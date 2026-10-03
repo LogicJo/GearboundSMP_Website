@@ -1,0 +1,33 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 34,
+      "minecraft:time_since_rest": 4112,
+      "minecraft:walk_one_cm": 37248,
+      "minecraft:leave_game": 3,
+      "minecraft:walk_under_water_one_cm": 980,
+      "minecraft:play_time": 4112,
+      "minecraft:jump": 270,
+      "minecraft:time_since_death": 4112,
+      "minecraft:sprint_one_cm": 33227,
+      "minecraft:open_chest": 391,
+      "minecraft:fall_one_cm": 26488,
+      "minecraft:total_world_time": 4112,
+      "minecraft:fly_one_cm": 562814,
+      "minecraft:walk_on_water_one_cm": 23423,
+      "minecraft:crouch_one_cm": 65,
+      "minecraft:sneak_time": 107
+    },
+    "minecraft:picked_up": {
+      "minecraft:wheat_seeds": 2,
+      "minecraft:dark_oak_planks": 2
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 9,
+      "minecraft:tall_grass": 2,
+      "minecraft:mangrove_leaves": 1,
+      "minecraft:dark_oak_planks": 2
+    }
+  },
+  "DataVersion": 4671
+}
