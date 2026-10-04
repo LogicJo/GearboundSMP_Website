@@ -36,32 +36,32 @@
     },
     "minecraft:custom": {
       "minecraft:talked_to_villager": 4,
-      "minecraft:time_since_rest": 12035,
-      "minecraft:leave_game": 2,
+      "minecraft:time_since_rest": 12166,
+      "minecraft:leave_game": 3,
       "minecraft:damage_taken": 2024,
       "minecraft:mob_kills": 18,
       "minecraft:boat_one_cm": 59165,
-      "minecraft:time_since_death": 15360,
+      "minecraft:time_since_death": 15491,
       "minecraft:open_enderchest": 1,
       "minecraft:interact_with_furnace": 2,
       "minecraft:sleep_in_bed": 1,
-      "minecraft:total_world_time": 73079,
+      "minecraft:total_world_time": 73210,
       "minecraft:swim_one_cm": 81700,
       "minecraft:crouch_one_cm": 3687,
       "minecraft:deaths": 5,
       "minecraft:climb_one_cm": 5270,
       "minecraft:interact_with_crafting_table": 3,
-      "minecraft:walk_one_cm": 132176,
+      "minecraft:walk_one_cm": 133134,
       "minecraft:walk_under_water_one_cm": 12447,
-      "minecraft:play_time": 73079,
+      "minecraft:play_time": 73210,
       "minecraft:damage_dealt": 1602,
-      "minecraft:jump": 2398,
+      "minecraft:jump": 2401,
       "minecraft:drop": 9,
       "minecraft:open_barrel": 2,
-      "minecraft:sprint_one_cm": 210340,
+      "minecraft:sprint_one_cm": 210472,
       "minecraft:open_chest": 29,
       "minecraft:fall_one_cm": 71475,
-      "minecraft:fly_one_cm": 499523,
+      "minecraft:fly_one_cm": 500046,
       "minecraft:walk_on_water_one_cm": 20113,
       "minecraft:sneak_time": 1697
     },
@@ -97,6 +97,12 @@
       "minecraft:mutton": 13,
       "minecraft:gray_wool": 1
     },
+    "minecraft:killed": {
+      "minecraft:salmon": 6,
+      "minecraft:zombie": 1,
+      "minecraft:sheep": 8,
+      "minecraft:cow": 2
+    },
     "minecraft:dropped": {
       "minecraft:arrow": 4,
       "minecraft:wheat_seeds": 1,
@@ -105,12 +111,6 @@
       "minecraft:bone": 4,
       "minecraft:white_wool": 2,
       "minecraft:leather": 1
-    },
-    "minecraft:killed": {
-      "minecraft:salmon": 6,
-      "minecraft:zombie": 1,
-      "minecraft:sheep": 8,
-      "minecraft:cow": 2
     },
     "minecraft:mined": {
       "minecraft:powder_snow": 1,
