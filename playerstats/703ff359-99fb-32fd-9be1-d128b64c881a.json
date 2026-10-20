@@ -5,13 +5,13 @@
       "minecraft:zombie": 2
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 1649533,
-      "minecraft:total_world_time": 18156581,
+      "minecraft:time_since_rest": 1685533,
+      "minecraft:total_world_time": 18192581,
       "minecraft:leave_game": 87,
       "minecraft:damage_taken": 8975,
-      "minecraft:play_time": 18156581,
+      "minecraft:play_time": 18192581,
       "minecraft:deaths": 32,
-      "minecraft:time_since_death": 1649533
+      "minecraft:time_since_death": 1685533
     },
     "minecraft:picked_up": {
       "minecraft:nether_bricks": 4,
