@@ -7,13 +7,13 @@
       "minecraft:zombie": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 5754435,
-      "minecraft:total_world_time": 29621951,
+      "minecraft:time_since_rest": 5790435,
+      "minecraft:total_world_time": 29657951,
       "minecraft:leave_game": 183,
       "minecraft:damage_taken": 38994,
-      "minecraft:play_time": 29621951,
+      "minecraft:play_time": 29657951,
       "minecraft:deaths": 112,
-      "minecraft:time_since_death": 5754435
+      "minecraft:time_since_death": 5790435
     },
     "minecraft:picked_up": {
       "minecraft:cobbled_deepslate_slab": 1,
