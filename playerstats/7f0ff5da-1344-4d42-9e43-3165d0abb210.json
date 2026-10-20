@@ -1,0 +1,82 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:stick": 8,
+      "minecraft:ladder": 3,
+      "minecraft:wind_charge": 128,
+      "minecraft:spruce_planks": 8,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:diamond_boots": 1,
+      "minecraft:quartz": 62,
+      "minecraft:warped_wart_block": 1,
+      "minecraft:diamond_leggings": 1,
+      "minecraft:elytra": 2,
+      "minecraft:iron_block": 32,
+      "minecraft:cooked_porkchop": 49,
+      "minecraft:firework_rocket": 64,
+      "minecraft:slime_block": 32
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 4,
+      "minecraft:talked_to_villager": 21,
+      "minecraft:time_since_rest": 28607,
+      "minecraft:walk_one_cm": 48774,
+      "minecraft:leave_game": 2,
+      "minecraft:damage_taken": 277,
+      "minecraft:play_time": 28607,
+      "minecraft:open_shulker_box": 4,
+      "minecraft:jump": 278,
+      "minecraft:time_since_death": 28607,
+      "minecraft:aviate_one_cm": 829349,
+      "minecraft:drop": 10,
+      "minecraft:open_enderchest": 13,
+      "minecraft:sprint_one_cm": 37635,
+      "minecraft:open_chest": 15,
+      "minecraft:fall_one_cm": 6814,
+      "minecraft:total_world_time": 28607,
+      "minecraft:fly_one_cm": 40278,
+      "minecraft:walk_on_water_one_cm": 63,
+      "minecraft:crouch_one_cm": 857,
+      "minecraft:sneak_time": 436,
+      "minecraft:climb_one_cm": 183
+    },
+    "minecraft:mined": {
+      "minecraft:netherrack": 40
+    },
+    "minecraft:picked_up": {
+      "minecraft:netherrack": 40,
+      "minecraft:iron_block": 64,
+      "minecraft:stick": 3,
+      "minecraft:totem_of_undying": 2,
+      "minecraft:breeze_rod": 32,
+      "minecraft:warped_wart_block": 1,
+      "minecraft:diamond_boots": 2,
+      "minecraft:cooked_porkchop": 113,
+      "minecraft:slime_block": 56,
+      "minecraft:spruce_log": 5,
+      "minecraft:ender_pearl": 2,
+      "minecraft:firework_rocket": 192,
+      "minecraft:horn_coral_fan": 6,
+      "minecraft:iron_pickaxe": 1,
+      "minecraft:tnt": 9,
+      "minecraft:emerald": 46,
+      "minecraft:elytra": 3,
+      "minecraft:diamond_block": 2,
+      "minecraft:diamond_leggings": 2
+    },
+    "minecraft:used": {
+      "minecraft:spruce_log": 3,
+      "minecraft:elytra": 1,
+      "minecraft:netherrack": 20,
+      "minecraft:wind_charge": 5,
+      "minecraft:ladder": 3,
+      "minecraft:iron_pickaxe": 40,
+      "minecraft:cooked_porkchop": 4,
+      "minecraft:ender_pearl": 1,
+      "minecraft:firework_rocket": 79
+    }
+  },
+  "DataVersion": 4671
+}
