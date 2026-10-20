@@ -1,0 +1,66 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:stick": 12,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:stone_axe": 1,
+      "minecraft:cherry_planks": 8,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:warped_planks": 12,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 5,
+      "minecraft:time_since_rest": 10662,
+      "minecraft:walk_one_cm": 23576,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 4,
+      "minecraft:play_time": 10662,
+      "minecraft:damage_dealt": 270,
+      "minecraft:jump": 180,
+      "minecraft:time_since_death": 10662,
+      "minecraft:sprint_one_cm": 34695,
+      "minecraft:open_chest": 3,
+      "minecraft:fall_one_cm": 2100,
+      "minecraft:total_world_time": 10662,
+      "minecraft:fly_one_cm": 35349,
+      "minecraft:crouch_one_cm": 263,
+      "minecraft:sneak_time": 142
+    },
+    "minecraft:mined": {
+      "minecraft:cherry_log": 2,
+      "minecraft:warped_wart_block": 2,
+      "minecraft:crafting_table": 2,
+      "minecraft:warped_stem": 3,
+      "minecraft:coal_ore": 2,
+      "minecraft:cobblestone": 5,
+      "minecraft:stone": 11
+    },
+    "minecraft:killed": {
+      "minecraft:chicken": 2,
+      "minecraft:pig": 1,
+      "minecraft:cow": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:porkchop": 1,
+      "minecraft:coal": 2,
+      "minecraft:cobblestone": 16,
+      "minecraft:feather": 3,
+      "minecraft:chicken": 2,
+      "minecraft:warped_wart_block": 2,
+      "minecraft:crafting_table": 2,
+      "minecraft:warped_stem": 3,
+      "minecraft:cherry_log": 2,
+      "minecraft:beef": 3
+    },
+    "minecraft:used": {
+      "minecraft:stone_axe": 7,
+      "minecraft:crafting_table": 1,
+      "minecraft:wooden_pickaxe": 4,
+      "minecraft:stone_pickaxe": 14,
+      "minecraft:warped_wart_block": 2,
+      "minecraft:cobblestone": 2
+    }
+  },
+  "DataVersion": 4671
+}
