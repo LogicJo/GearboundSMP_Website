@@ -5,13 +5,13 @@
       "minecraft:zombie": 3
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 2282136,
-      "minecraft:total_world_time": 10294231,
+      "minecraft:time_since_rest": 2318136,
+      "minecraft:total_world_time": 10330231,
       "minecraft:leave_game": 21,
       "minecraft:damage_taken": 2530,
-      "minecraft:play_time": 10294231,
+      "minecraft:play_time": 10330231,
       "minecraft:deaths": 9,
-      "minecraft:time_since_death": 2282136
+      "minecraft:time_since_death": 2318136
     },
     "minecraft:picked_up": {
       "minecraft:acacia_sapling": 5,
