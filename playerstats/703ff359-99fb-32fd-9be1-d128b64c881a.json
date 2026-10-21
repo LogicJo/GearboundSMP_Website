@@ -5,13 +5,13 @@
       "minecraft:zombie": 2
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 1731687,
-      "minecraft:total_world_time": 19946833,
-      "minecraft:leave_game": 97,
+      "minecraft:time_since_rest": 1748729,
+      "minecraft:total_world_time": 19963875,
+      "minecraft:leave_game": 103,
       "minecraft:damage_taken": 9319,
-      "minecraft:play_time": 19946833,
+      "minecraft:play_time": 19963875,
       "minecraft:deaths": 33,
-      "minecraft:time_since_death": 1731687
+      "minecraft:time_since_death": 1748729
     },
     "minecraft:picked_up": {
       "minecraft:nether_bricks": 8,
@@ -27,8 +27,9 @@
       "minecraft:iron_ingot": 4,
       "minecraft:gold_nugget": 3,
       "minecraft:rotten_flesh": 4,
-      "minecraft:ender_pearl": 1431,
+      "minecraft:ender_pearl": 1458,
       "minecraft:oak_slab": 3,
+      "minecraft:wheat_seeds": 1,
       "minecraft:oak_door": 1
     }
   },
