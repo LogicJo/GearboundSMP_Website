@@ -1,0 +1,73 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:furnace": 2,
+      "minecraft:stick": 8,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:cooked_salmon": 2,
+      "minecraft:stone_axe": 1,
+      "minecraft:birch_planks": 12,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:air": 0,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 4,
+      "minecraft:time_since_rest": 10914,
+      "minecraft:walk_one_cm": 18818,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 3979,
+      "minecraft:mob_kills": 6,
+      "minecraft:damage_taken": 70,
+      "minecraft:play_time": 10914,
+      "minecraft:damage_dealt": 259,
+      "minecraft:jump": 326,
+      "minecraft:time_since_death": 10914,
+      "minecraft:interact_with_furnace": 6,
+      "minecraft:sprint_one_cm": 13589,
+      "minecraft:fall_one_cm": 16858,
+      "minecraft:total_world_time": 10914,
+      "minecraft:swim_one_cm": 6907,
+      "minecraft:fly_one_cm": 58257,
+      "minecraft:walk_on_water_one_cm": 2887,
+      "minecraft:crouch_one_cm": 455,
+      "minecraft:sneak_time": 271
+    },
+    "minecraft:mined": {
+      "minecraft:mossy_cobblestone": 3,
+      "minecraft:crafting_table": 1,
+      "minecraft:birch_log": 6,
+      "minecraft:birch_leaves": 2,
+      "minecraft:coal_ore": 12,
+      "minecraft:cobblestone": 13,
+      "minecraft:spruce_leaves": 14,
+      "minecraft:copper_ore": 14,
+      "minecraft:stone": 19
+    },
+    "minecraft:killed": {
+      "minecraft:salmon": 5,
+      "minecraft:pig": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:porkchop": 2,
+      "minecraft:salmon": 6,
+      "minecraft:coal": 12,
+      "minecraft:spruce_sapling": 1,
+      "minecraft:cobblestone": 32,
+      "minecraft:mossy_cobblestone": 1,
+      "minecraft:birch_log": 6,
+      "minecraft:crafting_table": 1,
+      "minecraft:raw_copper": 51
+    },
+    "minecraft:used": {
+      "minecraft:stone_axe": 26,
+      "minecraft:crafting_table": 2,
+      "minecraft:wooden_pickaxe": 14,
+      "minecraft:furnace": 2,
+      "minecraft:mossy_cobblestone": 1,
+      "minecraft:stone_pickaxe": 47,
+      "minecraft:cooked_salmon": 1
+    }
+  },
+  "DataVersion": 4671
+}
