@@ -1,30 +1,63 @@
 {
   "stats": {
+    "minecraft:crafted": {
+      "minecraft:stick": 4,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:wooden_sword": 1,
+      "minecraft:spruce_planks": 12,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 20
+    },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 4841,
-      "minecraft:walk_one_cm": 7095,
-      "minecraft:leave_game": 1,
-      "minecraft:damage_taken": 175,
-      "minecraft:play_time": 4841,
-      "minecraft:jump": 138,
-      "minecraft:time_since_death": 4841,
-      "minecraft:sprint_one_cm": 15531,
-      "minecraft:fall_one_cm": 7246,
-      "minecraft:total_world_time": 4841,
-      "minecraft:fly_one_cm": 28896,
-      "minecraft:walk_on_water_one_cm": 34,
-      "minecraft:climb_one_cm": 136
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:damage_resisted": 1405,
+      "minecraft:time_since_rest": 3000,
+      "minecraft:walk_one_cm": 27042,
+      "minecraft:leave_game": 3,
+      "minecraft:walk_under_water_one_cm": 670,
+      "minecraft:damage_taken": 10042,
+      "minecraft:damage_dealt": 18,
+      "minecraft:play_time": 18857,
+      "minecraft:jump": 590,
+      "minecraft:time_since_death": 2976,
+      "minecraft:sprint_one_cm": 53527,
+      "minecraft:open_chest": 1,
+      "minecraft:fall_one_cm": 30756,
+      "minecraft:swim_one_cm": 8996,
+      "minecraft:total_world_time": 18857,
+      "minecraft:fly_one_cm": 130227,
+      "minecraft:walk_on_water_one_cm": 395,
+      "minecraft:crouch_one_cm": 3300,
+      "minecraft:sneak_time": 2005,
+      "minecraft:climb_one_cm": 136,
+      "minecraft:deaths": 20
     },
     "minecraft:mined": {
-      "minecraft:oak_leaves": 1
+      "minecraft:oak_leaves": 1,
+      "minecraft:spruce_log": 3,
+      "minecraft:dirt": 15,
+      "minecraft:crafting_table": 1,
+      "minecraft:grass_block": 4
     },
     "minecraft:picked_up": {
-      "minecraft:dirt": 20,
-      "minecraft:oak_sapling": 1
+      "minecraft:spruce_log": 3,
+      "minecraft:leaf_litter": 1,
+      "minecraft:dirt": 48,
+      "minecraft:cobblestone": 63,
+      "minecraft:stone": 38,
+      "minecraft:crafting_table": 1,
+      "minecraft:snowball": 25,
+      "minecraft:oak_sapling": 1,
+      "minecraft:rotten_flesh": 4
     },
     "minecraft:used": {
+      "minecraft:crafting_table": 1,
+      "minecraft:snowball": 4,
       "minecraft:oak_sapling": 1,
-      "minecraft:dirt": 12
+      "minecraft:dirt": 33,
+      "minecraft:cobblestone": 4
     }
   },
   "DataVersion": 4671
