@@ -8,13 +8,13 @@
       "minecraft:ghast": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 1,
-      "minecraft:total_world_time": 3729715,
+      "minecraft:time_since_rest": 35419,
+      "minecraft:total_world_time": 3765133,
       "minecraft:leave_game": 45,
-      "minecraft:damage_taken": 10763,
-      "minecraft:play_time": 3729715,
+      "minecraft:damage_taken": 10813,
+      "minecraft:play_time": 3765133,
       "minecraft:deaths": 38,
-      "minecraft:time_since_death": 1
+      "minecraft:time_since_death": 35419
     },
     "minecraft:picked_up": {
       "minecraft:dirt": 2,
