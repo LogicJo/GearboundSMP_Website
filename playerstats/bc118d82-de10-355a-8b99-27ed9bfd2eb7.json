@@ -2,19 +2,19 @@
   "stats": {
     "minecraft:killed_by": {
       "minecraft:skeleton": 3,
-      "minecraft:player": 26,
+      "minecraft:player": 27,
       "minecraft:creeper": 1,
       "minecraft:piglin": 1,
       "minecraft:ghast": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 2484495,
-      "minecraft:total_world_time": 3691610,
-      "minecraft:leave_game": 43,
-      "minecraft:damage_taken": 10130,
-      "minecraft:play_time": 3691610,
-      "minecraft:deaths": 36,
-      "minecraft:time_since_death": 2484495
+      "minecraft:time_since_rest": 1,
+      "minecraft:total_world_time": 3721829,
+      "minecraft:leave_game": 44,
+      "minecraft:damage_taken": 10430,
+      "minecraft:play_time": 3721829,
+      "minecraft:deaths": 37,
+      "minecraft:time_since_death": 1
     },
     "minecraft:picked_up": {
       "minecraft:obsidian": 1,
