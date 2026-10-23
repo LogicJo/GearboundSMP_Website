@@ -1,0 +1,97 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 7,
+      "minecraft:time_since_rest": 4254,
+      "minecraft:walk_one_cm": 28524,
+      "minecraft:walk_under_water_one_cm": 373,
+      "minecraft:mob_kills": 2,
+      "minecraft:damage_taken": 603,
+      "minecraft:play_time": 12961,
+      "minecraft:damage_dealt": 439,
+      "minecraft:jump": 292,
+      "minecraft:time_since_death": 4227,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 63110,
+      "minecraft:open_chest": 1,
+      "minecraft:fall_one_cm": 7239,
+      "minecraft:total_world_time": 12961,
+      "minecraft:swim_one_cm": 6117,
+      "minecraft:fly_one_cm": 67031,
+      "minecraft:walk_on_water_one_cm": 1107,
+      "minecraft:sneak_time": 7,
+      "minecraft:deaths": 2
+    },
+    "minecraft:killed_by": {
+      "minecraft:skeleton": 1,
+      "minecraft:zombie": 1
+    },
+    "minecraft:killed": {
+      "minecraft:zombie": 1,
+      "minecraft:pillager": 1
+    },
+    "minecraft:used": {
+      "minecraft:stone_axe": 24,
+      "minecraft:mangrove_roots": 2,
+      "minecraft:crafting_table": 3,
+      "minecraft:yellow_bed": 2,
+      "minecraft:wooden_pickaxe": 16,
+      "minecraft:moss_carpet": 1,
+      "minecraft:stone_pickaxe": 9,
+      "minecraft:dirt": 8,
+      "minecraft:cobblestone": 3
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_planks": 1,
+      "minecraft:yellow_bed": 2,
+      "minecraft:dirt": 8,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:stick": 2,
+      "minecraft:cobblestone": 19,
+      "minecraft:mangrove_roots": 2,
+      "minecraft:mangrove_log": 3,
+      "minecraft:oak_planks": 3,
+      "minecraft:crafting_table": 5,
+      "minecraft:torch": 10,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:oak_log": 2,
+      "minecraft:yellow_wool": 3,
+      "minecraft:stone_axe": 1,
+      "minecraft:moss_carpet": 1,
+      "minecraft:birch_log": 3
+    },
+    "minecraft:dropped": {
+      "minecraft:stone_pickaxe": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 16,
+      "minecraft:wooden_pickaxe": 2,
+      "minecraft:stone_axe": 2,
+      "minecraft:yellow_bed": 1,
+      "minecraft:birch_planks": 12,
+      "minecraft:stone_pickaxe": 3,
+      "minecraft:mangrove_planks": 12
+    },
+    "minecraft:mined": {
+      "minecraft:mangrove_roots": 2,
+      "minecraft:glass_pane": 1,
+      "minecraft:dirt": 7,
+      "minecraft:mangrove_log": 3,
+      "minecraft:birch_leaves": 1,
+      "minecraft:grass_block": 1,
+      "minecraft:oak_planks": 3,
+      "minecraft:cobblestone": 10,
+      "minecraft:wall_torch": 3,
+      "minecraft:cherry_leaves": 3,
+      "minecraft:yellow_bed": 2,
+      "minecraft:oak_leaves": 1,
+      "minecraft:spruce_planks": 1,
+      "minecraft:crafting_table": 5,
+      "minecraft:birch_log": 3,
+      "minecraft:oak_log": 3,
+      "minecraft:yellow_wool": 3,
+      "minecraft:stone": 9
+    }
+  },
+  "DataVersion": 4671
+}
