@@ -2,20 +2,20 @@
   "stats": {
     "minecraft:custom": {
       "minecraft:talked_to_villager": 1,
-      "minecraft:time_since_rest": 33886,
-      "minecraft:leave_game": 9,
+      "minecraft:time_since_rest": 37991,
+      "minecraft:leave_game": 10,
       "minecraft:damage_taken": 79,
       "minecraft:mob_kills": 11,
-      "minecraft:time_since_death": 74864,
+      "minecraft:time_since_death": 78969,
       "minecraft:interact_with_furnace": 18,
       "minecraft:sleep_in_bed": 1,
-      "minecraft:total_world_time": 74864,
+      "minecraft:total_world_time": 78969,
       "minecraft:swim_one_cm": 1031,
-      "minecraft:crouch_one_cm": 75714,
+      "minecraft:crouch_one_cm": 79703,
       "minecraft:interact_with_crafting_table": 17,
-      "minecraft:walk_one_cm": 1166097,
+      "minecraft:walk_one_cm": 1210836,
       "minecraft:walk_under_water_one_cm": 3737,
-      "minecraft:play_time": 74864,
+      "minecraft:play_time": 78969,
       "minecraft:damage_dealt": 1140,
       "minecraft:jump": 483,
       "minecraft:drop": 12,
@@ -25,7 +25,7 @@
       "minecraft:fall_one_cm": 5534,
       "minecraft:fly_one_cm": 211156,
       "minecraft:walk_on_water_one_cm": 14150,
-      "minecraft:sneak_time": 2785
+      "minecraft:sneak_time": 2834
     },
     "minecraft:killed": {
       "minecraft:sheep": 7,
