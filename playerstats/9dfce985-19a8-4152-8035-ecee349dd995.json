@@ -1,0 +1,97 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 5,
+      "minecraft:time_since_rest": 34851,
+      "minecraft:walk_one_cm": 222098,
+      "minecraft:walk_under_water_one_cm": 1712,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 216,
+      "minecraft:play_time": 34851,
+      "minecraft:damage_dealt": 232,
+      "minecraft:jump": 243,
+      "minecraft:time_since_death": 34851,
+      "minecraft:open_barrel": 1,
+      "minecraft:interact_with_furnace": 1,
+      "minecraft:sprint_one_cm": 41923,
+      "minecraft:open_chest": 1,
+      "minecraft:fall_one_cm": 445,
+      "minecraft:total_world_time": 34851,
+      "minecraft:swim_one_cm": 1686,
+      "minecraft:fly_one_cm": 67056,
+      "minecraft:walk_on_water_one_cm": 1758,
+      "minecraft:crouch_one_cm": 27883,
+      "minecraft:sneak_time": 1576
+    },
+    "minecraft:killed": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:used": {
+      "minecraft:stone_axe": 150,
+      "minecraft:iron_leggings": 1,
+      "minecraft:crafting_table": 2,
+      "minecraft:iron_helmet": 1,
+      "minecraft:iron_chestplate": 1,
+      "minecraft:iron_pickaxe": 209,
+      "minecraft:furnace": 1,
+      "minecraft:iron_block": 3,
+      "minecraft:bread": 4,
+      "minecraft:dirt": 1,
+      "minecraft:iron_boots": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:iron_leggings": 1,
+      "minecraft:diorite": 4,
+      "minecraft:dirt": 4,
+      "minecraft:iron_block": 17,
+      "minecraft:cobblestone": 131,
+      "minecraft:moss_block": 1,
+      "minecraft:crafting_table": 1,
+      "minecraft:cherry_log": 4,
+      "minecraft:cobbled_deepslate": 19,
+      "minecraft:rotten_flesh": 2,
+      "minecraft:raw_iron": 17,
+      "minecraft:iron_boots": 1,
+      "minecraft:coal": 30,
+      "minecraft:stone_axe": 1,
+      "minecraft:wheat_seeds": 615,
+      "minecraft:wheat": 224,
+      "minecraft:granite": 6,
+      "minecraft:iron_pickaxe": 1,
+      "minecraft:iron_helmet": 1,
+      "minecraft:iron_chestplate": 1,
+      "minecraft:pink_petals": 4
+    },
+    "minecraft:broken": {
+      "minecraft:iron_pickaxe": 1
+    },
+    "minecraft:mined": {
+      "minecraft:cherry_log": 4,
+      "minecraft:granite": 6,
+      "minecraft:lily_pad": 1,
+      "minecraft:dirt": 3,
+      "minecraft:diorite": 4,
+      "minecraft:coal_ore": 30,
+      "minecraft:grass_block": 1,
+      "minecraft:wheat": 238,
+      "minecraft:pink_petals": 1,
+      "minecraft:moss_block": 1,
+      "minecraft:short_grass": 2,
+      "minecraft:deepslate": 20,
+      "minecraft:crafting_table": 1,
+      "minecraft:iron_block": 3,
+      "minecraft:iron_ore": 17,
+      "minecraft:stone": 129
+    },
+    "minecraft:crafted": {
+      "minecraft:furnace": 1,
+      "minecraft:stick": 4,
+      "minecraft:iron_ingot": 9,
+      "minecraft:cherry_planks": 12,
+      "minecraft:bread": 64,
+      "minecraft:iron_pickaxe": 1,
+      "minecraft:crafting_table": 1
+    }
+  },
+  "DataVersion": 4671
+}
