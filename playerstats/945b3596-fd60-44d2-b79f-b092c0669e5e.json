@@ -1,54 +1,50 @@
 {
   "stats": {
-    "minecraft:used": {
-      "minecraft:stone_sword": 16,
-      "minecraft:leaf_litter": 4,
-      "minecraft:chicken": 1,
-      "minecraft:crafting_table": 4,
-      "minecraft:beef": 7,
-      "minecraft:wooden_pickaxe": 9,
-      "minecraft:porkchop": 2,
-      "minecraft:mutton": 1,
-      "minecraft:oak_boat": 2
-    },
-    "minecraft:crafted": {
-      "minecraft:stone_sword": 1,
-      "minecraft:stick": 16,
-      "minecraft:wooden_pickaxe": 2,
-      "minecraft:oak_boat": 2,
-      "minecraft:stone_axe": 1,
-      "minecraft:oak_planks": 48,
-      "minecraft:spruce_planks": 28,
-      "minecraft:stone_pickaxe": 1,
-      "minecraft:crafting_table": 3
-    },
     "minecraft:custom": {
       "minecraft:interact_with_crafting_table": 4,
-      "minecraft:time_since_rest": 19761,
-      "minecraft:walk_one_cm": 173336,
-      "minecraft:leave_game": 11,
-      "minecraft:walk_under_water_one_cm": 6890,
-      "minecraft:mob_kills": 8,
+      "minecraft:time_since_rest": 33081,
+      "minecraft:walk_one_cm": 212157,
+      "minecraft:leave_game": 14,
+      "minecraft:walk_under_water_one_cm": 8432,
+      "minecraft:mob_kills": 9,
       "minecraft:damage_taken": 2096,
       "minecraft:boat_one_cm": 8921,
-      "minecraft:play_time": 62519,
-      "minecraft:damage_dealt": 714,
-      "minecraft:jump": 981,
-      "minecraft:time_since_death": 19706,
+      "minecraft:play_time": 75839,
+      "minecraft:damage_dealt": 814,
+      "minecraft:jump": 1154,
+      "minecraft:time_since_death": 33026,
       "minecraft:drop": 14,
-      "minecraft:sprint_one_cm": 126566,
-      "minecraft:fall_one_cm": 33017,
-      "minecraft:total_world_time": 62519,
-      "minecraft:swim_one_cm": 28244,
-      "minecraft:fly_one_cm": 107492,
-      "minecraft:walk_on_water_one_cm": 17600,
-      "minecraft:crouch_one_cm": 251,
-      "minecraft:sneak_time": 285,
+      "minecraft:sprint_one_cm": 150753,
+      "minecraft:fall_one_cm": 34128,
+      "minecraft:total_world_time": 75839,
+      "minecraft:swim_one_cm": 30653,
+      "minecraft:fly_one_cm": 125330,
+      "minecraft:walk_on_water_one_cm": 33302,
+      "minecraft:crouch_one_cm": 352,
+      "minecraft:sneak_time": 303,
+      "minecraft:climb_one_cm": 979,
       "minecraft:deaths": 7
     },
     "minecraft:killed_by": {
       "minecraft:skeleton": 3,
       "minecraft:zombie": 1
+    },
+    "minecraft:used": {
+      "minecraft:stone_sword": 18,
+      "minecraft:leaf_litter": 4,
+      "minecraft:chicken": 1,
+      "minecraft:crafting_table": 4,
+      "minecraft:beef": 8,
+      "minecraft:wooden_pickaxe": 9,
+      "minecraft:porkchop": 2,
+      "minecraft:mutton": 3,
+      "minecraft:oak_boat": 2
+    },
+    "minecraft:killed": {
+      "minecraft:chicken": 1,
+      "minecraft:pig": 1,
+      "minecraft:sheep": 3,
+      "minecraft:cow": 4
     },
     "minecraft:picked_up": {
       "minecraft:porkchop": 2,
@@ -59,9 +55,9 @@
       "minecraft:white_wool": 1,
       "minecraft:black_wool": 1,
       "minecraft:chicken": 1,
-      "minecraft:leather": 5,
+      "minecraft:leather": 6,
       "minecraft:crafting_table": 4,
-      "minecraft:beef": 8,
+      "minecraft:beef": 11,
       "minecraft:spruce_log": 7,
       "minecraft:leaf_litter": 7,
       "minecraft:oak_log": 12,
@@ -75,11 +71,16 @@
       "minecraft:wooden_pickaxe": 3,
       "minecraft:leather": 1
     },
-    "minecraft:killed": {
-      "minecraft:chicken": 1,
-      "minecraft:pig": 1,
-      "minecraft:sheep": 3,
-      "minecraft:cow": 3
+    "minecraft:crafted": {
+      "minecraft:stone_sword": 1,
+      "minecraft:stick": 16,
+      "minecraft:wooden_pickaxe": 2,
+      "minecraft:oak_boat": 2,
+      "minecraft:stone_axe": 1,
+      "minecraft:oak_planks": 48,
+      "minecraft:spruce_planks": 28,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:crafting_table": 3
     },
     "minecraft:mined": {
       "minecraft:short_grass": 4,
